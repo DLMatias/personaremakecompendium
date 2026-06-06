@@ -1,0 +1,7753 @@
+{
+  "Absorb Bless": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Bless attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cybele": 87,
+      "Vohu Manah": 82
+    }
+  },
+  "Absorb Curse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Curse attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Attis"
+    ],
+    "learnedBy": {
+      "Attis": 86,
+      "Loa": 73,
+      "Lucifer": 0,
+      "Tsukiyomi": 0,
+      "Tsukiyomi Picaro": 0
+    }
+  },
+  "Absorb Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Electric attacks.",
+    "uniqueTo": null,
+    "skillCard": "Foggy Day ???",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Absorb Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": "Full Moon ???",
+    "talk": null,
+    "fuseFrom": [
+      "Chimera"
+    ],
+    "learnedBy": {
+      "Moloch": 64
+    }
+  },
+  "Absorb Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satan": 98,
+      "Yamata-no-Orochi": 66
+    }
+  },
+  "Absorb Nuke": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Nuclear attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fafnir": 92
+    }
+  },
+  "Absorb Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Phys attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Chi You"
+    ],
+    "learnedBy": {
+      "Abaddon": 80,
+      "Lucifer": 99,
+      "Messiah": 85
+    }
+  },
+  "Absorb Psy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Psy attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 92
+    }
+  },
+  "Absorb Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Absorb Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ishtar": 0
+    }
+  },
+  "Abysmal Surge": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Despair (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Awakened God (Arahabaki)",
+    "fuseFrom": [
+      "Loa"
+    ],
+    "learnedBy": {
+      "Ananta": 46,
+      "Arahabaki": 0,
+      "Loa": 0,
+      "Pale Rider": 0,
+      "Pisaca": 31,
+      "Trumpeter": 0,
+      "Zaou-Gongen": 0
+    }
+  },
+  "Abyssal Eye": {
+    "element": "Almighty",
+    "cost": "50 SP",
+    "description": "Deal severe Almighty damage to all foes.",
+    "uniqueTo": "Hastur",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hastur": 86
+    }
+  },
+  "Abyssal Wings": {
+    "element": "Curse",
+    "cost": "30 SP",
+    "description": "Deal severe Curse damage to all foes.",
+    "uniqueTo": "Tsukiyomi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Tsukiyomi": 0,
+      "Tsukiyomi Picaro": 0
+    }
+  },
+  "Active Support": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Moral Support may now Charge or recover SP.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Adverse Resolve": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase critical rate when surrounded.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Battle Fiend (Rakshasa)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsène": 7,
+      "Jikokuten": 28,
+      "Rakshasa": 30,
+      "Raphael": 82,
+      "Thanatos Picaro": 73
+    }
+  },
+  "Agi": {
+    "element": "Fire",
+    "cost": "4 SP",
+    "description": "Deal light Fire damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Crypt-Dwelling Pyromaniac (Jack-o'-Lantern)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cait Sith": 0,
+      "Hua Po": 0,
+      "Jack-o'-Lantern": 0,
+      "Onmoraki": 13,
+      "Succubus": 8,
+      "Orpheus F": 0
+    }
+  },
+  "Agidyne": {
+    "element": "Fire",
+    "cost": "12 SP",
+    "description": "Deal heavy Fire damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Decarabia"
+    ],
+    "learnedBy": {
+      "Baphomet": 0,
+      "Byakhee": 0,
+      "Cerberus": 0,
+      "Decarabia": 36,
+      "Emperor's Amulet": 0,
+      "Girimehkala": 45,
+      "Moloch": 0,
+      "Queen Mab": 47,
+      "Seth": 0,
+      "Throne": 0,
+      "Yatagarasu": 0,
+      "Orpheus Picaro": 32
+    }
+  },
+  "Agilao": {
+    "element": "Fire",
+    "cost": "8 SP",
+    "description": "Deal medium Fire damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Girl of the Hanging Tree (Hua Po)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Decarabia": 0,
+      "Hell Biker": 0,
+      "Orthrus": 0,
+      "Stone of Scone": 0,
+      "Orpheus": 0,
+      "Orpheus F Picaro": 14
+    }
+  },
+  "Agneyastra": {
+    "element": "Physical",
+    "cost": "24% HP",
+    "description": "Deal medium Phys damage to all foes 1 to 3 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Asterius Picaro"
+    ],
+    "learnedBy": {
+      "Ardha": 87,
+      "Ongyo-Ki": 95,
+      "Messiah Picaro": 0
+    }
+  },
+  "Ailment Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting all ailments.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 79,
+      "Byakhee": 73,
+      "Dionysus": 73,
+      "Mishaguji": 57,
+      "White Rider": 44
+    }
+  },
+  "Ailment Hunter": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Damage +25% for each foe afflicted with an ailment",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Crystal Skull": 0,
+      "Fafnir": 0,
+      "Macabre": 0,
+      "Mishaguji": 0,
+      "Red Rider": 0
+    }
+  },
+  "Akashic Arts": {
+    "element": "Physical",
+    "cost": "20% HP",
+    "description": "Deal severe Phys damage to all foes 1-2 times with high critical.",
+    "uniqueTo": "Athena",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Athena": 0,
+      "Athena Picaro": 0
+    }
+  },
+  "Ali Dance": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Half hit rate of all incoming attacks.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 1/15 Foggy Day 50",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gabriel": 79,
+      "Macabre": 78,
+      "Vishnu": 0,
+      "Raoul": 0
+    }
+  },
+  "All-out Attack Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases damage from All-out Attacks",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Allure of Wisdom": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of magic skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lucifer": 0
+    }
+  },
+  "Almighty Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Almighty attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Network Fusion",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Almighty Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Almighty attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Network Fusion",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Izanagi-no-Okami": 85,
+      "Izanagi-no-Okami Picaro": 94,
+      "Messiah": 87,
+      "Messiah Picaro": 96
+    }
+  },
+  "Ambient Aid": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Greatly increase inflicting rate of all status effects under rainy day or special weather warning.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Ooze": 20,
+      "Black Rider": 60,
+      "Mothman": 36,
+      "Narcissus": 53,
+      "Pazuzu": 47,
+      "Sudama": 20
+    }
+  },
+  "Amrita Drop": {
+    "element": "Healing",
+    "cost": "6 SP",
+    "description": "Cure all ailments of 1 ally except for unique status.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fortuna": 50,
+      "Norn": 55,
+      "Seiryu": 66
+    }
+  },
+  "Amrita Shower": {
+    "element": "Healing",
+    "cost": "12 SP",
+    "description": "Cure all ailments of party except for unique status.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cybele": 84,
+      "Dionysus": 75,
+      "Garuda": 53,
+      "Kushinada": 47,
+      "Lakshmi": 72,
+      "Mada": 93,
+      "Sandalphon": 0,
+      "Sraosha": 84,
+      "Kaguya": 18,
+      "Kaguya Picaro": 27
+    }
+  },
+  "Analysis": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Confirm affinities you have previously attacked.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Angelic Grace": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion against Fire/Ice/Elec/Wind/Nuke/Psy/Bless/Curse attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Maria": 97,
+      "Sandalphon": 77,
+      "Sraosha": 83,
+      "Uriel": 85,
+      "Izanagi-no-Okami": 0,
+      "Izanagi-no-Okami Picaro": 0
+    }
+  },
+  "Apt Pupil": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase critical rate.",
+    "uniqueTo": null,
+    "skillCard": "CJ Gym Trickster 50",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bicorn": 8,
+      "Cu Chulainn": 81,
+      "Futsunushi": 0,
+      "Siegfried": 87,
+      "Sudama": 22,
+      "Ariadne": 0,
+      "Ariadne Picaro": 0
+    }
+  },
+  "Arms Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Half HP cost for physical skills.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 1/22",
+    "talk": null,
+    "fuseFrom": [
+      "Tsukiyomi Picaro"
+    ],
+    "learnedBy": {
+      "Ongyo-Ki": 91,
+      "Raphael": 83,
+      "Tsukiyomi": 56
+    }
+  },
+  "Assault Dive": {
+    "element": "Physical",
+    "cost": "13% HP",
+    "description": "Deal heavy Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Bicorn"
+    ],
+    "learnedBy": {
+      "Anzu": 27,
+      "Jikokuten": 0,
+      "Koumokuten": 0,
+      "Nue": 25,
+      "Take-Minakata": 0,
+      "Tam Lin": 0,
+      "Unicorn": 0
+    }
+  },
+  "Atomic Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Nuke skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 0,
+      "Ara Mitama": 0,
+      "Orlov": 0,
+      "Phoenix": 0,
+      "Shiisaa": 0
+    }
+  },
+  "Atomic Flare": {
+    "element": "nuclear",
+    "cost": "48 SP",
+    "description": "Deal severe Nuclear damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Bishamonten"
+    ],
+    "learnedBy": {
+      "Asura": 0,
+      "Fafnir": 88,
+      "Orichalcum": 0
+    }
+  },
+  "Atomic Hellscape": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Nuke skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 0
+    }
+  },
+  "Attack Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatic Tarukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atavaka": 71,
+      "Koumokuten": 51,
+      "Scathach": 82,
+      "Surt": 0,
+      "Valkyrie": 45,
+      "Yaksini": 23,
+      "Zouchouten": 36,
+      "Ariadne": 31,
+      "Magatsu-Izanagi": 48
+    }
+  },
+  "Attract": {
+    "element": "Support",
+    "cost": "4 SP",
+    "description": "Raises chance of being targeted",
+    "uniqueTo": null,
+    "skillCard": "Fusion Mutation",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Auto-Maraku": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatic Marakukaja at the start of battle. (Overwrites Defense Master)",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Ariadne Picaro"
+    ],
+    "learnedBy": {
+      "Alilat": 85,
+      "Cybele": 86,
+      "Futsunushi": 92,
+      "Hope Diamond": 0,
+      "Athena": 50
+    }
+  },
+  "Auto-Masuku": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatic Masukukaja at the start of battle. (Overwrites Speed Master)",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Jatayu"
+    ],
+    "learnedBy": {
+      "Ardha": 88,
+      "Hope Diamond": 0,
+      "Macabre": 74,
+      "Asterius Picaro": 63
+    }
+  },
+  "Auto-Mataru": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatic Matarukaja at the start of battle. (Overwrites Attack Master)",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 78,
+      "Bugs": 51,
+      "Hope Diamond": 0,
+      "Shiva": 87,
+      "Siegfried": 90,
+      "Ariadne Picaro": 43,
+      "Asterius": 57,
+      "Athena Picaro": 54
+    }
+  },
+  "Ave Maria": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Support spells by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Maria": 0
+    }
+  },
+  "Ayamur": {
+    "element": "Physical",
+    "cost": "25% HP",
+    "description": "Deal medium Phys damage to 1 foe 3 times. High accuracy.",
+    "uniqueTo": "Baal",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal": 84
+    }
+  },
+  "Bad Beat": {
+    "element": "Physical",
+    "cost": "21% HP",
+    "description": "Deal medium Phys damage and inflict Despair (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dakini": 0,
+      "Kin-Ki": 30
+    }
+  },
+  "Baisudi": {
+    "element": "Healing",
+    "cost": "4 SP",
+    "description": "Cure Burn/Freeze/Shock of 1 ally.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Agathion": 0,
+      "Ame-no-Uzume": 16,
+      "Angel": 10,
+      "Jack Frost": 0,
+      "Nigi Mitama": 0
+    }
+  },
+  "Bargain Bolts": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Elec skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Odin": 0
+    }
+  },
+  "Beast Weaver": {
+    "element": "Physical",
+    "cost": "20% HP",
+    "description": "Deal colossal Phys damage to 1 foe and user is debuffed with Tarunda.",
+    "uniqueTo": "Ariadne",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ariadne": 0,
+      "Ariadne Picaro": 0
+    }
+  },
+  "Black Viper": {
+    "element": "Almighty",
+    "cost": "48 SP",
+    "description": "Deal severe Almighty damage to 1 foe.",
+    "uniqueTo": "Satan",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satan": 94,
+      "Satanael": 96
+    }
+  },
+  "Blazing Hell": {
+    "element": "Fire",
+    "cost": "54 SP",
+    "description": "Deal severe Fire damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Attis": 88,
+      "Mada": 92,
+      "Surt": 0,
+      "Zaou-Gongen": 86
+    }
+  },
+  "Bleeding Dry Brush": {
+    "element": "Support",
+    "cost": "22 SP",
+    "description": "Drains next non-Almighty attack for 1 ally, Removes innate weaknesses",
+    "uniqueTo": "Ring of Vanity",
+    "skillCard": "Ring of Vanity",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Bless Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen (non instant death) Bless attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Power"
+    ],
+    "learnedBy": {
+      "Metatron": 94,
+      "Vohu Manah": 0
+    }
+  },
+  "Bless Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen (non instant death) Bless attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Daisoujou": 42,
+      "Mitra": 36,
+      "Power": 44,
+      "Principality": 34
+    }
+  },
+  "Blessed Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Bless skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 0,
+      "Dominion": 0,
+      "Mitra": 0,
+      "Orichalcum": 0,
+      "Principality": 0,
+      "Sraosha": 0,
+      "Unicorn": 0
+    }
+  },
+  "Bloodbath": {
+    "element": "Physical",
+    "cost": "22% HP",
+    "description": "Deal heavy Phys damage and inflict Fear (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "The Black Avenger (Chernobog)",
+    "fuseFrom": [
+      "Kumbhanda"
+    ],
+    "learnedBy": {
+      "Belial": 0,
+      "Black Rider": 61,
+      "Chernobog": 0,
+      "Kali": 0,
+      "Kumbhanda": 0,
+      "Legion": 0,
+      "Rangda": 0,
+      "Uriel": 0,
+      "Magatsu-Izanagi": 46,
+      "Magatsu-Izanagi Picaro": 50
+    }
+  },
+  "Bloodstained Eyes": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Raises evasion against foes afflicted with ailments",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belial": 0,
+      "Forneus": 0,
+      "Koh-i-Noor": 0,
+      "Skadi": 0,
+      "White Rider": 0
+    }
+  },
+  "Bolstering Force": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Damage dealt during 1 More +50%",
+    "uniqueTo": "Tsukiyomi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Tsukiyomi": 0,
+      "Tsukiyomi Picaro": 0
+    }
+  },
+  "Brain Buster": {
+    "element": "Physical",
+    "cost": "22% HP",
+    "description": "Deal heavy Phys damage and inflict Brainwash (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Monk of the Valley (Kurama Tengu)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mara": 76,
+      "Tam Lin": 30,
+      "Trumpeter": 0
+    }
+  },
+  "Brain Jack": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Brainwash (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Rhetorician of the Sea (Forneus)",
+    "fuseFrom": [
+      "Nebiros"
+    ],
+    "learnedBy": {
+      "Black Ooze": 23,
+      "Dionysus": 0,
+      "Forneus": 0,
+      "Kurama Tengu": 34,
+      "Mishaguji": 0,
+      "Nebiros": 76,
+      "Vasuki": 0,
+      "Yurlungur": 0
+    }
+  },
+  "Brain Shake": {
+    "element": "Physical",
+    "cost": "9% HP",
+    "description": "Deal medium Phys damage and inflict Brainwash (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Possessive Dog Ghost (Inugami)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Inugami": 18,
+      "Pale Rider": 0,
+      "Power": 0,
+      "Tam Lin": 0
+    }
+  },
+  "Brainwash Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Brainwash.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Nebiros": 77,
+      "Tam Lin": 31,
+      "Vasuki": 72
+    }
+  },
+  "Brave Blade": {
+    "element": "Physical",
+    "cost": "24% HP",
+    "description": "Deal colossal Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Infuriated Wisdom King (Atavaka)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atavaka": 70,
+      "Chernobog": 67,
+      "Cu Chulainn": 79,
+      "Futsunushi": 89,
+      "Kali": 0,
+      "Siegfried": 0,
+      "Surt": 0,
+      "Yoshitsune": 0
+    }
+  },
+  "Brave Step": {
+    "element": "Support",
+    "cost": "16 SP",
+    "description": "Raises critical rate for 3 turns for all allies",
+    "uniqueTo": "Cendrillon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Bufu": {
+    "element": "Ice",
+    "cost": "4 SP",
+    "description": "Deal light Ice damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Mocking Snowman (Jack Frost)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 0,
+      "Genbu": 0,
+      "Jack Frost": 0,
+      "Koropokkuru": 0,
+      "Saki Mitama": 0,
+      "Silky": 0
+    }
+  },
+  "Bufudyne": {
+    "element": "Ice",
+    "cost": "12 SP",
+    "description": "Deal heavy Ice damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Monarch of Snow (King Frost)",
+    "fuseFrom": [
+      "Belphegor"
+    ],
+    "learnedBy": {
+      "Baphomet": 59,
+      "Belphegor": 41,
+      "Byakko": 51,
+      "Chimera": 0,
+      "Emperor's Amulet": 0,
+      "King Frost": 0,
+      "Lakshmi": 0,
+      "Seiryu": 0
+    }
+  },
+  "Bufula": {
+    "element": "Ice",
+    "cost": "8 SP",
+    "description": "Deal medium Ice damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Ambassador of Filth (Belphegor)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lachesis": 0,
+      "Lilim": 0,
+      "Stone of Scone": 0,
+      "Sui-Ki": 0
+    }
+  },
+  "Burn Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Burn.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 0,
+      "Hua Po": 15,
+      "Mada": 0,
+      "Orthrus": 22,
+      "Queen Mab": 0,
+      "Throne": 0,
+      "Asterius": 0,
+      "Asterius Picaro": 0
+    }
+  },
+  "Cadenza": {
+    "element": "Healing",
+    "cost": "24 SP",
+    "description": "Restore 50% HP of party and increase evasion rate.",
+    "uniqueTo": "Orpheus",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Orpheus": 0,
+      "Orpheus Picaro": 0
+    }
+  },
+  "Champion's Cup": {
+    "element": "Healing",
+    "cost": "10 SP",
+    "description": "Diarama + Tarukaja",
+    "uniqueTo": "Ring of Lust",
+    "skillCard": "Ring of Lust",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Charge": {
+    "element": "Support",
+    "cost": "15 SP",
+    "description": "Multiply user's next Phys attack damage by 2.5.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 9/4",
+    "talk": "Blood-Thirsty Demoness (Dakini)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal": 86,
+      "Cu Chulainn": 80,
+      "Dakini": 55,
+      "Futsunushi": 88,
+      "Ganesha": 60,
+      "Kali": 65,
+      "Mara": 74,
+      "Ose": 0,
+      "Raphael": 0,
+      "Setanta": 27,
+      "Siegfried": 85,
+      "Yoshitsune": 0,
+      "Ariadne": 36,
+      "Ariadne Picaro": 48
+    }
+  },
+  "Checkmate": {
+    "element": "Support",
+    "cost": "90 SP",
+    "description": "Matarunda + Marakunda + Masukunda",
+    "uniqueTo": "Agnes",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Chi You's Blessing": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Psy skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 0
+    }
+  },
+  "Circle of Sadness": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Activates endure up to 4 times",
+    "uniqueTo": "Orpheus",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Orpheus": 0,
+      "Orpheus F": 0,
+      "Orpheus F Picaro": 0,
+      "Orpheus Picaro": 0
+    }
+  },
+  "Cleave": {
+    "element": "Physical",
+    "cost": "6% HP",
+    "description": "Deal light Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Hunting Puss in Boots (Cait Sith)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsène": 2,
+      "Berith": 0,
+      "Cait Sith": 0
+    }
+  },
+  "Climate Decorum": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Greatly increase evasion under rainy day or special weather warning.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Choronzon": 33,
+      "Koropokkuru": 15,
+      "Lakshmi": 71,
+      "Nigi Mitama": 26
+    }
+  },
+  "Cocytus": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Ice skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satan": 0
+    }
+  },
+  "Cold-Blooded": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting Freeze during 1 More",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 0,
+      "Lilim": 0,
+      "Yamata-no-Orochi": 0
+    }
+  },
+  "Conceal": {
+    "element": "Support",
+    "cost": "4 SP",
+    "description": "Lowers chance of being targeted",
+    "uniqueTo": null,
+    "skillCard": "Fusion Mutation",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Concentrate": {
+    "element": "Support",
+    "cost": "15 SP",
+    "description": "Multiply user's next magical attack damage by 2.5.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 9/25",
+    "talk": "Decadent False God (Alilat)",
+    "fuseFrom": [
+      "Athena Picaro"
+    ],
+    "learnedBy": {
+      "Alice": 87,
+      "Alilat": 83,
+      "Atropos": 45,
+      "Beelzebub": 89,
+      "Belphegor": 42,
+      "Chi You": 94,
+      "King Frost": 65,
+      "Kohryu": 79,
+      "Metatron": 93,
+      "Mot": 74,
+      "Odin": 87,
+      "Queen Mab": 48,
+      "Satan": 97,
+      "Thoth": 40,
+      "Titania": 59,
+      "Vishnu": 86,
+      "Izanagi-no-Okami": 81,
+      "Izanagi-no-Okami Picaro": 90,
+      "Raoul": 81
+    }
+  },
+  "Confuse Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Confuse.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Inugami": 19,
+      "Onmoraki": 17
+    }
+  },
+  "Cool Customer": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces ailment susceptibility by 50% for all allies",
+    "uniqueTo": "Lucy",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Cornered Fang": {
+    "element": "Physical",
+    "cost": "10% HP",
+    "description": "Deal medium Phys damage to 1 foe. More powerful when surrounded.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Shiisaa"
+    ],
+    "learnedBy": {
+      "Flauros": 23,
+      "Neko Shogun": 33,
+      "Orthrus": 24
+    }
+  },
+  "Cosmic Flare": {
+    "element": "nuclear",
+    "cost": "54 SP",
+    "description": "Deal severe Nuclear damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ardha": 0,
+      "Fafnir": 0,
+      "Michael": 92
+    }
+  },
+  "Counter": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "10% chance of reflecting Phys attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ippon-Datara": 18,
+      "Jikokuten": 25,
+      "Naga": 27,
+      "Oni": 0,
+      "Setanta": 0,
+      "Yaksini": 0
+    }
+  },
+  "Counterstrike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "15% chance of reflecting Phys attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Funerary Warrior (Valkyrie)",
+    "fuseFrom": [
+      "Naga"
+    ],
+    "learnedBy": {
+      "Byakko": 0,
+      "Kin-Ki": 31,
+      "Ose": 0,
+      "Rakshasa": 28,
+      "Rangda": 0,
+      "Valkyrie": 0,
+      "Kaguya": 0
+    }
+  },
+  "Country Maker": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Scales damage dealt and received against Compendium completion rate",
+    "uniqueTo": "Izanagi-no-Okami",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Izanagi-no-Okami": 0,
+      "Izanagi-no-Okami Picaro": 0
+    }
+  },
+  "Crisis Control": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces damage taken when weakness struck",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Berith": 0,
+      "Chernobog": 0,
+      "Koh-i-Noor": 0,
+      "Throne": 0
+    }
+  },
+  "Cross Slash": {
+    "element": "Physical",
+    "cost": "20% HP",
+    "description": "Deal heavy Phys damage to 1 foe 2 times. High accuracy.",
+    "uniqueTo": "Izanagi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Izanagi": 0,
+      "Izanagi Picaro": 0
+    }
+  },
+  "Curse Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen (non instant death) Curse attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Beelzebub": 88,
+      "Belial": 0,
+      "Raoul": 80,
+      "Thanatos": 66,
+      "Tsukiyomi": 53,
+      "Tsukiyomi Picaro": 58
+    }
+  },
+  "Curse Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen (non instant death) Curse attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Choronzon": 32,
+      "Nue": 26,
+      "Pale Rider": 55
+    }
+  },
+  "Cursed Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Curse skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Crystal Skull": 0,
+      "Girimehkala": 0,
+      "Pazuzu": 0,
+      "Rangda": 0
+    }
+  },
+  "Dazzler": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Dizzy (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Archangel": 0,
+      "Jack-o'-Lantern": 5,
+      "Mokoi": 0,
+      "Narcissus": 0
+    }
+  },
+  "Deadly Fury": {
+    "element": "Physical",
+    "cost": "18% HP",
+    "description": "Deal severe Phys damage to 1 foe. More powerful under Baton Pass.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Quaking Lady of Shadow (Skadi)",
+    "fuseFrom": [
+      "Valkyrie"
+    ],
+    "learnedBy": {
+      "Bishamonten": 0,
+      "Koumokuten": 55,
+      "Skadi": 0
+    }
+  },
+  "Death Scythe": {
+    "element": "Physical",
+    "cost": "20% HP",
+    "description": "Deal severe Phys damage and inflict Fear (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Macabre"
+    ],
+    "learnedBy": {
+      "Byakhee": 0,
+      "Macabre": 0
+    }
+  },
+  "Deathbound": {
+    "element": "Physical",
+    "cost": "22% HP",
+    "description": "Deal medium Phys damage to all foes 1 to 2 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Rebellious Elephant (Girimehkala)",
+    "fuseFrom": [
+      "Girimehkala"
+    ],
+    "learnedBy": {
+      "Chernobog": 64,
+      "Dakini": 53,
+      "Girimehkala": 0,
+      "Hanuman": 65,
+      "Mishaguji": 56,
+      "Pale Rider": 59,
+      "Uriel": 0,
+      "Valkyrie": 46
+    }
+  },
+  "Deathly Illness": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases success rate of instant death skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 0,
+      "Melchizedek": 0
+    }
+  },
+  "Debilitate": {
+    "element": "Support",
+    "cost": "30 SP",
+    "description": "Decrease 1 foe's Attack, Defense and Agility for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 12/11",
+    "talk": "Hedonistic Braggart (Dionysus)",
+    "fuseFrom": [
+      "Magatsu-Izanagi Picaro"
+    ],
+    "learnedBy": {
+      "Dionysus": 76,
+      "Fafnir": 91,
+      "Hastur": 0,
+      "Michael": 0,
+      "Mother Harlot": 90,
+      "Sraosha": 85,
+      "Trumpeter": 65,
+      "Izanagi-no-Okami Picaro": 91
+    }
+  },
+  "Defense Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatic Rakukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 0,
+      "Arahabaki": 39,
+      "Genbu": 12,
+      "Jikokuten": 0,
+      "Neko Shogun": 35,
+      "Take-Minakata": 0
+    }
+  },
+  "Dekaja": {
+    "element": "Support",
+    "cost": "10 SP",
+    "description": "Negate all -kaja buff effects of all foes.",
+    "uniqueTo": null,
+    "skillCard": "CJ Maid Cafe",
+    "talk": null,
+    "fuseFrom": [
+      "Mokoi"
+    ],
+    "learnedBy": {
+      "Anzu": 28,
+      "Flauros": 0,
+      "Kumbhanda": 45,
+      "Obariyon": 12,
+      "Orobas": 0,
+      "Raphael": 0,
+      "Sarasvati": 52,
+      "Shiki-Ouji": 21,
+      "Succubus": 10
+    }
+  },
+  "Dekunda": {
+    "element": "Support",
+    "cost": "10 SP",
+    "description": "Negate all -nda debuff effects of party.",
+    "uniqueTo": null,
+    "skillCard": "CJ Maid Cafe",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 12,
+      "Anubis": 37,
+      "Mitra": 35,
+      "Mokoi": 14,
+      "Suzaku": 18,
+      "Unicorn": 0,
+      "Yatagarasu": 0
+    }
+  },
+  "Demon's Bite": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Doubles own HP recovery",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ongyo-Ki": 0
+    }
+  },
+  "Demonic Decree": {
+    "element": "Curse",
+    "cost": "38 SP",
+    "description": "Half remaining HP of 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Belial",
+      "Thanatos Picaro"
+    ],
+    "learnedBy": {
+      "Beelzebub": 90,
+      "Belial": 88,
+      "Orichalcum": 0
+    }
+  },
+  "Despair Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Despair.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lamia": 31,
+      "Pisaca": 32,
+      "Red Rider": 44
+    }
+  },
+  "Dia": {
+    "element": "Healing",
+    "cost": "3 SP",
+    "description": "Slightly restore 1 ally's HP.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Beguiling Girl (Pixie)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Agathion": 0,
+      "Angel": 0,
+      "Kushi Mitama": 0,
+      "Pixie": 0,
+      "Silky": 7
+    }
+  },
+  "Diamond Dust": {
+    "element": "Ice",
+    "cost": "48 SP",
+    "description": "Deal severe Ice damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Alilat"
+    ],
+    "learnedBy": {
+      "Alilat": 0,
+      "Black Frost": 72,
+      "Orichalcum": 0,
+      "Satan": 0,
+      "Yamata-no-Orochi": 69
+    }
+  },
+  "Diarahan": {
+    "element": "Healing",
+    "cost": "18 SP",
+    "description": "Fully restore 1 ally's HP.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Final Assessor (Norn)",
+    "fuseFrom": [
+      "Sarasvati"
+    ],
+    "learnedBy": {
+      "Bishamonten": 0,
+      "Daisoujou": 43,
+      "Lakshmi": 0,
+      "Norn": 54,
+      "Parvati": 58,
+      "Sarasvati": 54,
+      "Seiryu": 0,
+      "Athena": 47,
+      "Athena Picaro": 51,
+      "Kaguya": 21,
+      "Kaguya Picaro": 30
+    }
+  },
+  "Diarama": {
+    "element": "Healing",
+    "cost": "6 SP",
+    "description": "Moderately restore 1 ally's HP.",
+    "uniqueTo": null,
+    "skillCard": "Chain 20",
+    "talk": "Prankster Leader (High Pixie)",
+    "fuseFrom": [
+      "Apsaras"
+    ],
+    "learnedBy": {
+      "High Pixie": 19,
+      "Horus": 0,
+      "Isis": 0,
+      "Mitra": 0,
+      "Neko Shogun": 0,
+      "Nigi Mitama": 0,
+      "Parvati": 0,
+      "Phoenix": 22
+    }
+  },
+  "Die For Me!": {
+    "element": "Curse",
+    "cost": "40 SP",
+    "description": "High chance of instantly killing all foes.",
+    "uniqueTo": "Alice",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 85
+    }
+  },
+  "Divine Grace": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Effects of healing magic are increased by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ame-no-Uzume": 18,
+      "Kikuri-Hime": 45,
+      "Nigi Mitama": 24,
+      "Kaguya": 17,
+      "Kaguya Picaro": 26
+    }
+  },
+  "Divine Judgement": {
+    "element": "Bless",
+    "cost": "38 SP",
+    "description": "Half remaining HP of 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Dominion"
+    ],
+    "learnedBy": {
+      "Gabriel": 78,
+      "Metatron": 95,
+      "Michael": 0,
+      "Orichalcum": 0,
+      "Vohu Manah": 0
+    }
+  },
+  "Dizzy Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Dizzy.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hariti": 45,
+      "Jatayu": 52,
+      "Narcissus": 51
+    }
+  },
+  "Dodge Bless": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against (non instant death) Bless attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Koh-i-Noor": 0,
+      "Lilim": 35
+    }
+  },
+  "Dodge Curse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against (non instant death) Curse attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 11,
+      "Incubus": 9,
+      "Koh-i-Noor": 0,
+      "Shiisaa": 16,
+      "Orpheus F": 15,
+      "Orpheus F Picaro": 17
+    }
+  },
+  "Dodge Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against Electric attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Agathion": 8,
+      "Choronzon": 30,
+      "Koh-i-Noor": 0,
+      "Makami": 20,
+      "Mokoi": 13,
+      "Nekomata": 22,
+      "Shiisaa": 19
+    }
+  },
+  "Dodge Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belphegor": 39,
+      "Berith": 11,
+      "Koh-i-Noor": 0,
+      "Sui-Ki": 29
+    }
+  },
+  "Dodge Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": "Trial 20",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Koh-i-Noor": 0,
+      "Koropokkuru": 11
+    }
+  },
+  "Dodge Nuke": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against Nuclear attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Koh-i-Noor": 0
+    }
+  },
+  "Dodge Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Doubles evasion rate against Phys attacks",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Flauros": 20,
+      "Valkyrie": 49,
+      "Izanagi": 22
+    }
+  },
+  "Dodge Psy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against Psy attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kin-Ki": 27,
+      "Koh-i-Noor": 0
+    }
+  },
+  "Dodge Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Double evasion rate against Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Koh-i-Noor": 0
+    }
+  },
+  "Door of Hades": {
+    "element": "Almighty",
+    "cost": "32 SP",
+    "description": "Deal heavy Almighty damage to all foes with medium chance of instant kill.",
+    "uniqueTo": "Thanatos",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Thanatos": 0,
+      "Thanatos Picaro": 0
+    }
+  },
+  "Dormin Rush": {
+    "element": "Physical",
+    "cost": "16% HP",
+    "description": "Deal medium Phys damage and inflict Sleep (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Incubus"
+    ],
+    "learnedBy": {
+      "Flauros": 0,
+      "Sandman": 0,
+      "Setanta": 0
+    }
+  },
+  "Dormina": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Sleep (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Envoy of Slumber (Sandman)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "High Pixie": 0,
+      "Hua Po": 0,
+      "Incubus": 7,
+      "Sandman": 0,
+      "Silky": 0,
+      "Succubus": 0
+    }
+  },
+  "Double Fangs": {
+    "element": "Physical",
+    "cost": "10% HP",
+    "description": "Deal medium Phys damage to 1 foe 2 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Twin-Headed Guardian (Orthrus)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Eligor": 18,
+      "Makami": 0,
+      "Orthrus": 0,
+      "Shiisaa": 0
+    }
+  },
+  "Double Shot": {
+    "element": "Gun",
+    "cost": "12% HP",
+    "description": "Deal light Gun damage to 1 foe 2 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Bringer of Misfortune (Shiki-Ouji)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kurama Tengu": 0,
+      "Matador": 20,
+      "Shiki-Ouji": 0
+    }
+  },
+  "Draining Mouth": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Doubles effectiveness of absorption skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Choronzon": 0,
+      "Daisoujou": 0,
+      "Incubus": 0,
+      "Legion": 0,
+      "Loa": 0
+    }
+  },
+  "Dream Needle": {
+    "element": "Gun",
+    "cost": "8% HP",
+    "description": "Deal light Gun damage and inflict Sleep (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsène": 5,
+      "Incubus": 0,
+      "Inugami": 15,
+      "Phoenix": 0,
+      "Pisaca": 0
+    }
+  },
+  "Drunken Passion": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Fire skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mada": 0
+    }
+  },
+  "Eccentric Temper": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Low chance to strengthen Phys attacks by 80% for all allies",
+    "uniqueTo": "William",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Eiga": {
+    "element": "Curse",
+    "cost": "8 SP",
+    "description": "Deal medium Curse damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Gathering Devil (Choronzon)",
+    "fuseFrom": [
+      "Nue"
+    ],
+    "learnedBy": {
+      "Choronzon": 31,
+      "Leanan Sidhe": 23,
+      "Stone of Scone": 0
+    }
+  },
+  "Eigaon": {
+    "element": "Curse",
+    "cost": "12 SP",
+    "description": "Deal heavy Curse damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Wandering Reviver (Nebiros)",
+    "fuseFrom": [
+      "Rangda"
+    ],
+    "learnedBy": {
+      "Belial": 0,
+      "Emperor's Amulet": 0,
+      "Legion": 45,
+      "Pale Rider": 0,
+      "Pazuzu": 50,
+      "Rangda": 49,
+      "Raoul": 0
+    }
+  },
+  "Eiha": {
+    "element": "Curse",
+    "cost": "4 SP",
+    "description": "Deal light Curse damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsène": 0,
+      "Onmoraki": 0
+    }
+  },
+  "Elec Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Electric attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Thunderbird"
+    ],
+    "learnedBy": {
+      "Oberon": 72,
+      "Odin": 89,
+      "Thor": 66,
+      "Yoshitsune": 92
+    }
+  },
+  "Elec Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Electric attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 42,
+      "Take-Minakata": 29,
+      "Thunderbird": 38,
+      "Yurlungur": 49
+    }
+  },
+  "Elec Break": {
+    "element": "Support",
+    "cost": "6 SP",
+    "description": "Negate Electric resistances of all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 0,
+      "Barong": 54,
+      "Raja Naga": 0,
+      "Yurlungur": 46
+    }
+  },
+  "Elec Wall": {
+    "element": "Support",
+    "cost": "18 SP",
+    "description": "Create a shield on 1 ally to reduce damage of Electric attacks for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Waterside Nymph (Apsaras)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 0,
+      "Apsaras": 14,
+      "Lachesis": 37,
+      "Nekomata": 21
+    }
+  },
+  "Electric Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Elec skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ame-no-Uzume": 0,
+      "Hariti": 0,
+      "Orlov": 0,
+      "Raja Naga": 0,
+      "Take-Minakata": 0,
+      "Thunderbird": 0,
+      "Zouchouten": 0
+    }
+  },
+  "Emergency Shift": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Chance to swap current party with backups when 2 or more people are KO'd.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Endure": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Survive one fatal blow with 1 HP remaining.",
+    "uniqueTo": null,
+    "skillCard": "Full Moon 50",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hecatoncheires": 43,
+      "Hope Diamond": 0,
+      "Mishaguji": 55,
+      "Orpheus": 27,
+      "Orpheus F": 0,
+      "Orpheus F Picaro": 0,
+      "Orpheus Picaro": 30
+    }
+  },
+  "Enduring Soul": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Survive one fatal blow with HP completely recovered.",
+    "uniqueTo": null,
+    "skillCard": "L Leblanc",
+    "talk": null,
+    "fuseFrom": [
+      "Orpheus F Picaro"
+    ],
+    "learnedBy": {
+      "Abaddon": 0,
+      "Attis": 84,
+      "Cerberus": 60,
+      "Koumokuten": 54,
+      "Mada": 95,
+      "Shiva": 0,
+      "Zaou-Gongen": 83,
+      "Izanagi-no-Okami Picaro": 92,
+      "Messiah": 83,
+      "Messiah Picaro": 92,
+      "Thanatos": 70,
+      "Thanatos Picaro": 74
+    }
+  },
+  "Energy Drop": {
+    "element": "Healing",
+    "cost": "4 SP",
+    "description": "Cure Confuse/Fear/Despair/Rage/Brainwash of 1 ally.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kikuri-Hime": 0,
+      "Makami": 0,
+      "Mandrake": 0,
+      "Narcissus": 0,
+      "Saki Mitama": 0
+    }
+  },
+  "Energy Shower": {
+    "element": "Healing",
+    "cost": "8 SP",
+    "description": "Cure Confuse/Fear/Despair/Rage/Brainwash of party.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Destructive Beauty (Parvati)",
+    "fuseFrom": [
+      "Kikuri-Hime"
+    ],
+    "learnedBy": {
+      "Clotho": 31,
+      "Hariti": 0,
+      "Parvati": 57
+    }
+  },
+  "Evade Bless": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against (non instant death) Bless attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Pale Rider": 58
+    }
+  },
+  "Evade Curse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against (non instant death) Curse attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dominion": 74,
+      "Gabriel": 80
+    }
+  },
+  "Evade Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against Electric attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fortuna": 51,
+      "Garuda": 55
+    }
+  },
+  "Evade Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 0,
+      "Byakko": 49
+    }
+  },
+  "Evade Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Surt": 86
+    }
+  },
+  "Evade Nuke": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against Nuclear attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Oberon": 70,
+      "Okuninushi": 57
+    }
+  },
+  "Evade Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triples evasion rate against Phys attacks",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bugs": 54,
+      "Zaou-Gongen": 82,
+      "Ariadne": 34,
+      "Ariadne Picaro": 46
+    }
+  },
+  "Evade Psy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against Psy attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Forneus": 68
+    }
+  },
+  "Evade Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Triple evasion rate against Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Raja Naga": 60
+    }
+  },
+  "Evil Smile": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Fear (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Andras"
+    ],
+    "learnedBy": {
+      "Beelzebub": 0,
+      "Fafnir": 0,
+      "Legion": 0,
+      "Macabre": 0,
+      "Moloch": 0,
+      "Pazuzu": 48,
+      "Skadi": 0
+    }
+  },
+  "Evil Touch": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Fear (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Menacing Owlman (Andras)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Andras": 28,
+      "Black Ooze": 0,
+      "Kodama": 13,
+      "Nekomata": 0,
+      "Onmoraki": 14,
+      "Slime": 0,
+      "White Rider": 0
+    }
+  },
+  "EXP Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "EXP +15% after battle",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Explosive Scheme": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Restores 25% HP after Futaba's All-Out Attack for all allies",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Famine's Scream": {
+    "element": "Ailment",
+    "cost": "Passive",
+    "description": "Inflict Hunger (medium odds) to all foes.",
+    "uniqueTo": "Enemies",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Fast Heal": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Half the time needed to recover from ailments.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bugs": 55,
+      "Hope Diamond": 0,
+      "Odin": 88,
+      "Yoshitsune": 90
+    }
+  },
+  "Fear Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Fear.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Andras": 29,
+      "Belial": 85,
+      "Chernobog": 66,
+      "Kodama": 15,
+      "Kumbhanda": 46,
+      "Skadi": 0
+    }
+  },
+  "Fighting Spirit": {
+    "element": "Support",
+    "cost": "80 SP",
+    "description": "Next Phys attack +150% damage for all allies",
+    "uniqueTo": "William",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Final Guard": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Chance to nullify a fatal attack to a current party member.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Fire Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Fire attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Deformed Lion God (Chimera)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chimera": 77,
+      "Mada": 0,
+      "Moloch": 65,
+      "Surt": 84,
+      "Throne": 74,
+      "Asterius": 59,
+      "Asterius Picaro": 65
+    }
+  },
+  "Fire Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Fire attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Midnight Queen (Queen Mab)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Decarabia": 35,
+      "Hell Biker": 39,
+      "Orpheus": 32,
+      "Orpheus Picaro": 35
+    }
+  },
+  "Fire Break": {
+    "element": "Support",
+    "cost": "6 SP",
+    "description": "Negate Fire resistances of all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Equine Sage (Orobas)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakhee": 74,
+      "Orobas": 20,
+      "Seth": 54
+    }
+  },
+  "Fire Wall": {
+    "element": "Support",
+    "cost": "18 SP",
+    "description": "Create a shield on 1 ally to reduce damage of Fire attacks for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Leafy Old Man (Koropokkuru)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 0,
+      "Koropokkuru": 13,
+      "Slime": 13
+    }
+  },
+  "Firm Stance": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Half all incoming damage by sacrificing evasion completely.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Messiah Picaro"
+    ],
+    "learnedBy": {
+      "Futsunushi": 91,
+      "Ongyo-Ki": 93,
+      "Messiah Picaro": 94
+    }
+  },
+  "Flash Bomb": {
+    "element": "Physical",
+    "cost": "19% HP",
+    "description": "Deal medium Phys damage and inflict Dizzy (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Ippon-Datara"
+    ],
+    "learnedBy": {
+      "Abaddon": 78,
+      "Arahabaki": 38,
+      "Black Ooze": 24,
+      "Black Rider": 0,
+      "Horus": 49
+    }
+  },
+  "Forget Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Forget.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kaiwan": 37,
+      "Kushi Mitama": 16,
+      "Principality": 32
+    }
+  },
+  "Fortified Moxy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase critical rate when beginning battle with preemptive turn.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ardha": 89,
+      "Hecatoncheires": 46,
+      "Neko Shogun": 36,
+      "Ariadne": 32,
+      "Thanatos": 69
+    }
+  },
+  "Fortify Spirit": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibilities to all ailments.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 90,
+      "Loa": 75,
+      "Mada": 91,
+      "Satan": 96,
+      "Seth": 56,
+      "Trumpeter": 61,
+      "Vohu Manah": 83
+    }
+  },
+  "Foul Breath": {
+    "element": "Almighty",
+    "cost": "8 SP",
+    "description": "Increase susceptibility to all ailments of 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Pulsing Mud (Black Ooze)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Andras": 0,
+      "Black Ooze": 0,
+      "Byakhee": 0,
+      "Chernobog": 63,
+      "Lamia": 28,
+      "Legion": 39,
+      "White Rider": 43
+    }
+  },
+  "Foul Odor": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting ailments after Baton Pass",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Andras": 0,
+      "Inugami": 0,
+      "Koropokkuru": 0,
+      "Lamia": 0,
+      "Nekomata": 0,
+      "Sandman": 0,
+      "Succubus": 0,
+      "Yaksini": 0
+    }
+  },
+  "Foul Stench": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting ailments",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chimera": 0,
+      "Crystal Skull": 0,
+      "Pale Rider": 0,
+      "Titania": 0,
+      "Vasuki": 0
+    }
+  },
+  "Freeze Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Freeze.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Heretic Goat (Baphomet)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 0,
+      "Baphomet": 63,
+      "Black Frost": 70,
+      "Jack Frost": 15,
+      "King Frost": 62,
+      "Lilim": 0,
+      "Lilith": 64,
+      "Scathach": 78,
+      "Yamata-no-Orochi": 0
+    }
+  },
+  "Frei": {
+    "element": "nuclear",
+    "cost": "4 SP",
+    "description": "Deal light Nuclear damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "CJ Theater",
+    "talk": "Rooftop Lion (Shiisaa)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Makami": 0,
+      "Shiisaa": 0,
+      "Suzaku": 0
+    }
+  },
+  "Freidyne": {
+    "element": "nuclear",
+    "cost": "12 SP",
+    "description": "Deal heavy Nuclear damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Scandalous Queen (Titania)",
+    "fuseFrom": [
+      "Thoth"
+    ],
+    "learnedBy": {
+      "Ananta": 49,
+      "Bishamonten": 0,
+      "Emperor's Amulet": 0,
+      "Lilith": 0,
+      "Mithras": 45,
+      "Titania": 0
+    }
+  },
+  "Freila": {
+    "element": "nuclear",
+    "cost": "8 SP",
+    "description": "Deal medium Nuclear damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 0,
+      "Phoenix": 0,
+      "Stone of Scone": 0,
+      "Thoth": 0
+    }
+  },
+  "Frenzied Bull": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Scales damage dealt against lost HP under 50%",
+    "uniqueTo": "Asterius",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asterius": 0,
+      "Asterius Picaro": 0
+    }
+  },
+  "Frigid Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Ice skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 0,
+      "Black Frost": 0,
+      "Emperor's Amulet": 0,
+      "Jack Frost": 0,
+      "King Frost": 0,
+      "Sui-Ki": 0
+    }
+  },
+  "Gaia Blessing": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting Burn, Freeze, and Shock by 50% for all allies",
+    "uniqueTo": "Agnes",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Gaia Pact": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting Burn, Freeze, and Shock by 25% for all allies",
+    "uniqueTo": "Johanna",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Gambler's Foresight": {
+    "element": "Support",
+    "cost": "20 SP",
+    "description": "Masukukaja, Begins battle with Concentrate",
+    "uniqueTo": "Ring of Envy",
+    "skillCard": "Ring of Envy",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Garu": {
+    "element": "Wind",
+    "cost": "3 SP",
+    "description": "Deal light Wind damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Mad Marsh Horse (Kelpie)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bicorn": 6,
+      "High Pixie": 0,
+      "Kelpie": 0,
+      "Kodama": 0,
+      "Koppa Tengu": 0
+    }
+  },
+  "Garudyne": {
+    "element": "Wind",
+    "cost": "10 SP",
+    "description": "Deal heavy Wind damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Haughty Vulture (Jatayu)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Emperor's Amulet": 0,
+      "Fortuna": 47,
+      "Garuda": 0,
+      "Jatayu": 0,
+      "Norn": 0,
+      "Quetzalcoatl": 0
+    }
+  },
+  "Garula": {
+    "element": "Wind",
+    "cost": "6 SP",
+    "description": "Deal medium Wind damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Tornado Devil (Fuu-Ki)",
+    "fuseFrom": [
+      "High Pixie"
+    ],
+    "learnedBy": {
+      "Anzu": 0,
+      "Fuu-Ki": 0,
+      "Sandman": 0,
+      "Stone of Scone": 0
+    }
+  },
+  "Gatling Blows": {
+    "element": "Physical",
+    "cost": "16% HP",
+    "description": "Deal light Phys damage to 1 foe 3 to 4 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hecatoncheires": 49
+    }
+  },
+  "Ghastly Wail": {
+    "element": "Almighty",
+    "cost": "28 SP",
+    "description": "Instantly kill all foes under Fear.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Dancer of Death (Macabre)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Andras": 32,
+      "Black Rider": 63,
+      "Macabre": 75,
+      "Moloch": 63,
+      "Skadi": 54,
+      "Magatsu-Izanagi": 0,
+      "Magatsu-Izanagi Picaro": 0
+    }
+  },
+  "Ghost Nest": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting ailments on downed foes",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mother Harlot": 0
+    }
+  },
+  "Giant Slice": {
+    "element": "Physical",
+    "cost": "9% HP",
+    "description": "Deal medium Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Archangel": 0,
+      "Flauros": 0,
+      "Inugami": 0,
+      "Oni": 22,
+      "Rakshasa": 0,
+      "Setanta": 0
+    }
+  },
+  "Gigantomachia": {
+    "element": "Physical",
+    "cost": "25% HP",
+    "description": "Deal colossal Phys damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Evil Voracious Dragon (Fafnir)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 81,
+      "Chi You": 0,
+      "Fafnir": 0,
+      "Lucifer": 0,
+      "Surt": 88,
+      "Asterius": 62,
+      "Asterius Picaro": 68
+    }
+  },
+  "Gloomy Child": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Activates all equipped special weather passives",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Rider": 0,
+      "Mokoi": 0,
+      "Sudama": 0
+    }
+  },
+  "Gluttonmouth": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Strengthens own HP recovery by 50%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Flauros": 0,
+      "Ganesha": 0,
+      "Hecatoncheires": 0,
+      "Koumokuten": 0,
+      "Kushi Mitama": 0,
+      "Narcissus": 0,
+      "Stone of Scone": 0,
+      "Suzaku": 0,
+      "Tam Lin": 0
+    }
+  },
+  "God Maker": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of ally traits activating",
+    "uniqueTo": "Izanagi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Izanagi": 0,
+      "Izanagi Picaro": 0
+    }
+  },
+  "God's Hand": {
+    "element": "Physical",
+    "cost": "25% HP",
+    "description": "Deal colossal Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Cerberus"
+    ],
+    "learnedBy": {
+      "Ardha": 0,
+      "Bishamonten": 73,
+      "Melchizedek": 65,
+      "Zaou-Gongen": 0,
+      "Messiah": 0
+    }
+  },
+  "Grace of Mother": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Recovery skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ishtar": 0
+    }
+  },
+  "Grace of the Olive": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of skills to 0 during 1 More",
+    "uniqueTo": "Athena",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Athena": 0,
+      "Athena Picaro": 0
+    }
+  },
+  "Great Aim": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Gun hit rate +5%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Growth 1": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Persona gains 1/4 EXP while inactive.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Koppa Tengu": 12,
+      "Saki Mitama": 7
+    }
+  },
+  "Growth 2": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Persona gains 1/2 EXP while inactive.",
+    "uniqueTo": null,
+    "skillCard": "CJ Beach",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 47,
+      "Kurama Tengu": 36,
+      "Lachesis": 0,
+      "Thoth": 42
+    }
+  },
+  "Growth 3": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Persona gains full EXP even while inactive.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Izanagi Picaro"
+    ],
+    "learnedBy": {
+      "Narcissus": 50,
+      "Quetzalcoatl": 68,
+      "Raphael": 81,
+      "Izanagi": 25,
+      "Izanagi Picaro": 28
+    }
+  },
+  "Guiding Tendril": {
+    "element": "Support",
+    "cost": "20 SP",
+    "description": "Downs all foes, Only usable when ambushing foe, Life Aid",
+    "uniqueTo": "Ring of Sorrow",
+    "skillCard": "Ring of Sorrow",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Gun Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Gun damage +50%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "White Rider"
+    ],
+    "learnedBy": {
+      "Seth": 53,
+      "Trumpeter": 62,
+      "Zaou-Gongen": 84
+    }
+  },
+  "Gun Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Gun damage +25%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "White Rider": 40
+    }
+  },
+  "Hallowed Spirit": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Doubles own HP and SP recovery",
+    "uniqueTo": "Messiah",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Messiah": 0,
+      "Messiah Picaro": 0
+    }
+  },
+  "Hama": {
+    "element": "Bless",
+    "cost": "6 SP",
+    "description": "Small chance of instantly killing 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Archangel": 0
+    }
+  },
+  "Hama Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase success rate of instant death by Bless skills.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dominion": 71,
+      "Horus": 52,
+      "Isis": 30,
+      "Melchizedek": 59,
+      "Metatron": 92,
+      "Sraosha": 0
+    }
+  },
+  "Hamaon": {
+    "element": "Bless",
+    "cost": "12 SP",
+    "description": "Medium chance of instantly killing 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Bearer of the Scales (Anubis)",
+    "fuseFrom": [
+      "Unicorn"
+    ],
+    "learnedBy": {
+      "Anubis": 0,
+      "Dominion": 0,
+      "Horus": 51,
+      "Isis": 29,
+      "Melchizedek": 0,
+      "Power": 0,
+      "Throne": 0,
+      "Unicorn": 44
+    }
+  },
+  "Hassou Tobi": {
+    "element": "Physical",
+    "cost": "25% HP",
+    "description": "Deal light Phys damage to all foes 8 times.",
+    "uniqueTo": "Yoshitsune",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Yoshitsune": 94
+    }
+  },
+  "Hazy Presence": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of ally follow-up attacks",
+    "uniqueTo": "Raoul",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Raoul": 0
+    }
+  },
+  "Headbutt": {
+    "element": "Physical",
+    "cost": "9% HP",
+    "description": "Deal medium Phys damage and inflict Forget (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Ooze": 21,
+      "Slime": 14
+    }
+  },
+  "Heat Riser": {
+    "element": "Support",
+    "cost": "30 SP",
+    "description": "Increase 1 ally's Attack, Defense and Agility for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 12/4 CJ Underground Mall",
+    "talk": "Evil Synthetic Organism (Byakhee)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakhee": 75,
+      "Lucifer": 96,
+      "Maria": 94,
+      "Raphael": 80,
+      "Satanael": 97,
+      "Izanagi-no-Okami": 82,
+      "Magatsu-Izanagi": 50,
+      "Magatsu-Izanagi Picaro": 54,
+      "Raoul": 79
+    }
+  },
+  "Heat Up": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 5% HP and 10 SP at the start of preemptive turn.",
+    "uniqueTo": null,
+    "skillCard": "Trial 50",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Flauros": 24,
+      "Tam Lin": 32,
+      "Thor": 68,
+      "Ariadne Picaro": 44,
+      "Izanagi-no-Okami": 83
+    }
+  },
+  "Heat Wave": {
+    "element": "Physical",
+    "cost": "20% HP",
+    "description": "Deal heavy Phys damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chimera": 0,
+      "Kali": 0,
+      "Mithras": 0,
+      "Oberon": 0,
+      "Okuninushi": 59,
+      "Ose": 47
+    }
+  },
+  "Heated Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Fire skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakhee": 0,
+      "Cerberus": 0,
+      "Decarabia": 0,
+      "Orlov": 0,
+      "Surt": 0
+    }
+  },
+  "High Counter": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "20% chance of reflecting Phys attacks.",
+    "uniqueTo": null,
+    "skillCard": "CJ Leblanc",
+    "talk": null,
+    "fuseFrom": [
+      "Ose"
+    ],
+    "learnedBy": {
+      "Asura": 80,
+      "Atavaka": 67,
+      "Cerberus": 57,
+      "Cu Chulainn": 0,
+      "Dakini": 52,
+      "Hope Diamond": 0,
+      "Kali": 66,
+      "Siegfried": 0,
+      "Thor": 0,
+      "Kaguya Picaro": 0
+    }
+  },
+  "High Energy": {
+    "element": "Support",
+    "cost": "80 SP",
+    "description": "Next Magic attack +150% damage for all allies",
+    "uniqueTo": "Celestine",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Hollow Jester": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Damage +40% for each foe afflicted with an ailment",
+    "uniqueTo": "Magatsu-Izanagi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Magatsu-Izanagi": 0,
+      "Magatsu-Izanagi Picaro": 0
+    }
+  },
+  "Holy Benevolence": {
+    "element": "Healing",
+    "cost": "26 SP",
+    "description": "Revive all allies with 100% HP",
+    "uniqueTo": "Maria",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Maria": 0
+    }
+  },
+  "Holy Embrace": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 25% max HP each turn in battle",
+    "uniqueTo": "Maria",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Maria": 96
+    }
+  },
+  "Holy Whisper": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 15% max HP and 15 SP each turn in battle",
+    "uniqueTo": "Maria",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Maria": 98
+    }
+  },
+  "Hyakka Ryouran": {
+    "element": "Support",
+    "cost": "90 SP",
+    "description": "Matarukaja + Marakukaja + Masukukaja",
+    "uniqueTo": "Gorokichi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Hysterical Slap": {
+    "element": "Physical",
+    "cost": "9% HP",
+    "description": "Deal medium Phys damage and inflict Rage (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Life-Draining Spirit (Kumbhanda)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kushinada": 0,
+      "Nekomata": 18,
+      "Yaksini": 0
+    }
+  },
+  "Ice Age": {
+    "element": "Ice",
+    "cost": "54 SP",
+    "description": "Deal severe Ice damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 87,
+      "Mother Harlot": 86,
+      "Satan": 0
+    }
+  },
+  "Ice Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Ice attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Drunken Serpents (Yamata-no-Orochi)",
+    "fuseFrom": [
+      "Lilim"
+    ],
+    "learnedBy": {
+      "Alilat": 86,
+      "Black Frost": 68,
+      "Chimera": 79,
+      "Gabriel": 82,
+      "King Frost": 67,
+      "Mother Harlot": 87,
+      "Yamata-no-Orochi": 67
+    }
+  },
+  "Ice Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Ice attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakko": 47,
+      "Lachesis": 41
+    }
+  },
+  "Ice Break": {
+    "element": "Support",
+    "cost": "6 SP",
+    "description": "Negate Ice resistances of all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belphegor": 0,
+      "Byakko": 48,
+      "Jack Frost": 0,
+      "King Frost": 0
+    }
+  },
+  "Ice Wall": {
+    "element": "Support",
+    "cost": "18 SP",
+    "description": "Create a shield on 1 ally to reduce damage of Ice attacks for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 0,
+      "Bicorn": 7,
+      "Koumokuten": 52,
+      "Onmoraki": 0,
+      "Sarasvati": 0
+    }
+  },
+  "Icy Glare": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces ailment susceptibility by 25% for all allies",
+    "uniqueTo": "Milady",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Immunity": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Nullifies ailments",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arahabaki": 0,
+      "Moloch": 0,
+      "Orichalcum": 0
+    }
+  },
+  "Inferno": {
+    "element": "Fire",
+    "cost": "48 SP",
+    "description": "Deal severe Fire damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Surt"
+    ],
+    "learnedBy": {
+      "Mada": 0,
+      "Orichalcum": 0,
+      "Throne": 78
+    }
+  },
+  "Infinite Scheme": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Restores 100% after Futaba's All-Out Attack for all allies",
+    "uniqueTo": "Al Azif",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Ingenious Spirit": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Chance to halve Support and Almighty skill costs for all allies",
+    "uniqueTo": "Hereward",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Insta-Heal": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover from an ailment in 1 turn.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ishtar": 87,
+      "Lucifer": 98,
+      "Messiah Picaro": 91
+    }
+  },
+  "Intense Focus": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Single-target magic damage +20%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belphegor": 0,
+      "Fuu-Ki": 0,
+      "Koppa Tengu": 0,
+      "Norn": 0,
+      "Onmoraki": 0,
+      "Silky": 0,
+      "Stone of Scone": 0,
+      "Thor": 0
+    }
+  },
+  "Internal Hypnosis": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Extends buffs received by 1 turn",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 0,
+      "Hell Biker": 0,
+      "Hope Diamond": 0,
+      "Jikokuten": 0,
+      "Lachesis": 0,
+      "Power": 0,
+      "Saki Mitama": 0
+    }
+  },
+  "Invigorate 1": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 3 SP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "Technician 30",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 33,
+      "Neko Shogun": 31
+    }
+  },
+  "Invigorate 2": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 5 SP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 0,
+      "Hope Diamond": 0
+    }
+  },
+  "Invigorate 3": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 7 SP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ardha": 0,
+      "Maria": 0,
+      "Satan": 95,
+      "Throne": 76,
+      "Vohu Manah": 84,
+      "Messiah": 84
+    }
+  },
+  "Inviolable Beauty": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Triples damage dealt by Counter skills",
+    "uniqueTo": "Kaguya",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kaguya": 0,
+      "Kaguya Picaro": 0
+    }
+  },
+  "Iron Heart": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of SP skills after Baton Pass",
+    "uniqueTo": "Thanatos",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Thanatos": 0,
+      "Thanatos Picaro": 0
+    }
+  },
+  "Just Die": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of instant death skills to 0",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 0
+    }
+  },
+  "Kill Rush": {
+    "element": "Physical",
+    "cost": "14% HP",
+    "description": "Deal light Phys damage to 1 foe 1-3 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Oni"
+    ],
+    "learnedBy": {
+      "Jikokuten": 24,
+      "Zouchouten": 0
+    }
+  },
+  "Kouga": {
+    "element": "Bless",
+    "cost": "8 SP",
+    "description": "Deal medium Bless damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Expressionless Beast (Unicorn)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mitra": 0,
+      "Stone of Scone": 0
+    }
+  },
+  "Kougaon": {
+    "element": "Bless",
+    "cost": "12 SP",
+    "description": "Deal heavy Bless damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Anubis"
+    ],
+    "learnedBy": {
+      "Dominion": 0,
+      "Emperor's Amulet": 0,
+      "Horus": 0,
+      "Sraosha": 0,
+      "Unicorn": 43
+    }
+  },
+  "Kouha": {
+    "element": "Bless",
+    "cost": "4 SP",
+    "description": "Deal light Bless damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Heavenly Punisher (Archangel)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 0
+    }
+  },
+  "Kuzunoha's Order": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces skill costs by 25%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Laevateinn": {
+    "element": "Physical",
+    "cost": "25% HP",
+    "description": "Colossal damage to 1 foe",
+    "uniqueTo": "Loki",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Last Stand": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces enemy hit rate by 2/3 when surrounded",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ongyo-Ki": 0,
+      "Red Rider": 46,
+      "Yatagarasu": 60,
+      "Yoshitsune": 89
+    }
+  },
+  "Life Aid": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 8% HP and SP after a successful battle.",
+    "uniqueTo": null,
+    "skillCard": "Trial 80",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kohryu": 78,
+      "Lakshmi": 74,
+      "Trumpeter": 63,
+      "Messiah Picaro": 93,
+      "Raoul": 82
+    }
+  },
+  "Life Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "All Stats +3, SP +20",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Life Drain": {
+    "element": "Almighty",
+    "cost": "3 SP",
+    "description": "Drains HP from 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Bedside Brute (Incubus)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Choronzon": 0,
+      "Incubus": 0,
+      "Legion": 0,
+      "Loa": 0,
+      "Tsukiyomi": 0
+    }
+  },
+  "Life Leech": {
+    "element": "Almighty",
+    "cost": "Passive",
+    "description": "Drains 150 HP from 1 foe.",
+    "uniqueTo": "Enemies",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Life Wall": {
+    "element": "Support",
+    "cost": "95 SP",
+    "description": "Repels next non-Almighty attack for all allies",
+    "uniqueTo": "Lucy",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Linked Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Greatly raises damage dealt after Baton Pass",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cybele": 0
+    }
+  },
+  "Lucky Punch": {
+    "element": "Physical",
+    "cost": "3% HP",
+    "description": "Deal minuscule Phys damage to 1 foe. High critical rate.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Inugami": 17,
+      "Obariyon": 9,
+      "Sudama": 0
+    }
+  },
+  "Lullaby": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Sleep (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Woman who brings Ruin (Lilim)",
+    "fuseFrom": [
+      "Sandman"
+    ],
+    "learnedBy": {
+      "Kikuri-Hime": 0,
+      "Lakshmi": 0,
+      "Lilim": 0,
+      "Titania": 0
+    }
+  },
+  "Lunge": {
+    "element": "Physical",
+    "cost": "5% HP",
+    "description": "Deal light Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Dirty Two-Horned Beast (Bicorn)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Agathion": 4,
+      "Bicorn": 0,
+      "Kelpie": 0,
+      "Mandrake": 4,
+      "Slime": 0
+    }
+  },
+  "Mabaisudi": {
+    "element": "Healing",
+    "cost": "8 SP",
+    "description": "Cure Burn/Freeze/Shock of party.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hariti": 0,
+      "Lachesis": 0,
+      "Mithras": 43,
+      "Principality": 35
+    }
+  },
+  "Mabufu": {
+    "element": "Ice",
+    "cost": "10 SP",
+    "description": "Deal light Ice damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": "CJ BBB",
+    "talk": "Raging Water Demon (Sui-Ki)",
+    "fuseFrom": [
+      "Koropokkuru"
+    ],
+    "learnedBy": {
+      "Genbu": 10,
+      "Jack Frost": 12,
+      "Koropokkuru": 14,
+      "Regent": 0,
+      "Sui-Ki": 0
+    }
+  },
+  "Mabufudyne": {
+    "element": "Ice",
+    "cost": "22 SP",
+    "description": "Deal heavy Ice damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "The Shadowed One (Scathach)",
+    "fuseFrom": [
+      "Baphomet"
+    ],
+    "learnedBy": {
+      "Abaddon": 0,
+      "Alilat": 82,
+      "Black Frost": 0,
+      "Chimera": 78,
+      "Crystal Skull": 0,
+      "Gabriel": 0,
+      "King Frost": 64,
+      "Lilith": 0,
+      "Michael": 0,
+      "Mother Harlot": 0,
+      "Scathach": 0,
+      "Seiryu": 65,
+      "Skadi": 56,
+      "Yamata-no-Orochi": 0
+    }
+  },
+  "Mabufula": {
+    "element": "Ice",
+    "cost": "16 SP",
+    "description": "Deal medium Ice damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Sui-Ki"
+    ],
+    "learnedBy": {
+      "Belphegor": 0,
+      "Byakko": 0,
+      "Lachesis": 39,
+      "Lilim": 37,
+      "Orlov": 0,
+      "Sui-Ki": 28
+    }
+  },
+  "Maeiga": {
+    "element": "Curse",
+    "cost": "16 SP",
+    "description": "Deal medium Curse damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 36,
+      "Orlov": 0,
+      "Pazuzu": 0,
+      "White Rider": 41
+    }
+  },
+  "Maeigaon": {
+    "element": "Curse",
+    "cost": "22 SP",
+    "description": "Deal heavy Curse damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 0,
+      "Beelzebub": 0,
+      "Belial": 84,
+      "Black Rider": 0,
+      "Crystal Skull": 0,
+      "Loa": 72,
+      "Mot": 0,
+      "Satanael": 0,
+      "Skadi": 57,
+      "Raoul": 78,
+      "Thanatos": 0,
+      "Thanatos Picaro": 0
+    }
+  },
+  "Maeiha": {
+    "element": "Curse",
+    "cost": "10 SP",
+    "description": "Deal light Curse damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Choronzon": 29,
+      "Nue": 0,
+      "Regent": 0
+    }
+  },
+  "Mafrei": {
+    "element": "nuclear",
+    "cost": "10 SP",
+    "description": "Deal light Nuclear damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Hunting Wolf Spirit (Makami)",
+    "fuseFrom": [
+      "Makami"
+    ],
+    "learnedBy": {
+      "Makami": 17,
+      "Regent": 0,
+      "Suzaku": 19
+    }
+  },
+  "Mafreidyne": {
+    "element": "nuclear",
+    "cost": "22 SP",
+    "description": "Deal heavy Nuclear damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Titania"
+    ],
+    "learnedBy": {
+      "Asura": 79,
+      "Bishamonten": 69,
+      "Crystal Skull": 0,
+      "Lilith": 62,
+      "Trumpeter": 0
+    }
+  },
+  "Mafreila": {
+    "element": "nuclear",
+    "cost": "16 SP",
+    "description": "Deal medium Nuclear damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Dark Sun (Mithras)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 0,
+      "Mithras": 0,
+      "Orlov": 0,
+      "Phoenix": 26
+    }
+  },
+  "Magaru": {
+    "element": "Wind",
+    "cost": "8 SP",
+    "description": "Deal small Wind damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Captivating Dancer (Ame-no-Uzume)",
+    "fuseFrom": [
+      "Kelpie"
+    ],
+    "learnedBy": {
+      "Ame-no-Uzume": 0,
+      "High Pixie": 22,
+      "Nekomata": 0,
+      "Regent": 0
+    }
+  },
+  "Magarudyne": {
+    "element": "Wind",
+    "cost": "20 SP",
+    "description": "Deal heavy Wind damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Raging Bird God (Garuda)",
+    "fuseFrom": [
+      "Garuda"
+    ],
+    "learnedBy": {
+      "Crystal Skull": 0,
+      "Garuda": 57,
+      "Jatayu": 55,
+      "Quetzalcoatl": 70,
+      "Vishnu": 0,
+      "Magatsu-Izanagi Picaro": 49
+    }
+  },
+  "Magarula": {
+    "element": "Wind",
+    "cost": "14 SP",
+    "description": "Deal medium Wind damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Anzu"
+    ],
+    "learnedBy": {
+      "Fortuna": 0,
+      "Fuu-Ki": 26,
+      "Kumbhanda": 0,
+      "Kurama Tengu": 0,
+      "Narcissus": 0,
+      "Orlov": 0,
+      "Quetzalcoatl": 0,
+      "Sandman": 27
+    }
+  },
+  "Magatsu Mandala": {
+    "element": "Curse",
+    "cost": "30 SP",
+    "description": "Deal heavy Curse damage to all foes and inflict Confuse/Fear/Despair (medium odds).",
+    "uniqueTo": "Magatsu-Izanagi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Magatsu-Izanagi": 0,
+      "Magatsu-Izanagi Picaro": 0
+    }
+  },
+  "Magic Ability": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen all magical attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Network Fusion",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Mahama": {
+    "element": "Bless",
+    "cost": "14 SP",
+    "description": "Small chance of instantly killing all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "She of Life and Death (Isis)",
+    "fuseFrom": [
+      "Archangel"
+    ],
+    "learnedBy": {
+      "Clotho": 0,
+      "Isis": 0,
+      "Mitra": 0,
+      "Unicorn": 0
+    }
+  },
+  "Mahamaon": {
+    "element": "Bless",
+    "cost": "26 SP",
+    "description": "Medium chance of instantly killing all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Fire Assassin (Throne)",
+    "fuseFrom": [
+      "Melchizedek"
+    ],
+    "learnedBy": {
+      "Asura": 0,
+      "Dominion": 72,
+      "Melchizedek": 62,
+      "Metatron": 0,
+      "Michael": 90,
+      "Sandalphon": 0,
+      "Sraosha": 0,
+      "Vasuki": 0
+    }
+  },
+  "Majestic Presence": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Doubles effectiveness and decreases costs of Recovery skills for all allies",
+    "uniqueTo": "Diego",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Makajam": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Forget (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Zealous Messenger (Angel)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 0,
+      "Clotho": 0,
+      "Kaiwan": 0,
+      "Koropokkuru": 0,
+      "Kushi Mitama": 0,
+      "Makami": 18
+    }
+  },
+  "Makajamaon": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Forget (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Vampire Moth (Mothman)",
+    "fuseFrom": [
+      "Kaiwan"
+    ],
+    "learnedBy": {
+      "Clotho": 30,
+      "Dominion": 0,
+      "Kaiwan": 39,
+      "Mothman": 37,
+      "Ongyo-Ki": 0,
+      "Orobas": 21,
+      "Principality": 0,
+      "Queen Mab": 0
+    }
+  },
+  "Makara Break": {
+    "element": "Support",
+    "cost": "9 SP",
+    "description": "Remove magic-repellent shields from all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Queen Mab": 46,
+      "Yatagarasu": 0
+    }
+  },
+  "Makarakarn": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Create a shield on 1 ally to repel 1 magical attack.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 10/30",
+    "talk": null,
+    "fuseFrom": [
+      "Clotho"
+    ],
+    "learnedBy": {
+      "Arahabaki": 0,
+      "Isis": 32,
+      "Lilith": 0,
+      "Raja Naga": 58,
+      "Scathach": 0,
+      "Seiryu": 67,
+      "Vasuki": 71,
+      "Asterius Picaro": 66
+    }
+  },
+  "Makouga": {
+    "element": "Bless",
+    "cost": "16 SP",
+    "description": "Deal medium Bless damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Divine Warrior (Power)",
+    "fuseFrom": [
+      "Isis"
+    ],
+    "learnedBy": {
+      "Anubis": 0,
+      "Daisoujou": 0,
+      "Isis": 0,
+      "Mitra": 34,
+      "Orlov": 0,
+      "Power": 43,
+      "Principality": 0
+    }
+  },
+  "Makougaon": {
+    "element": "Bless",
+    "cost": "22 SP",
+    "description": "Deal heavy Bless damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Merciless Inquisitor (Dominion)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Crystal Skull": 0,
+      "Cybele": 0,
+      "Dominion": 70,
+      "Metatron": 0,
+      "Sraosha": 81,
+      "Throne": 75,
+      "Vohu Manah": 0
+    }
+  },
+  "Makouha": {
+    "element": "Bless",
+    "cost": "10 SP",
+    "description": "Deal light Bless damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Angel"
+    ],
+    "learnedBy": {
+      "Nigi Mitama": 0,
+      "Regent": 0
+    }
+  },
+  "Mamudo": {
+    "element": "Curse",
+    "cost": "14 SP",
+    "description": "Small chance of instantly killing all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Leanan Sidhe"
+    ],
+    "learnedBy": {
+      "Lamia": 30,
+      "Leanan Sidhe": 21,
+      "Nue": 24,
+      "Pisaca": 29
+    }
+  },
+  "Mamudoon": {
+    "element": "Curse",
+    "cost": "26 SP",
+    "description": "Medium chance of instantly killing all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Missionary of Depravity (Belial)",
+    "fuseFrom": [
+      "Chernobog"
+    ],
+    "learnedBy": {
+      "Alice": 0,
+      "Beelzebub": 0,
+      "Belial": 86,
+      "Black Rider": 0,
+      "Hell Biker": 41,
+      "Loa": 0,
+      "Macabre": 0,
+      "Mother Harlot": 0,
+      "Thanatos": 0,
+      "Thanatos Picaro": 0
+    }
+  },
+  "Mapsi": {
+    "element": "Psy",
+    "cost": "10 SP",
+    "description": "Deal light Psy damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Leanan Sidhe": 22,
+      "Matador": 18,
+      "Regent": 0,
+      "Shiki-Ouji": 19,
+      "Sudama": 0
+    }
+  },
+  "Mapsio": {
+    "element": "Psy",
+    "cost": "16 SP",
+    "description": "Deal medium Psy damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Okuninushi": 0,
+      "Orlov": 0,
+      "Red Rider": 0
+    }
+  },
+  "Mapsiodyne": {
+    "element": "Psy",
+    "cost": "22 SP",
+    "description": "Deal heavy Psy damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Throbbing King of Desires (Mara)",
+    "fuseFrom": [
+      "Forneus"
+    ],
+    "learnedBy": {
+      "Crystal Skull": 0,
+      "Forneus": 67,
+      "Kohryu": 0,
+      "Mara": 0,
+      "Nebiros": 0,
+      "Parvati": 59
+    }
+  },
+  "Maragi": {
+    "element": "Fire",
+    "cost": "10 SP",
+    "description": "Deal light Fire damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": "CJ BBB",
+    "talk": null,
+    "fuseFrom": [
+      "Cait Sith"
+    ],
+    "learnedBy": {
+      "Eligor": 0,
+      "Hua Po": 13,
+      "Orobas": 0,
+      "Orthrus": 0,
+      "Regent": 0,
+      "Orpheus F Picaro": 0
+    }
+  },
+  "Maragidyne": {
+    "element": "Fire",
+    "cost": "22 SP",
+    "description": "Deal heavy Fire damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Harlot of Desire (Lilith)",
+    "fuseFrom": [
+      "Orpheus Picaro"
+    ],
+    "learnedBy": {
+      "Atavaka": 0,
+      "Attis": 0,
+      "Byakhee": 72,
+      "Cerberus": 58,
+      "Chimera": 0,
+      "Crystal Skull": 0,
+      "Moloch": 62,
+      "Zaou-Gongen": 0,
+      "Asterius": 0,
+      "Asterius Picaro": 0
+    }
+  },
+  "Maragion": {
+    "element": "Fire",
+    "cost": "16 SP",
+    "description": "Deal medium Fire damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Orthrus"
+    ],
+    "learnedBy": {
+      "Hell Biker": 40,
+      "Orlov": 0,
+      "Orpheus": 29,
+      "Orpheus F": 12,
+      "Orpheus Picaro": 0
+    }
+  },
+  "Marakukaja": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Increase party's Defense for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 7/17 10/16",
+    "talk": "Strumming Veena Player (Sarasvati)",
+    "fuseFrom": [
+      "Lamia"
+    ],
+    "learnedBy": {
+      "Alilat": 0,
+      "Ananta": 48,
+      "Asura": 0,
+      "Kikuri-Hime": 0,
+      "Lachesis": 36,
+      "Naga": 29,
+      "Nebiros": 0,
+      "Odin": 0,
+      "Seiryu": 0,
+      "Athena": 0,
+      "Athena Picaro": 52,
+      "Orpheus": 30,
+      "Orpheus F": 14,
+      "Orpheus F Picaro": 16
+    }
+  },
+  "Marakunda": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Decrease all foes' Defense for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 8/14 11/13",
+    "talk": null,
+    "fuseFrom": [
+      "Orobas"
+    ],
+    "learnedBy": {
+      "Ara Mitama": 32,
+      "Chimera": 76,
+      "Girimehkala": 0,
+      "Kaiwan": 41,
+      "Orobas": 19,
+      "Surt": 85
+    }
+  },
+  "Marin Karin": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Brainwash (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Leanan Sidhe": 20,
+      "Mokoi": 12,
+      "Nebiros": 0,
+      "Suzaku": 0
+    }
+  },
+  "Martyr's Gift": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Bless skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Metatron": 0
+    }
+  },
+  "Masquerade": {
+    "element": "Physical",
+    "cost": "25% HP",
+    "description": "Severe damage to 1 foe, x2 hits",
+    "uniqueTo": "Ella",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Mastery of Magic": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Low chance to decrease attack spell costs for all allies",
+    "uniqueTo": "Carmen",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Masukukaja": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Increase party's Agility for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 7/31 10/23 CJ Aquarium",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anzu": 0,
+      "Fortuna": 0,
+      "Garuda": 54,
+      "Horus": 50,
+      "Jatayu": 0,
+      "Neko Shogun": 0,
+      "Power": 45,
+      "Seth": 0,
+      "Siegfried": 0,
+      "White Rider": 42
+    }
+  },
+  "Masukunda": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Decrease all foes' Agility for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 8/28 11/27 CJ Aquarium",
+    "talk": "Killer Teddy Bear (Bugs)",
+    "fuseFrom": [
+      "Mandrake"
+    ],
+    "learnedBy": {
+      "Bugs": 0,
+      "Forneus": 0,
+      "Ganesha": 57,
+      "Kurama Tengu": 0,
+      "Lilim": 34,
+      "Thoth": 0
+    }
+  },
+  "Matarukaja": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Increase party's Attack power for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 7/10 10/9",
+    "talk": "Lamenting Sacrifice (Kushinada)",
+    "fuseFrom": [
+      "Eligor"
+    ],
+    "learnedBy": {
+      "Ara Mitama": 35,
+      "Baal": 0,
+      "Cu Chulainn": 78,
+      "Futsunushi": 0,
+      "Jikokuten": 27,
+      "Kushinada": 44,
+      "Melchizedek": 63,
+      "Mot": 0,
+      "Oberon": 68,
+      "Okuninushi": 0,
+      "Orthrus": 26,
+      "Ose": 45,
+      "Scathach": 79,
+      "Valkyrie": 47,
+      "Athena": 48,
+      "Athena Picaro": 0,
+      "Orpheus Picaro": 33
+    }
+  },
+  "Matarunda": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Decrease all foes' Attack power for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 8/7 11/6",
+    "talk": "Dancing Witch (Rangda)",
+    "fuseFrom": [
+      "Slime"
+    ],
+    "learnedBy": {
+      "Hanuman": 0,
+      "Queen Mab": 44,
+      "Rangda": 51,
+      "Sarasvati": 53,
+      "Suzaku": 21,
+      "Orpheus Picaro": 0
+    }
+  },
+  "Mazio": {
+    "element": "electric",
+    "cost": "10 SP",
+    "description": "Deal light Electric damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Agathion"
+    ],
+    "learnedBy": {
+      "Ame-no-Uzume": 0,
+      "Regent": 0
+    }
+  },
+  "Maziodyne": {
+    "element": "electric",
+    "cost": "22 SP",
+    "description": "Deal heavy Electric damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Thunder Emperor (Thor)",
+    "fuseFrom": [
+      "Barong"
+    ],
+    "learnedBy": {
+      "Barong": 57,
+      "Crystal Skull": 0,
+      "Dionysus": 0,
+      "Gabriel": 0,
+      "Ishtar": 88,
+      "Raja Naga": 59,
+      "Shiva": 0,
+      "Thor": 67,
+      "Thunderbird": 39,
+      "Magatsu-Izanagi": 45
+    }
+  },
+  "Mazionga": {
+    "element": "electric",
+    "cost": "16 SP",
+    "description": "Deal medium Electric damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": "Trial 30",
+    "talk": "Storm-Invoking Ptarmigan (Thunderbird)",
+    "fuseFrom": [
+      "Take-Minakata"
+    ],
+    "learnedBy": {
+      "Atropos": 0,
+      "Mothman": 0,
+      "Naga": 28,
+      "Orlov": 0,
+      "Queen Mab": 0,
+      "Take-Minakata": 27,
+      "Thunderbird": 0,
+      "Yurlungur": 0,
+      "Izanagi": 24,
+      "Izanagi Picaro": 27
+    }
+  },
+  "Me Patra": {
+    "element": "Healing",
+    "cost": "8 SP",
+    "description": "Cure Dizzy/Forget/Sleep/Hunger of party.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 0,
+      "Daisoujou": 44,
+      "Nigi Mitama": 25
+    }
+  },
+  "Media": {
+    "element": "Healing",
+    "cost": "7 SP",
+    "description": "Slightly restore party's HP.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ame-no-Uzume": 0,
+      "Apsaras": 13,
+      "Cait Sith": 9,
+      "High Pixie": 0,
+      "Kushi Mitama": 0,
+      "Queen's Necklace": 0
+    }
+  },
+  "Mediarahan": {
+    "element": "Healing",
+    "cost": "30 SP",
+    "description": "Fully restore party's HP.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Kaguya Picaro"
+    ],
+    "learnedBy": {
+      "Atavaka": 0,
+      "Cybele": 0,
+      "Ishtar": 0,
+      "Kohryu": 0,
+      "Lakshmi": 70,
+      "Titania": 61,
+      "Yatagarasu": 59
+    }
+  },
+  "Mediarama": {
+    "element": "Healing",
+    "cost": "12 SP",
+    "description": "Moderately restore party's HP.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Mountain Girl (Kikuri-Hime)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 41,
+      "Hariti": 44,
+      "Kikuri-Hime": 41,
+      "Kushinada": 0,
+      "Narcissus": 52,
+      "Principality": 30,
+      "Sarasvati": 0,
+      "Kaguya": 0,
+      "Kaguya Picaro": 0
+    }
+  },
+  "Megaton Raid": {
+    "element": "Physical",
+    "cost": "16% HP",
+    "description": "Deal severe Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Guard Dog of Hades (Cerberus)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 0,
+      "Cerberus": 0,
+      "King Frost": 0,
+      "Melchizedek": 0,
+      "Thor": 0,
+      "Athena": 52,
+      "Athena Picaro": 56
+    }
+  },
+  "Megido": {
+    "element": "Almighty",
+    "cost": "15 SP",
+    "description": "Deal medium Almighty damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Chanting Baboon (Thoth)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Thoth": 37
+    }
+  },
+  "Megidola": {
+    "element": "Almighty",
+    "cost": "24 SP",
+    "description": "Deal heavy Almighty damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Rider": 64,
+      "Decarabia": 38,
+      "Horus": 0,
+      "Mot": 0,
+      "Pale Rider": 56,
+      "Yurlungur": 0,
+      "Magatsu-Izanagi": 0,
+      "Magatsu-Izanagi Picaro": 0
+    }
+  },
+  "Megidolaon": {
+    "element": "Almighty",
+    "cost": "38 SP",
+    "description": "Deal severe Almighty damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Coffin Borne God (Mot)",
+    "fuseFrom": [
+      "Black Rider"
+    ],
+    "learnedBy": {
+      "Alice": 86,
+      "Beelzebub": 92,
+      "Metatron": 91,
+      "Michael": 91,
+      "Mot": 76,
+      "Nebiros": 78,
+      "Sandalphon": 81,
+      "Satanael": 0,
+      "Shiva": 86,
+      "Uriel": 84,
+      "Vishnu": 0,
+      "Messiah": 0,
+      "Messiah Picaro": 0
+    }
+  },
+  "Mementos Scan": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Chance to fully map a floor of Mementos when entering that floor.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Memory Blow": {
+    "element": "Physical",
+    "cost": "15% HP",
+    "description": "Deal light Phys damage and inflict Forget (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Black Ooze"
+    ],
+    "learnedBy": {
+      "Eligor": 20,
+      "Naga": 0,
+      "Oni": 24,
+      "Quetzalcoatl": 0
+    }
+  },
+  "Mighty Gaze": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "All-target magic damage +20%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 0,
+      "Lilith": 0,
+      "Mara": 0,
+      "Mot": 0,
+      "Nue": 0,
+      "Orobas": 0,
+      "Regent": 0
+    }
+  },
+  "Mind Slice": {
+    "element": "Physical",
+    "cost": "19% HP",
+    "description": "Deal medium Phys damage and inflict Confuse (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Mothman"
+    ],
+    "learnedBy": {
+      "Garuda": 0,
+      "Rakshasa": 27
+    }
+  },
+  "Miracle Punch": {
+    "element": "Physical",
+    "cost": "8% HP",
+    "description": "Deal medium Phys damage to 1 foe. High critical rate.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Auspicious Pachyderm (Ganesha)",
+    "fuseFrom": [
+      "Obariyon"
+    ],
+    "learnedBy": {
+      "Ara Mitama": 0,
+      "Black Frost": 0,
+      "Bugs": 0,
+      "Ganesha": 0,
+      "Ariadne": 0,
+      "Ariadne Picaro": 0
+    }
+  },
+  "Miracle Rush": {
+    "element": "Physical",
+    "cost": "16% HP",
+    "description": "Deal medium Phys damage to all foes. High critical rate.",
+    "uniqueTo": "Diego",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Money Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Doubles money earned after battle",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Moral Support": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Chance to cast Kaja or party-healing magic during battle.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Morning Star": {
+    "element": "Almighty",
+    "cost": "54 SP",
+    "description": "Deal severe Almighty damage to all foes.",
+    "uniqueTo": "Lucifer",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lucifer": 94
+    }
+  },
+  "Mother's Lament": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Curse skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Beelzebub": 0
+    }
+  },
+  "Mouth of Savoring": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Strengthens own SP recovery by 50%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 0,
+      "Hastur": 0,
+      "Orichalcum": 0,
+      "Uriel": 0,
+      "Yurlungur": 0
+    }
+  },
+  "Mudo": {
+    "element": "Curse",
+    "cost": "6 SP",
+    "description": "Small chance of instantly killing 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Corpse Bird (Onmoraki)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lamia": 0,
+      "Nue": 21,
+      "Succubus": 12
+    }
+  },
+  "Mudo Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase success rate of instant death by Curse skills.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 0,
+      "Mother Harlot": 0,
+      "Thanatos Picaro": 70
+    }
+  },
+  "Mudoon": {
+    "element": "Curse",
+    "cost": "12 SP",
+    "description": "Medium chance of instantly killing 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Dream-Dwelling Skull (Loa)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 0,
+      "Chernobog": 0,
+      "Girimehkala": 0,
+      "Hell Biker": 0,
+      "Pazuzu": 0,
+      "Pisaca": 33,
+      "Rangda": 53
+    }
+  },
+  "Myriad Slashes": {
+    "element": "Physical",
+    "cost": "20% HP",
+    "description": "Deal medium Phys damage to 1 foe 2 to 3 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Dakini"
+    ],
+    "learnedBy": {
+      "Chernobog": 0,
+      "Dakini": 0,
+      "Futsunushi": 0,
+      "Macabre": 76,
+      "Oberon": 69,
+      "Odin": 0,
+      "Okuninushi": 0,
+      "Ongyo-Ki": 0,
+      "Scathach": 0,
+      "Uriel": 0,
+      "Tsukiyomi": 0,
+      "Tsukiyomi Picaro": 0
+    }
+  },
+  "Myriad Truths": {
+    "element": "Almighty",
+    "cost": "40 SP",
+    "description": "Deal 3 times heavy Almighty damage to all foes.",
+    "uniqueTo": "Izanagi-no-Okami",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Izanagi-no-Okami": 0,
+      "Izanagi-no-Okami Picaro": 0
+    }
+  },
+  "Naranari": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Doubles effectiveness of SP regeneration skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ardha": 0
+    }
+  },
+  "Negative Pile": {
+    "element": "Physical",
+    "cost": "12% HP",
+    "description": "Deal heavy Phys damage and inflict Despair (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Slithering Snakewoman (Lamia)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Red Rider": 42
+    }
+  },
+  "Neo Cadenza": {
+    "element": "Healing",
+    "cost": "24 SP",
+    "description": "Restore 50% HP of party and increase attack, defense, and evasion rate.",
+    "uniqueTo": "Orpheus F",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Orpheus F": 0,
+      "Orpheus F Picaro": 0
+    }
+  },
+  "Nocturnal Flash": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Dizzy (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Self-Infatuated Star (Narcissus)",
+    "fuseFrom": [
+      "Narcissus"
+    ],
+    "learnedBy": {
+      "Ame-no-Uzume": 15,
+      "Hariti": 42,
+      "Hastur": 0,
+      "Jatayu": 0,
+      "Norn": 0,
+      "Oberon": 0
+    }
+  },
+  "Nuke Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Nuclear attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Mithras"
+    ],
+    "learnedBy": {
+      "Bishamonten": 71,
+      "Fafnir": 90,
+      "Lilith": 65,
+      "Titania": 60
+    }
+  },
+  "Nuke Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Nuclear attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 50,
+      "Phoenix": 25
+    }
+  },
+  "Nuke Break": {
+    "element": "Support",
+    "cost": "6 SP",
+    "description": "Negate Nuclear resistances of all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mithras": 42
+    }
+  },
+  "Nuke Wall": {
+    "element": "Support",
+    "cost": "18 SP",
+    "description": "Create a shield on 1 ally to reduce damage of Nuclear attacks for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Bless": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Bless attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Nebiros": 80
+    }
+  },
+  "Null Brainwash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Brainwash.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arahabaki": 0
+    }
+  },
+  "Null Burn": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Immune to Burn",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Confuse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Confuse.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kushinada": 45
+    }
+  },
+  "Null Curse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Curse attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Power": 46,
+      "Vasuki": 73
+    }
+  },
+  "Null Despair": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Despair.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Dizzy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Dizzy.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Legion": 42,
+      "Matador": 0
+    }
+  },
+  "Null Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Electric attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 55
+    }
+  },
+  "Null Fear": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Fear.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Decarabia": 37
+    }
+  },
+  "Null Forget": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Forget.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anzu": 29
+    }
+  },
+  "Null Freeze": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Immune to Freeze",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Hunger": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Immune to Hunger",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kushinada": 48,
+      "Parvati": 61,
+      "Sui-Ki": 26
+    }
+  },
+  "Null Mortal": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies damage from Bless and Curse attacks",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Nuke": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Nuclear attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Phys attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Izanagi Picaro": 25
+    }
+  },
+  "Null Psy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Psy attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Rage": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Rage.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belphegor": 38,
+      "Byakko": 50,
+      "Daisoujou": 45
+    }
+  },
+  "Null Shock": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Immune to Shock",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Null Sleep": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Sleep.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sandman": 26
+    }
+  },
+  "Null Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Yatagarasu": 64
+    }
+  },
+  "Omen": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Greatly increases success rate of instant death skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sandalphon": 0
+    }
+  },
+  "Ominous Words": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Despair (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Corpse-Eating Corpse (Pisaca)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Decarabia": 0,
+      "Lamia": 27,
+      "Red Rider": 45
+    }
+  },
+  "One-shot Kill": {
+    "element": "Gun",
+    "cost": "17% HP",
+    "description": "Deal severe Gun damage to 1 foe. High critical rate.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Spear-Wielding General (Cu Chulainn)",
+    "fuseFrom": [
+      "Yamata-no-Orochi"
+    ],
+    "learnedBy": {
+      "Black Frost": 0,
+      "Cu Chulainn": 0,
+      "Mara": 0,
+      "Mishaguji": 54,
+      "Seth": 0,
+      "Yamata-no-Orochi": 0,
+      "Thanatos": 68,
+      "Thanatos Picaro": 72
+    }
+  },
+  "Oni Kagura": {
+    "element": "Physical",
+    "cost": "16% HP",
+    "description": "Deal medium Phys damage and inflict Rage (low odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Cruel Leopard (Ose)",
+    "fuseFrom": [
+      "Yaksini"
+    ],
+    "learnedBy": {
+      "Atavaka": 0,
+      "Ose": 0,
+      "Shiki-Ouji": 24,
+      "White Rider": 0,
+      "Yaksini": 22
+    }
+  },
+  "Oratorio": {
+    "element": "Healing",
+    "cost": "38 SP",
+    "description": "Fully restore party's HP and negate all -nda debuffs.",
+    "uniqueTo": "Messiah",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Messiah": 0,
+      "Messiah Picaro": 0
+    }
+  },
+  "Pagan Allure": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Magic damage +50%, Cannot exceed 100% limit",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satanael": 0
+    }
+  },
+  "Panta Rhei": {
+    "element": "Wind",
+    "cost": "42 SP",
+    "description": "Deal severe Wind damage to 1 foe",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Quetzalcoatl"
+    ],
+    "learnedBy": {
+      "Baal": 0,
+      "Orichalcum": 0
+    }
+  },
+  "Patra": {
+    "element": "Healing",
+    "cost": "4 SP",
+    "description": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Troublesome Maid (Silky)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 8,
+      "Pixie": 3,
+      "Silky": 9
+    }
+  },
+  "Phantom Show": {
+    "element": "Ailment",
+    "cost": "4 SP",
+    "description": "Inflict Sleep (high odds) to all foes.",
+    "uniqueTo": "Raoul",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Raoul": 0
+    }
+  },
+  "Pinch Anchor": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Allows use of ambush-only skills after Baton Pass",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsène": 0,
+      "Dionysus": 0,
+      "Neko Shogun": 0,
+      "Raphael": 0
+    }
+  },
+  "Pinnacle of Magic": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Low chance to halve attack spell costs for all allies",
+    "uniqueTo": "Celestine",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Position Hack": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Chance to instantly Hold Up enemies when starting a battle.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Positive Thoughts": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Extends buffs received by 2 turns",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Vohu Manah": 0
+    }
+  },
+  "Potent Hypnosis": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Extends buffs cast by 1 turn",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bugs": 0,
+      "Cu Chulainn": 0,
+      "Hanuman": 0,
+      "Horus": 0,
+      "Matador": 0,
+      "Michael": 0,
+      "Queen's Necklace": 0,
+      "Seth": 0,
+      "Yatagarasu": 0
+    }
+  },
+  "Power Slash": {
+    "element": "Physical",
+    "cost": "10% HP",
+    "description": "Deal medium Phys damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Brutal Cavalryman (Berith)",
+    "fuseFrom": [
+      "Berith"
+    ],
+    "learnedBy": {
+      "Archangel": 17,
+      "Berith": 13,
+      "Naga": 0
+    }
+  },
+  "President's Insight": {
+    "element": "Support",
+    "cost": "15 SP",
+    "description": "Next Magic attack +150% damage for 1 ally, Attack Master",
+    "uniqueTo": "Ring of Greed",
+    "skillCard": "Ring of Greed",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Proud Presence": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Doubles effectiveness of Recovery skills for all allies",
+    "uniqueTo": "Zorro",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Psi": {
+    "element": "Psy",
+    "cost": "4 SP",
+    "description": "Deal light Psy damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "CJ Theater",
+    "talk": "Hanging Tree Spirit (Kodama)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kodama": 12,
+      "Matador": 0
+    }
+  },
+  "Psio": {
+    "element": "Psy",
+    "cost": "8 SP",
+    "description": "Deal medium Psy damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Wishless Star (Kaiwan)",
+    "fuseFrom": [
+      "Sudama"
+    ],
+    "learnedBy": {
+      "Kaiwan": 0,
+      "Leanan Sidhe": 0,
+      "Neko Shogun": 0,
+      "Shiki-Ouji": 23,
+      "Stone of Scone": 0,
+      "Sudama": 23
+    }
+  },
+  "Psiodyne": {
+    "element": "Psy",
+    "cost": "12 SP",
+    "description": "Deal heavy Psy damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Sacrificial Pyrekeeper (Moloch)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bugs": 0,
+      "Emperor's Amulet": 0,
+      "Forneus": 0,
+      "Kaiwan": 40,
+      "Mishaguji": 0,
+      "Parvati": 0
+    }
+  },
+  "Psy Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Psy attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kohryu": 80,
+      "Mara": 77
+    }
+  },
+  "Psy Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Psy attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Okuninushi": 55
+    }
+  },
+  "Psy Break": {
+    "element": "Support",
+    "cost": "6 SP",
+    "description": "Negate Psy resistances of all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Okuninushi": 56,
+      "Parvati": 0,
+      "Red Rider": 0
+    }
+  },
+  "Psy Wall": {
+    "element": "Support",
+    "cost": "18 SP",
+    "description": "Create a shield on 1 ally to reduce damage of Psy attacks for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Unfaithful Dream-King (Oberon)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kushinada": 0,
+      "Sarasvati": 51,
+      "Thoth": 39
+    }
+  },
+  "Psychic Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Psy skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Emperor's Amulet": 0,
+      "Kaiwan": 0,
+      "Nebiros": 0,
+      "Okuninushi": 0,
+      "Shiki-Ouji": 0,
+      "Shiva": 0
+    }
+  },
+  "Psycho Blast": {
+    "element": "Psy",
+    "cost": "54 SP",
+    "description": "Deal severe Psy damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 91,
+      "Shiva": 88
+    }
+  },
+  "Psycho Force": {
+    "element": "Psy",
+    "cost": "48 SP",
+    "description": "Deal severe Psy damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Mara"
+    ],
+    "learnedBy": {
+      "Chi You": 0,
+      "Kohryu": 0,
+      "Mara": 78,
+      "Orichalcum": 0,
+      "Shiva": 0
+    }
+  },
+  "Pulinpa": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Confuse (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Gallows Flower (Mandrake)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Choronzon": 0,
+      "High Pixie": 20,
+      "Inugami": 0,
+      "Mandrake": 0,
+      "Nue": 22,
+      "Onmoraki": 15
+    }
+  },
+  "Rage Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Rage.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 34,
+      "Koppa Tengu": 14
+    }
+  },
+  "Raging Temper": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Low chance to strengthen Phys attacks by 40% for all allies",
+    "uniqueTo": "Captain Kidd",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Rakukaja": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Increase 1 ally's Defense for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "CJ Sky Tree",
+    "talk": "Apprentice in a Jug (Agathion)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Agathion": 6,
+      "Berith": 0,
+      "Kin-Ki": 0,
+      "Lamia": 0,
+      "Queen's Necklace": 0,
+      "Saki Mitama": 8,
+      "Izanagi Picaro": 0
+    }
+  },
+  "Rakunda": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Decrease 1 foe's Defense for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Jealous Lover (Leanan Sidhe)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Andras": 31,
+      "Genbu": 0,
+      "Jack Frost": 13,
+      "Jack-o'-Lantern": 0,
+      "Jikokuten": 0,
+      "Kodama": 0,
+      "Leanan Sidhe": 0,
+      "Queen's Necklace": 0,
+      "Orpheus F Picaro": 0
+    }
+  },
+  "Rampage": {
+    "element": "Physical",
+    "cost": "13% HP",
+    "description": "Deal light Phys damage to all foes 1 to 3 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Chivalrous Fiend (Oni)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Choronzon": 0,
+      "Ippon-Datara": 15,
+      "Oni": 0,
+      "Pisaca": 0,
+      "Shiisaa": 17
+    }
+  },
+  "Rare Antibody": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces susceptibility to ailments",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Agathion": 0,
+      "Black Ooze": 0,
+      "Koh-i-Noor": 0,
+      "Kumbhanda": 0,
+      "Pisaca": 0,
+      "Slime": 0
+    }
+  },
+  "Rebellion": {
+    "element": "Support",
+    "cost": "5 SP",
+    "description": "Increase 1 ally's critical rate for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 0,
+      "Ara Mitama": 31,
+      "Archangel": 16,
+      "Cerberus": 56,
+      "Cu Chulainn": 0,
+      "Dakini": 54,
+      "Flauros": 22,
+      "Ganesha": 0,
+      "Hecatoncheires": 45,
+      "Setanta": 29,
+      "Succubus": 0,
+      "Tam Lin": 0,
+      "Thunderbird": 35
+    }
+  },
+  "Rebellion Blade": {
+    "element": "Almighty",
+    "cost": "99 SP",
+    "description": "Colossal damage to 1 foe, Damage +150% when target downed",
+    "uniqueTo": "Hereward",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Recarm": {
+    "element": "Healing",
+    "cost": "8 SP",
+    "description": "Revive 1 ally with 50% HP recovered.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Phoenix": 23,
+      "Queen's Necklace": 0
+    }
+  },
+  "Regenerate 1": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restore 2% of max HP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kin-Ki": 0,
+      "Kushi Mitama": 13,
+      "Rakshasa": 26
+    }
+  },
+  "Regenerate 2": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 4% of max HP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Rakshasa"
+    ],
+    "learnedBy": {
+      "Hecatoncheires": 0,
+      "Hope Diamond": 0,
+      "Koumokuten": 0
+    }
+  },
+  "Regenerate 3": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 6% of max HP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "CJ Art Museum",
+    "talk": null,
+    "fuseFrom": [
+      "Koumokuten"
+    ],
+    "learnedBy": {
+      "Futsunushi": 90,
+      "Hanuman": 69,
+      "Mishaguji": 0,
+      "Ongyo-Ki": 92,
+      "Quetzalcoatl": 69,
+      "Satan": 0,
+      "Messiah": 82
+    }
+  },
+  "Relentless": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Damage that strikes foe weaknesses +50%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gabriel": 0,
+      "Kali": 0,
+      "Seiryu": 0,
+      "Stone of Scone": 0,
+      "Trumpeter": 0
+    }
+  },
+  "Relief Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Support skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 0,
+      "Kikuri-Hime": 0,
+      "Nigi Mitama": 0,
+      "Queen's Necklace": 0,
+      "Sarasvati": 0
+    }
+  },
+  "Repel Bless": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Bless attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Raphael"
+    ],
+    "learnedBy": {
+      "Lucifer": 97,
+      "Mother Harlot": 88
+    }
+  },
+  "Repel Curse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Curse attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sandalphon": 78
+    }
+  },
+  "Repel Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Electric attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Mot"
+    ],
+    "learnedBy": {
+      "Mot": 77
+    }
+  },
+  "Repel Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Frost": 71,
+      "Vishnu": 87
+    }
+  },
+  "Repel Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Parvati"
+    ],
+    "learnedBy": {
+      "Beelzebub": 91
+    }
+  },
+  "Repel Nuke": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Nuclear attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Lilith"
+    ],
+    "learnedBy": {
+      "Seiryu": 63,
+      "Uriel": 83
+    }
+  },
+  "Repel Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Phys attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 0,
+      "Girimehkala": 50,
+      "Kaguya": 22,
+      "Kaguya Picaro": 31
+    }
+  },
+  "Repel Psy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Psy attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Kali"
+    ],
+    "learnedBy": {
+      "Kali": 67
+    }
+  },
+  "Repel Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repel Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Byakhee"
+    ],
+    "learnedBy": {
+      "Hastur": 89
+    }
+  },
+  "Resist Bless": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Bless attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 38
+    }
+  },
+  "Resist Brainwash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Brainwash.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kelpie": 8
+    }
+  },
+  "Resist Burn": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves susceptibility to Burn",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Confuse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Confuse.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Pixie": 6
+    }
+  },
+  "Resist Curse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Curse attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Despair": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Despair.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Isis": 27,
+      "Makami": 19
+    }
+  },
+  "Resist Dizzy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Dizzy.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ippon-Datara": 0,
+      "Saki Mitama": 10
+    }
+  },
+  "Resist Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Electric attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Fear": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Fear.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kodama": 17,
+      "Obariyon": 10,
+      "Zouchouten": 34
+    }
+  },
+  "Resist Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Forget": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Forget.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 11,
+      "Hua Po": 12
+    }
+  },
+  "Resist Freeze": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves susceptibility to Freeze",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Hunger": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves susceptibility to Hunger",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Nuke": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Nuclear attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Phys attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Psy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Psy attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ganesha": 56
+    }
+  },
+  "Resist Rage": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Rage.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Shock": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves susceptibility to Shock",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Resist Sleep": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce susceptibility to Sleep.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cait Sith": 6,
+      "Jack-o'-Lantern": 7
+    }
+  },
+  "Resist Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduce damage from Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fuu-Ki": 27
+    }
+  },
+  "Retaliating Body": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Doubles damage from Counter skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakko": 0,
+      "Hope Diamond": 0,
+      "Kin-Ki": 0,
+      "Oni": 0,
+      "Ose": 0,
+      "Setanta": 0,
+      "Siegfried": 0,
+      "Yoshitsune": 0
+    }
+  },
+  "Reverse Rub": {
+    "element": "Ailment",
+    "cost": "Passive",
+    "description": "Inflict Rage (100%) to 1 ally.",
+    "uniqueTo": "Enemies",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Revolution": {
+    "element": "Support",
+    "cost": "5 SP",
+    "description": "Increase all foes and allies' critical rate for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Pagan Saviour (Melchizedek)",
+    "fuseFrom": [
+      "Ganesha"
+    ],
+    "learnedBy": {
+      "Baal": 0,
+      "Hanuman": 0,
+      "Koumokuten": 0,
+      "Kumbhanda": 47,
+      "Melchizedek": 60,
+      "Yurlungur": 45
+    }
+  },
+  "Riot Gun": {
+    "element": "Gun",
+    "cost": "24% HP",
+    "description": "Deal severe Gun damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Cu Chulainn"
+    ],
+    "learnedBy": {
+      "Satanael": 0,
+      "Shiva": 85,
+      "Vishnu": 90
+    }
+  },
+  "Rising Slash": {
+    "element": "Physical",
+    "cost": "14% HP",
+    "description": "Deal heavy Phys damage to 1 foe. More powerful under Baton Pass.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Inugami"
+    ],
+    "learnedBy": {
+      "Dakini": 0,
+      "Lamia": 0,
+      "Red Rider": 0,
+      "Setanta": 30,
+      "Valkyrie": 0,
+      "Athena": 0,
+      "Athena Picaro": 0,
+      "Izanagi": 21,
+      "Izanagi Picaro": 24
+    }
+  },
+  "Salvation": {
+    "element": "Healing",
+    "cost": "48 SP",
+    "description": "Fully restore HP and cure all ailments of party except for unique status.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Izanagi-no-Okami Picaro"
+    ],
+    "learnedBy": {
+      "Ardha": 90,
+      "Attis": 0,
+      "Cybele": 89,
+      "Gabriel": 83,
+      "Ishtar": 90,
+      "Maria": 0,
+      "Vohu Manah": 85,
+      "Izanagi-no-Okami": 84,
+      "Izanagi-no-Okami Picaro": 93
+    }
+  },
+  "Samarecarm": {
+    "element": "Healing",
+    "cost": "18 SP",
+    "description": "Revive 1 ally with all HP recovered.",
+    "uniqueTo": null,
+    "skillCard": "CJ Church",
+    "talk": null,
+    "fuseFrom": [
+      "Norn"
+    ],
+    "learnedBy": {
+      "Atavaka": 68,
+      "Attis": 85,
+      "Cybele": 0,
+      "Hariti": 41,
+      "Ishtar": 0,
+      "Norn": 57,
+      "Oberon": 71,
+      "Sandalphon": 0,
+      "Unicorn": 41,
+      "Athena": 51,
+      "Athena Picaro": 55
+    }
+  },
+  "Samsara": {
+    "element": "Bless",
+    "cost": "40 SP",
+    "description": "High chance of instantly killing all foes.",
+    "uniqueTo": "Daisoujou",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Daisoujou": 41
+    }
+  },
+  "Samurai's Ruling": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Raises critical rate and Magic evasion",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Savior Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Recovery skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atavaka": 0,
+      "Bishamonten": 0,
+      "Isis": 0,
+      "Kushinada": 0,
+      "Mandrake": 0,
+      "Queen's Necklace": 0
+    }
+  },
+  "Scoundrel Eyes": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Raises evasion rate against Phys attacks for all allies",
+    "uniqueTo": "Goemon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Self-Destruct": {
+    "element": "Almighty",
+    "cost": "Passive",
+    "description": "Sacrifice self and deal medium Almighty damage to all.",
+    "uniqueTo": "Enemies",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Sharp Student": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Lower odds of receiving critical hit.",
+    "uniqueTo": null,
+    "skillCard": "CJ Gym",
+    "talk": "Torn King of Desires (Mara)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Eligor": 0,
+      "Ippon-Datara": 17,
+      "Jack-o'-Lantern": 4,
+      "Oni": 23,
+      "Silky": 10,
+      "Tam Lin": 28,
+      "Zouchouten": 33
+    }
+  },
+  "Shining Arrows": {
+    "element": "Bless",
+    "cost": "22 SP",
+    "description": "Deal light Bless damage to all foes 4 to 8 times.",
+    "uniqueTo": "Kaguya",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kaguya": 0,
+      "Kaguya Picaro": 0
+    }
+  },
+  "Shock Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Shock.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 62,
+      "Mothman": 0,
+      "Naga": 26,
+      "Raja Naga": 57,
+      "Take-Minakata": 32,
+      "Thunderbird": 0
+    }
+  },
+  "Skillful Combo": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Raises damage dealt after Baton Pass",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 0,
+      "Archangel": 0,
+      "Dakini": 0,
+      "High Pixie": 0,
+      "Kodama": 0,
+      "Kurama Tengu": 0,
+      "Rakshasa": 0,
+      "Regent": 0,
+      "Valkyrie": 0
+    }
+  },
+  "Skillful Technique": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Technical damage +25%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Leanan Sidhe": 0,
+      "Makami": 0,
+      "Mithras": 0,
+      "Parvati": 0,
+      "Regent": 0,
+      "Scathach": 0,
+      "Thoth": 0
+    }
+  },
+  "Skull Cracker": {
+    "element": "Physical",
+    "cost": "10% HP",
+    "description": "Deal medium Phys damage and inflict Confuse (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Night Chimera (Nue)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mokoi": 10,
+      "Mothman": 0,
+      "Nue": 0,
+      "Shiisaa": 0
+    }
+  },
+  "Sledgehammer": {
+    "element": "Physical",
+    "cost": "10% HP",
+    "description": "Deal medium Phys damage and inflict Dizzy (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Embittered Blacksmith (Ippon-Datara)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Ooze": 0,
+      "Ippon-Datara": 0,
+      "Kin-Ki": 28,
+      "Sui-Ki": 0
+    }
+  },
+  "Sleep Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase chance of inflicting Sleep.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Twilight Prostitute (Succubus)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sandman": 28,
+      "Succubus": 11
+    }
+  },
+  "Snap": {
+    "element": "Gun",
+    "cost": "9% HP",
+    "description": "Deal medium Gun damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Night-Walking Warrior (Mokoi)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Obariyon": 0,
+      "Oni": 0
+    }
+  },
+  "Soul Chain": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 20 SP when performing Baton Pass.",
+    "uniqueTo": null,
+    "skillCard": "Network Fusion",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Soul Touch": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover 5 SP after Baton Pass",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Speed Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatic Sukukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hell Biker": 0,
+      "Jatayu": 57,
+      "Kaiwan": 38,
+      "Suzaku": 20,
+      "Magatsu-Izanagi Picaro": 52
+    }
+  },
+  "Spell Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Half SP cost for magic skills.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 1/29",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ishtar": 89,
+      "Kohryu": 82,
+      "Lucifer": 95,
+      "Mada": 96,
+      "Uriel": 86,
+      "Tsukiyomi Picaro": 61
+    }
+  },
+  "Spirit Drain": {
+    "element": "Almighty",
+    "cost": "3 SP",
+    "description": "Drains SP from 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arahabaki": 37,
+      "Daisoujou": 0,
+      "Hariti": 46,
+      "Hastur": 88,
+      "Lilim": 36,
+      "Lilith": 63,
+      "Loa": 74,
+      "Skadi": 58,
+      "Tsukiyomi Picaro": 0
+    }
+  },
+  "Spirit Leech": {
+    "element": "Almighty",
+    "cost": "Passive",
+    "description": "Drains 150 SP from 1 foe.",
+    "uniqueTo": "Enemies",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Stagnant Air": {
+    "element": "Almighty",
+    "cost": "5 SP",
+    "description": "Increase susceptibility to all ailments of all foes and allies.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Legion"
+    ],
+    "learnedBy": {
+      "Forneus": 66,
+      "Kumbhanda": 0,
+      "Moloch": 0,
+      "Pazuzu": 49,
+      "Pisaca": 0
+    }
+  },
+  "Static Electricity": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting Shock on downed foes",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mothman": 0,
+      "Oberon": 0,
+      "Pixie": 0,
+      "Queen Mab": 0
+    }
+  },
+  "Stealth": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Lowers chance of being targeted",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Stomach Blow": {
+    "element": "Physical",
+    "cost": "Passive",
+    "description": "Medium Physical damage to 1 foe and inflict Hunger.",
+    "uniqueTo": "Enemies",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Striking Weight": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Phys damage +20%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bicorn": 0,
+      "Hope Diamond": 0,
+      "Ippon-Datara": 0,
+      "Kelpie": 0,
+      "Naga": 0,
+      "Obariyon": 0
+    }
+  },
+  "Subrecover HP": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "After battle, 10% HP recovery for backup allies.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Subrecover HP EX": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "After battle, 20% HP recovery for backup allies.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Subrecover SP": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "After battle, 1% SP recovery for backup allies.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Subrecover SP EX": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "After battle, 3% SP recovery for backup allies.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Sukukaja": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Increase 1 ally's Agility for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "CJ Sky Tree",
+    "talk": "Noisy Mountain Spirit (Sudama)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cait Sith": 7,
+      "Kelpie": 9,
+      "Koppa Tengu": 0,
+      "Matador": 0,
+      "Orobas": 0,
+      "Queen's Necklace": 0
+    }
+  },
+  "Sukunda": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Decrease 1 foe's Agility for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Piggyback Demon (Obariyon)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsène": 4,
+      "Eligor": 19,
+      "Koropokkuru": 12,
+      "Mandrake": 5,
+      "Obariyon": 0,
+      "Queen's Necklace": 0,
+      "Sandman": 24
+    }
+  },
+  "Summon": {
+    "element": "Almighty",
+    "cost": "Passive",
+    "description": "Summon ally reinforcements.",
+    "uniqueTo": "Enemies",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Support Plus 1": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Adds Masukunda to Moral Support pool",
+    "uniqueTo": "Necronomicon",
+    "skillCard": "Jazz 1",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Support Plus 2": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Adds Masukunda and Marakunda to Moral Support pool",
+    "uniqueTo": "Necronomicon",
+    "skillCard": "Jazz 2",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Support Plus 3": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Adds Masukunda, Marakunda, and Matarunda to Moral Support pool",
+    "uniqueTo": "Necronomicon",
+    "skillCard": "Jazz 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Support Rate Up": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Raises chance of Moral Support activating",
+    "uniqueTo": "Necronomicon",
+    "skillCard": "Jazz 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Survival Trick": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Survive one instant death attack with 1 HP remaining.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Abyssal King of Avarice (Abaddon)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 88,
+      "Forneus": 65,
+      "Satanael": 0
+    }
+  },
+  "Swift Strike": {
+    "element": "Physical",
+    "cost": "17% HP",
+    "description": "Deal miniscule Phys damage to all foes 2-4 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Defeated Avenger (Take-Minakata)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakko": 0,
+      "Hecatoncheires": 0,
+      "Matador": 22,
+      "Power": 42,
+      "Rangda": 0,
+      "Take-Minakata": 31,
+      "Unicorn": 42,
+      "Zouchouten": 35
+    }
+  },
+  "Sword Dance": {
+    "element": "Physical",
+    "cost": "21% HP",
+    "description": "Deal colossal Phys damage to 1 foe with high critical.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Atavaka"
+    ],
+    "learnedBy": {
+      "Metatron": 0,
+      "Michael": 89,
+      "Raphael": 0,
+      "Sandalphon": 79
+    }
+  },
+  "Tactical Spirit": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Chance to halve Support skill costs for all allies",
+    "uniqueTo": "Robin Hood",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Tag Team": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Allows use of consumables without expending them after Baton Pass",
+    "uniqueTo": "Ariadne",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ariadne": 0,
+      "Ariadne Picaro": 0
+    }
+  },
+  "Tarukaja": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Increase 1 ally's Attack power for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "CJ Sky Tree",
+    "talk": "War-Hungry Horseman (Eligor)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Berith": 10,
+      "Cait Sith": 0,
+      "Eligor": 0,
+      "Fuu-Ki": 0,
+      "Hecatoncheires": 0,
+      "Inugami": 0,
+      "Ippon-Datara": 0,
+      "Kodama": 14,
+      "Mokoi": 0,
+      "Pixie": 5,
+      "Queen's Necklace": 0,
+      "Rakshasa": 0,
+      "Shiki-Ouji": 0,
+      "Sudama": 0,
+      "Thunderbird": 0,
+      "Izanagi": 0
+    }
+  },
+  "Tarunda": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Decrease 1 foe's Attack power for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Viscid Rotting Meat (Slime)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bicorn": 0,
+      "Hua Po": 11,
+      "Incubus": 8,
+      "Queen's Necklace": 0,
+      "Slime": 11,
+      "Suzaku": 0,
+      "Orpheus": 0,
+      "Orpheus F": 0
+    }
+  },
+  "Taunt": {
+    "element": "Ailment",
+    "cost": "3 SP",
+    "description": "Inflict Rage (high odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Foolish Monk (Koppa Tengu)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 0,
+      "Koppa Tengu": 13,
+      "Shiki-Ouji": 0,
+      "Thoth": 0
+    }
+  },
+  "Tempest Slash": {
+    "element": "Physical",
+    "cost": "17% HP",
+    "description": "Deal minuscule Phys damage to 1 foe 3 to 5 times .",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Nimble Monkey King (Hanuman)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ganesha": 0,
+      "Hanuman": 0,
+      "Kumbhanda": 43,
+      "Ose": 43
+    }
+  },
+  "Tentarafoo": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Confuse (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hell Biker": 38,
+      "Mithras": 0,
+      "Mothman": 35,
+      "Pazuzu": 0,
+      "Raja Naga": 0,
+      "Sarasvati": 0
+    }
+  },
+  "Terror Claw": {
+    "element": "Physical",
+    "cost": "8% HP",
+    "description": "Deal medium Phys damage and inflict Fear (medium odds) to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Ascended Feline (Nekomata)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Andras": 0,
+      "Kelpie": 10,
+      "Nekomata": 0,
+      "Zouchouten": 32
+    }
+  },
+  "Tetra Break": {
+    "element": "Support",
+    "cost": "9 SP",
+    "description": "Remove physical-repellent shields from all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Fused Ghost (Legion)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fuu-Ki": 0,
+      "Hanuman": 67,
+      "Legion": 40,
+      "Mara": 0,
+      "Mithras": 41,
+      "Yurlungur": 48
+    }
+  },
+  "Tetraja": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Create shields on party to nullify one instant death attack of Bless or Curse types.",
+    "uniqueTo": null,
+    "skillCard": "CJ Maid Cafe",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal": 85,
+      "Clotho": 28,
+      "Fortuna": 0,
+      "Ganesha": 55,
+      "Kikuri-Hime": 43,
+      "Norn": 56,
+      "Principality": 0
+    }
+  },
+  "Tetrakarn": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Create a shield on 1 ally to repel 1 Phys attack.",
+    "uniqueTo": null,
+    "skillCard": "Jazz 10/2 CJ Destiny Land",
+    "talk": "Vicious Pentagram (Decarabia)",
+    "fuseFrom": [
+      "Scathach"
+    ],
+    "learnedBy": {
+      "Bishamonten": 72,
+      "Decarabia": 33,
+      "Asterius": 60
+    }
+  },
+  "Thermal Conduct": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Increases chance of inflicting Burn after Baton Pass",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 0,
+      "Cait Sith": 0,
+      "Eligor": 0,
+      "Hua Po": 0,
+      "Jack-o'-Lantern": 0,
+      "Orthrus": 0
+    }
+  },
+  "Thermopylae": {
+    "element": "Support",
+    "cost": "30 SP",
+    "description": "Increase party's Attack, Defense and Agility for 3 turns. Only usable if the party is surrounded.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Attis": 0,
+      "Dionysus": 72,
+      "Mitra": 38
+    }
+  },
+  "Thunder Reign": {
+    "element": "electric",
+    "cost": "48 SP",
+    "description": "Deal severe Electric damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Dionysus"
+    ],
+    "learnedBy": {
+      "Odin": 0,
+      "Orichalcum": 0
+    }
+  },
+  "Titanomachia": {
+    "element": "Fire",
+    "cost": "34 SP",
+    "description": "Deal severe Fire damage to all foes and inflict Fear (high odds).",
+    "uniqueTo": "Asterius",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asterius": 0,
+      "Asterius Picaro": 0
+    }
+  },
+  "Touch n' Go": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Apply Sukukaja when performing Baton Pass.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fortuna": 49,
+      "Gabriel": 81
+    }
+  },
+  "Treasure Reboot": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Chance to revive search objects in the area after battle.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Treasure Skimmer": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Find out if a foe is carrying a rare item ahead of time.",
+    "uniqueTo": "Necronomicon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Trigger Happy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increase critical rate of Gun attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Vasuki": 70
+    }
+  },
+  "Triple Down": {
+    "element": "Gun",
+    "cost": "16% HP",
+    "description": "Deal light Gun damage to all foes 3 times.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Shiki-Ouji"
+    ],
+    "learnedBy": {
+      "Bugs": 52,
+      "Vasuki": 0,
+      "White Rider": 0
+    }
+  },
+  "Tyrant's Mind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "All damage +25%, Can exceed 100% limit",
+    "uniqueTo": "Satanel",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satanael": 98
+    }
+  },
+  "Tyrant's Will": {
+    "element": "Support",
+    "cost": "15 SP",
+    "description": "Next Phys attack +150% damage for 1 ally, Defense Master",
+    "uniqueTo": "Ring of Pride",
+    "skillCard": "Ring of Pride",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Ultimate Support": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Moral Support may now fully recover and buff all allies",
+    "uniqueTo": "Al Azif",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Ultimate Vessel": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Carries multiple traits to pass down during fusion",
+    "uniqueTo": "Regent",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Crystal Skull": 0,
+      "Emperor's Amulet": 0,
+      "Hope Diamond": 0,
+      "Koh-i-Noor": 0,
+      "Orichalcum": 0,
+      "Orlov": 0,
+      "Queen's Necklace": 0,
+      "Regent": 0,
+      "Stone of Scone": 0
+    }
+  },
+  "Undying Fury": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Phys damage +30%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Zaou-Gongen": 0
+    }
+  },
+  "Universal Law": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Technical damage +50%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kohryu": 0
+    }
+  },
+  "Unparalleled Eyes": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Greatly raises evasion rate against Phys attacks for all allies",
+    "uniqueTo": "Gorokichi",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Unshaken Will": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Impart immunity against all mental ailments.",
+    "uniqueTo": "Asura",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 81
+    }
+  },
+  "Vacuum Wave": {
+    "element": "Wind",
+    "cost": "48 SP",
+    "description": "Deal severe Wind damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal": 87,
+      "Hastur": 0,
+      "Vishnu": 85
+    }
+  },
+  "Vahana's Wings": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Reduces costs of Wind skills by 75%",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Vishnu": 0
+    }
+  },
+  "Vajra Blast": {
+    "element": "Physical",
+    "cost": "13% HP",
+    "description": "Deal medium Phys damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Samurai Killer (Kin-Ki)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Archangel": 19,
+      "Kin-Ki": 0
+    }
+  },
+  "Vault Guardian": {
+    "element": "Support",
+    "cost": "20 SP",
+    "description": "Marakukaja, Begins battle with Tetrakarn + Makarakarn",
+    "uniqueTo": "Ring of Gluttony",
+    "skillCard": "Ring of Gluttony",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Veil of Midnight": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Chance to prevent down when weakness struck for all allies",
+    "uniqueTo": "Cendrillon",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Veil of Sunrise": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "High chance to prevent down when weakness struck for all allies",
+    "uniqueTo": "Ella",
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Vicious Strike": {
+    "element": "Physical",
+    "cost": "18% HP",
+    "description": "Deal medium Phys damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [
+      "Kin-Ki"
+    ],
+    "learnedBy": {
+      "Yaksini": 24
+    }
+  },
+  "Victory Cry": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Recover full HP and SP after a successful battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satanael": 99,
+      "Izanagi-no-Okami": 0,
+      "Izanagi-no-Okami Picaro": 0
+    }
+  },
+  "Vitality of the Tree": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Allows use of ambush-only skills under normal conditions",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Attis": 0
+    }
+  },
+  "Vorpal Blade": {
+    "element": "Physical",
+    "cost": "23% HP",
+    "description": "Deal severe Phys damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "The Blackened Fury (Kali)",
+    "fuseFrom": [
+      "Oberon"
+    ],
+    "learnedBy": {
+      "Kali": 68,
+      "Scathach": 81,
+      "Siegfried": 89,
+      "Tsukiyomi": 55,
+      "Tsukiyomi Picaro": 60
+    }
+  },
+  "Wage War": {
+    "element": "Ailment",
+    "cost": "8 SP",
+    "description": "Inflict Rage (medium odds) to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Human-Eating Lady (Yaksini)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 0,
+      "Girimehkala": 47,
+      "Koppa Tengu": 15,
+      "Sui-Ki": 27,
+      "Yaksini": 0
+    }
+  },
+  "Wealth of Lotus": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Extends buffs cast by 2 turns",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lakshmi": 0
+    }
+  },
+  "Wild Thunder": {
+    "element": "electric",
+    "cost": "54 SP",
+    "description": "Deal severe Electric damage to all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Odin": 86,
+      "Thor": 71
+    }
+  },
+  "Will of the Sword": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Charge-type effects +200% damage instead, Begins battle with Concentrate",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Futsunushi": 0
+    }
+  },
+  "Wind Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Wind attacks by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Warped Abyss (Hastur)",
+    "fuseFrom": [
+      "Fuu-Ki"
+    ],
+    "learnedBy": {
+      "Garuda": 59,
+      "Hastur": 87,
+      "Jatayu": 54,
+      "Quetzalcoatl": 71,
+      "Vishnu": 88
+    }
+  },
+  "Wind Bloodline": {
+    "element": "Trait",
+    "cost": "Passive",
+    "description": "Halves costs of Wind skills",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anzu": 0,
+      "Baal": 0,
+      "Emperor's Amulet": 0,
+      "Fortuna": 0,
+      "Garuda": 0,
+      "Jatayu": 0,
+      "Quetzalcoatl": 0
+    }
+  },
+  "Wind Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Strengthen Wind attacks by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Reviled Dictator (Baal)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fuu-Ki": 25,
+      "Kurama Tengu": 32
+    }
+  },
+  "Wind Break": {
+    "element": "Support",
+    "cost": "6 SP",
+    "description": "Negate Wind resistances of all foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Thief of Tablets (Anzu)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anzu": 0,
+      "Nekomata": 20,
+      "Yatagarasu": 61
+    }
+  },
+  "Wind Wall": {
+    "element": "Support",
+    "cost": "18 SP",
+    "description": "Create a shield on 1 ally to reduce damage of Wind attacks for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 16,
+      "Kushinada": 46,
+      "Kushi Mitama": 14,
+      "Rakshasa": 0,
+      "Saki Mitama": 0,
+      "Sudama": 21
+    }
+  },
+  "Wings of Wisdom": {
+    "element": "Support",
+    "cost": "10 SP",
+    "description": "Amrita Shower, Speed Master",
+    "uniqueTo": "Ring of Wrath",
+    "skillCard": "Ring of Wrath",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Zio": {
+    "element": "electric",
+    "cost": "4 SP",
+    "description": "Deal light Electric damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Agathion": 7,
+      "Pixie": 0
+    }
+  },
+  "Ziodyne": {
+    "element": "electric",
+    "cost": "12 SP",
+    "description": "Deal heavy Electric damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Dancing Lion (Barong)",
+    "fuseFrom": [
+      "Atropos"
+    ],
+    "learnedBy": {
+      "Atropos": 44,
+      "Baphomet": 61,
+      "Barong": 0,
+      "Dionysus": 0,
+      "Emperor's Amulet": 0,
+      "Mothman": 38,
+      "Norn": 0,
+      "Oberon": 0,
+      "Raja Naga": 0,
+      "Thor": 0,
+      "Thunderbird": 37,
+      "Titania": 0,
+      "Yoshitsune": 0
+    }
+  },
+  "Zionga": {
+    "element": "electric",
+    "cost": "8 SP",
+    "description": "Deal medium Electric damage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": "Cavern Snakeman (Naga)",
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hariti": 0,
+      "Naga": 0,
+      "Stone of Scone": 0,
+      "Take-Minakata": 0,
+      "Zouchouten": 0,
+      "Izanagi": 0,
+      "Izanagi Picaro": 0
+    }
+  }
+}

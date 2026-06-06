@@ -1,0 +1,22 @@
+{
+    "Fool": {
+      "Lovers": "Magician",
+      "Magician": "Lovers",
+      "World": "Fool"
+    },
+    "Lovers": {
+      "Fool": "Magician",
+      "Magician": "Fool",
+      "World": "Lovers"
+    },
+    "Magician": {
+      "Fool": "Lovers",
+      "Lovers": "Fool",
+      "World": "Magician"
+    },
+    "World": {
+      "Fool": "Fool",
+      "Lovers": "Lovers",
+      "Magician": "Magician"
+    }
+  }

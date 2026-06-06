@@ -1,0 +1,272 @@
+{
+  "Ailment Hunter": {
+    "description": "Damage +25% for each foe afflicted with an ailment"
+  },
+  "Allure of Wisdom": {
+    "description": "Reduces costs of magic skills by 75%"
+  },
+  "Atomic Bloodline": {
+    "description": "Halves costs of Nuke skills"
+  },
+  "Atomic Hellscape": {
+    "description": "Reduces costs of Nuke skills by 75%"
+  },
+  "Ave Maria": {
+    "description": "Reduces costs of Support spells by 75%"
+  },
+  "Bargain Bolts": {
+    "description": "Reduces costs of Elec skills by 75%"
+  },
+  "Blessed Bloodline": {
+    "description": "Halves costs of Bless skills"
+  },
+  "Bloodstained Eyes": {
+    "description": "Raises evasion against foes afflicted with ailments"
+  },
+  "Bolstering Force": {
+    "description": "Damage dealt during 1 More +50%"
+  },
+  "Chi You's Blessing": {
+    "description": "Reduces costs of Psy skills by 75%"
+  },
+  "Circle of Sadness": {
+    "description": "Activates endure up to 4 times"
+  },
+  "Cocytus": {
+    "description": "Reduces costs of Ice skills by 75%"
+  },
+  "Cold-Blooded": {
+    "description": "Increases chance of inflicting Freeze during 1 More"
+  },
+  "Cool Customer": {
+    "description": "Reduces ailment susceptibility by 50% for all allies"
+  },
+  "Country Maker": {
+    "description": "Scales damage dealt and received against Compendium completion rate"
+  },
+  "Crisis Control": {
+    "description": "Reduces damage taken when weakness struck"
+  },
+  "Cursed Bloodline": {
+    "description": "Halves costs of Curse skills"
+  },
+  "Deathly Illness": {
+    "description": "Increases success rate of instant death skills"
+  },
+  "Demon's Bite": {
+    "description": "Doubles own HP recovery"
+  },
+  "Draining Mouth": {
+    "description": "Doubles effectiveness of absorption skills"
+  },
+  "Drunken Passion": {
+    "description": "Reduces costs of Fire skills by 75%"
+  },
+  "Eccentric Temper": {
+    "description": "Low chance to strengthen Phys attacks by 80% for all allies"
+  },
+  "Electric Bloodline": {
+    "description": "Halves costs of Elec skills"
+  },
+  "Explosive Scheme": {
+    "description": "Restores 25% HP after Futaba's All-Out Attack for all allies"
+  },
+  "Foul Odor": {
+    "description": "Increases chance of inflicting ailments after Baton Pass"
+  },
+  "Foul Stench": {
+    "description": "Increases chance of inflicting ailments"
+  },
+  "Frenzied Bull": {
+    "description": "Scales damage dealt against lost HP under 50%"
+  },
+  "Frigid Bloodline": {
+    "description": "Halves costs of Ice skills"
+  },
+  "Gaia Blessing": {
+    "description": "Increases chance of inflicting Burn, Freeze, and Shock by 50% for all allies"
+  },
+  "Gaia Pact": {
+    "description": "Increases chance of inflicting Burn, Freeze, and Shock by 25% for all allies"
+  },
+  "Ghost Nest": {
+    "description": "Increases chance of inflicting ailments on downed foes"
+  },
+  "Gloomy Child": {
+    "description": "Activates all equipped special weather passives"
+  },
+  "Gluttonmouth": {
+    "description": "Strengthens own HP recovery by 50%"
+  },
+  "God Maker": {
+    "description": "Increases chance of ally traits activating"
+  },
+  "Grace of Mother": {
+    "description": "Reduces costs of Recovery skills by 75%"
+  },
+  "Grace of the Olive": {
+    "description": "Reduces costs of skills to 0 during 1 More"
+  },
+  "Hallowed Spirit": {
+    "description": "Doubles own HP and SP recovery"
+  },
+  "Hazy Presence": {
+    "description": "Increases chance of ally follow-up attacks"
+  },
+  "Heated Bloodline": {
+    "description": "Halves costs of Fire skills"
+  },
+  "Hollow Jester": {
+    "description": "Damage +40% for each foe afflicted with an ailment"
+  },
+  "Icy Glare": {
+    "description": "Reduces ailment susceptibility by 25% for all allies"
+  },
+  "Immunity": {
+    "description": "Nullifies ailments"
+  },
+  "Infinite Scheme": {
+    "description": "Restores 100% after Futaba's All-Out Attack for all allies"
+  },
+  "Ingenious Spirit": {
+    "description": "Chance to halve Support and Almighty skill costs for all allies"
+  },
+  "Intense Focus": {
+    "description": "Single-target magic damage +20%"
+  },
+  "Internal Hypnosis": {
+    "description": "Extends buffs received by 1 turn"
+  },
+  "Inviolable Beauty": {
+    "description": "Triples damage dealt by Counter skills"
+  },
+  "Iron Heart": {
+    "description": "Halves costs of SP skills after Baton Pass"
+  },
+  "Just Die": {
+    "description": "Reduces costs of instant death skills to 0"
+  },
+  "Linked Bloodline": {
+    "description": "Greatly raises damage dealt after Baton Pass"
+  },
+  "Majestic Presence": {
+    "description": "Doubles effectiveness and decreases costs of Recovery skills for all allies"
+  },
+  "Martyr's Gift": {
+    "description": "Reduces costs of Bless skills by 75%"
+  },
+  "Mastery of Magic": {
+    "description": "Low chance to decrease attack spell costs for all allies"
+  },
+  "Mighty Gaze": {
+    "description": "All-target magic damage +20%"
+  },
+  "Mother's Lament": {
+    "description": "Reduces costs of Curse skills by 75%"
+  },
+  "Mouth of Savoring": {
+    "description": "Strengthens own SP recovery by 50%"
+  },
+  "Naranari": {
+    "description": "Doubles effectiveness of SP regeneration skills"
+  },
+  "Omen": {
+    "description": "Greatly increases success rate of instant death skills"
+  },
+  "Pagan Allure": {
+    "description": "Magic damage +50%, Cannot exceed 100% limit"
+  },
+  "Pinch Anchor": {
+    "description": "Allows use of ambush-only skills after Baton Pass"
+  },
+  "Pinnacle of Magic": {
+    "description": "Low chance to halve attack spell costs for all allies"
+  },
+  "Positive Thoughts": {
+    "description": "Extends buffs received by 2 turns"
+  },
+  "Potent Hypnosis": {
+    "description": "Extends buffs cast by 1 turn"
+  },
+  "Proud Presence": {
+    "description": "Doubles effectiveness of Recovery skills for all allies"
+  },
+  "Psychic Bloodline": {
+    "description": "Halves costs of Psy skills"
+  },
+  "Raging Temper": {
+    "description": "Low chance to strengthen Phys attacks by 40% for all allies"
+  },
+  "Rare Antibody": {
+    "description": "Reduces susceptibility to ailments"
+  },
+  "Relentless": {
+    "description": "Damage that strikes foe weaknesses +50%"
+  },
+  "Relief Bloodline": {
+    "description": "Halves costs of Support skills"
+  },
+  "Retaliating Body": {
+    "description": "Doubles damage from Counter skills"
+  },
+  "Savior Bloodline": {
+    "description": "Halves costs of Recovery skills"
+  },
+  "Scoundrel Eyes": {
+    "description": "Raises evasion rate against Phys attacks for all allies"
+  },
+  "Skillful Combo": {
+    "description": "Raises damage dealt after Baton Pass"
+  },
+  "Skillful Technique": {
+    "description": "Technical damage +25%"
+  },
+  "Static Electricity": {
+    "description": "Increases chance of inflicting Shock on downed foes"
+  },
+  "Striking Weight": {
+    "description": "Phys damage +20%"
+  },
+  "Tactical Spirit": {
+    "description": "Chance to halve Support skill costs for all allies"
+  },
+  "Tag Team": {
+    "description": "Allows use of consumables without expending them after Baton Pass"
+  },
+  "Thermal Conduct": {
+    "description": "Increases chance of inflicting Burn after Baton Pass"
+  },
+  "Ultimate Vessel": {
+    "description": "Carries multiple traits to pass down during fusion"
+  },
+  "Undying Fury": {
+    "description": "Phys damage +30%"
+  },
+  "Universal Law": {
+    "description": "Technical damage +50%"
+  },
+  "Unparalleled Eyes": {
+    "description": "Greatly raises evasion rate against Phys attacks for all allies"
+  },
+  "Vahana's Wings": {
+    "description": "Reduces costs of Wind skills by 75%"
+  },
+  "Veil of Midnight": {
+    "description": "Chance to prevent down when weakness struck for all allies"
+  },
+  "Veil of Sunrise": {
+    "description": "High chance to prevent down when weakness struck for all allies"
+  },
+  "Vitality of the Tree": {
+    "description": "Allows use of ambush-only skills under normal conditions"
+  },
+  "Wealth of Lotus": {
+    "description": "Extends buffs cast by 2 turns"
+  },
+  "Will of the Sword": {
+    "description": "Charge-type effects +200% damage instead, Begins battle with Concentrate"
+  },
+  "Wind Bloodline": {
+    "description": "Halves costs of Wind skills"
+  }
+}
