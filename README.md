@@ -6,6 +6,8 @@ The application provides a complete Persona 5 Royal compendium, fusion calculato
 
 The project is built entirely as a client side web application and is deployed through GitHub Pages. No backend services, databases, or external APIs are required.
 
+DISCLAIMER: None of this information is verified in game. I am using existing data that was already available. 
+
 ## Features
 
 ### Compendium
