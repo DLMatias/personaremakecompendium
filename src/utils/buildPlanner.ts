@@ -121,6 +121,10 @@ export function canPersonaInheritSkill(persona: Persona, skillName: string) {
     return false;
   }
 
+  if (normalizeText(persona.inherits) === "almighty") {
+    return true;
+  }
+
   const skillCategory = getSkillInheritanceCategory(skillName);
 
   const broadlyInheritableCategories = [
