@@ -880,17 +880,9 @@ function findSpecialBuildPlanToTarget({
     };
   }
 
-  const possibleCarrierIngredients = ingredients.filter((ingredient) => {
-    const canCarryAllSkills = desiredSkills.every((skillName) =>
-      canPersonaInheritSkill(ingredient, skillName)
-    );
-
-    return canCarryAllSkills;
-  });
-
   let bestPlan: BuildPlan | null = null;
 
-  for (const carrierIngredient of possibleCarrierIngredients) {
+  for (const carrierIngredient of ingredients) {
     const naturalSkills = getPersonaNaturalSelectedSkills(
       carrierIngredient,
       desiredSkills
@@ -932,6 +924,14 @@ function findSpecialBuildPlanToTarget({
         bestPlan = plan;
       }
 
+      continue;
+    }
+
+    const carrierCanInheritDesiredSkills = desiredSkills.every((skillName) =>
+      canPersonaInheritSkill(carrierIngredient, skillName)
+    );
+
+    if (!carrierCanInheritDesiredSkills) {
       continue;
     }
 
@@ -990,7 +990,38 @@ function findSpecialBuildPlanToTarget({
     }
   }
 
-  return bestPlan;
+  if (bestPlan) {
+    return bestPlan;
+  }
+
+  const fallbackCarrier =
+    ingredients.find((ingredient) =>
+      desiredSkills.every((skillName) =>
+        canPersonaInheritSkill(ingredient, skillName)
+      )
+    ) ?? ingredients[0];
+
+  const fallbackCarrierState: BuildState = {
+    currentPersona: fallbackCarrier,
+    carriedSkills: desiredSkills,
+    carriedTrait: desiredTrait ?? null,
+    steps: [],
+  };
+
+  const finalStep = createSpecialFusionStep(
+    ingredients,
+    fallbackCarrierState,
+    targetPersona,
+    desiredSkills,
+    desiredTrait
+  );
+
+  return {
+    targetPersona,
+    desiredSkills,
+    desiredTrait,
+    steps: [finalStep],
+  };
 }
 
 export function getPersonasThatLearnSkill(skillName: string) {
