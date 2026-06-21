@@ -1,6 +1,7 @@
 import personas from "../data/personas.json";
 import fusionChart from "../data/fusionChart.json";
 import rareFusion from "../data/rareFusion.json";
+import specialFusions from "../data/specialFusions.json";
 import type { Persona } from "../types";
 
 type FusionChart = {
@@ -16,12 +17,17 @@ type RareFusionData = {
   };
 };
 
+type SpecialFusions = {
+  [personaName: string]: string[];
+};
+
 type FusionOptions = {
   includeDlc: boolean;
 };
 
 const typedFusionChart = fusionChart as FusionChart;
 const typedRareFusion = rareFusion as RareFusionData;
+const typedSpecialFusions = specialFusions as SpecialFusions;
 const typedPersonas = personas as Persona[];
 
 function getAvailablePersonas(options: FusionOptions) {
@@ -36,6 +42,48 @@ function getNormalPersonasByArcana(arcana: string, options: FusionOptions) {
     .filter((persona) => !persona.specialFusion)
     .filter((persona) => !persona.rare)
     .sort((a, b) => a.level - b.level);
+}
+
+function getSpecialFusionResult(
+  personaA: Persona,
+  personaB: Persona,
+  options: FusionOptions
+) {
+  const selectedIngredients = [personaA.name, personaB.name].sort();
+
+  for (const [resultName, ingredientNames] of Object.entries(
+    typedSpecialFusions
+  )) {
+    if (ingredientNames.length !== 2) {
+      continue;
+    }
+
+    const sortedIngredientNames = [...ingredientNames].sort();
+
+    const matchesSpecialRecipe =
+      selectedIngredients[0] === sortedIngredientNames[0] &&
+      selectedIngredients[1] === sortedIngredientNames[1];
+
+    if (!matchesSpecialRecipe) {
+      continue;
+    }
+
+    const resultPersona = typedPersonas.find(
+      (persona) => persona.name === resultName
+    );
+
+    if (!resultPersona) {
+      return null;
+    }
+
+    if (!options.includeDlc && resultPersona.isDlc) {
+      return null;
+    }
+
+    return resultPersona;
+  }
+
+  return null;
 }
 
 function getRareFusionResult(
@@ -134,6 +182,16 @@ export function getFusionResult(
 ) {
   if (personaA.name === personaB.name) {
     return null;
+  }
+
+  const specialFusionResult = getSpecialFusionResult(
+    personaA,
+    personaB,
+    options
+  );
+
+  if (specialFusionResult) {
+    return specialFusionResult;
   }
 
   if (personaA.rare && personaB.rare) {
