@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import personasData from "../data/personas.json";
 import skillsData from "../data/skills.json";
 import traitsData from "../data/traits.json";
@@ -8,6 +8,7 @@ import {
   validateBuildPlan,
 } from "../utils/buildPlanner";
 import type { Persona } from "../types";
+import type { SkillLearningSource } from "../utils/buildPlanner";
 
 type SkillInfo = {
   element: string;
@@ -38,6 +39,19 @@ const traits = traitsData as TraitsData;
 
 function getIconPath(element: string) {
   return `${import.meta.env.BASE_URL}icons/${element.toLowerCase()}.png`;
+}
+
+function formatCarriedSkill(
+  skillName: string,
+  skillSources: SkillLearningSource[]
+) {
+  const source = skillSources.find((item) => item.skillName === skillName);
+
+  if (!source) {
+    return skillName;
+  }
+
+  return `${skillName} (${source.personaName} Lv ${source.level})`;
 }
 
 function BuildPlannerPage() {
@@ -95,33 +109,18 @@ function BuildPlannerPage() {
       })
     : [];
 
-  useEffect(() => {
-    setWantedSkills([]);
-    setWantedTrait("");
-    setSkillSearchText("");
-    setTraitSearchText("");
-  }, [targetPersonaName]);
-
-  useEffect(() => {
-    if (!wantedTrait) {
-      return;
-    }
-
-    const traitStillAvailable = availablePersonas.some(
-      (persona) => persona.trait === wantedTrait
-    );
-
-    if (!traitStillAvailable) {
-      setWantedTrait("");
-    }
-  }, [wantedTrait, includeDlc, playerLevel, availablePersonas]);
+  const selectedWantedTrait =
+    wantedTrait &&
+    availablePersonas.some((persona) => persona.trait === wantedTrait)
+      ? wantedTrait
+      : "";
 
   const shortestBuildPlan =
-    targetPersona && (wantedSkills.length > 0 || wantedTrait)
+    targetPersona && (wantedSkills.length > 0 || selectedWantedTrait)
       ? findShortestBuildPlanToTarget({
           targetPersonaName,
           desiredSkills: wantedSkills,
-          desiredTrait: wantedTrait || undefined,
+          desiredTrait: selectedWantedTrait || undefined,
           includeDlc,
           playerLevel,
           maxStates: 300000,
@@ -134,7 +133,7 @@ function BuildPlannerPage() {
     shortestBuildPlan,
     targetPersonaName,
     wantedSkills,
-    wantedTrait || undefined,
+    selectedWantedTrait || undefined,
     playerLevel
   );
 
@@ -150,6 +149,10 @@ function BuildPlannerPage() {
 
   function selectTargetPersona(personaName: string) {
     setTargetPersonaName(personaName);
+    setWantedSkills([]);
+    setWantedTrait("");
+    setSkillSearchText("");
+    setTraitSearchText("");
   }
 
   function addWantedSkill(skillName: string) {
@@ -323,7 +326,7 @@ function BuildPlannerPage() {
 
         <div className="selector-panel">
           <h3>Wanted Trait</h3>
-          <p>Selected Trait: {wantedTrait || "None"}</p>
+          <p>Selected Trait: {selectedWantedTrait || "None"}</p>
 
           <input
             className="form-control"
@@ -346,7 +349,7 @@ function BuildPlannerPage() {
                   type="button"
                   onClick={() => selectWantedTrait(traitName)}
                   className={
-                    wantedTrait === traitName
+                    selectedWantedTrait === traitName
                       ? "scrollable-select-item selected"
                       : "scrollable-select-item"
                   }
@@ -371,7 +374,7 @@ function BuildPlannerPage() {
             )}
           </div>
 
-          {wantedTrait && (
+          {selectedWantedTrait && (
             <button
               type="button"
               onClick={clearWantedTrait}
@@ -401,7 +404,7 @@ function BuildPlannerPage() {
 
         {!targetPersona ? (
           <p>Select a target Persona to begin planning.</p>
-        ) : wantedSkills.length === 0 && !wantedTrait ? (
+        ) : wantedSkills.length === 0 && !selectedWantedTrait ? (
           <p>Select at least one wanted skill or trait to begin planning.</p>
         ) : !shortestBuildPlan ? (
           <p>No legal route found.</p>
@@ -422,7 +425,7 @@ function BuildPlannerPage() {
               <p>Skills: {wantedSkills.join(", ")}</p>
             )}
 
-            {wantedTrait && <p>Trait: {wantedTrait}</p>}
+            {selectedWantedTrait && <p>Trait: {selectedWantedTrait}</p>}
 
             <div className="recipe-list-scroll">
               {shortestBuildPlan.steps.map((step, stepIndex) => (
@@ -445,7 +448,14 @@ function BuildPlannerPage() {
                   )}
 
                   {step.inheritedSkills.length > 0 && (
-                    <p>Skills carried: {step.inheritedSkills.join(", ")}</p>
+                    <p>
+                      Skills carried:{" "}
+                      {step.inheritedSkills
+                        .map((skillName) =>
+                          formatCarriedSkill(skillName, step.skillSources)
+                        )
+                        .join(", ")}
+                    </p>
                   )}
 
                   {step.inheritedTrait && (

@@ -253,9 +253,16 @@ export type BuildStep = {
   personaB: Persona;
   result: Persona;
   inheritedSkills: string[];
+  skillSources: SkillLearningSource[];
   inheritedTrait: string | null;
   isSpecialFusion?: boolean;
   specialIngredients?: Persona[];
+};
+
+export type SkillLearningSource = {
+  skillName: string;
+  personaName: string;
+  level: number;
 };
 
 export type BuildPlan = {
@@ -281,9 +288,12 @@ export type BuildValidation = {
 type BuildState = {
   currentPersona: Persona;
   carriedSkills: string[];
+  carriedSkillSources: SkillSourceMap;
   carriedTrait: string | null;
   steps: BuildStep[];
 };
+
+type SkillSourceMap = Record<string, SkillLearningSource>;
 
 type FindBuildPlanOptions = {
   targetPersonaName: string;
@@ -427,6 +437,92 @@ function getPersonaNaturalSelectedSkills(
   return desiredSkills.filter((skillName) =>
     personaNaturallyHasSkill(persona, skillName)
   );
+}
+
+function getPersonaNaturalSelectedSkillSources(
+  persona: Persona,
+  desiredSkills: string[]
+) {
+  return desiredSkills
+    .map((skillName) => {
+      const learnedSkill = persona.skills.find(
+        (skill) => skill.name === skillName
+      );
+
+      if (!learnedSkill) {
+        return null;
+      }
+
+      return {
+        skillName,
+        personaName: persona.name,
+        level: learnedSkill.level,
+      };
+    })
+    .filter(
+      (source): source is SkillLearningSource => source !== null
+    );
+}
+
+function getPersonaNaturalSelectedSkillSourceMap(
+  persona: Persona,
+  desiredSkills: string[]
+) {
+  return createSkillSourceMap(
+    getPersonaNaturalSelectedSkillSources(persona, desiredSkills)
+  );
+}
+
+function createSkillSourceMap(sources: SkillLearningSource[]) {
+  return sources.reduce<SkillSourceMap>((result, source) => {
+    result[source.skillName] = source;
+    return result;
+  }, {});
+}
+
+function mergeSkillSourceMaps(...sourceMaps: SkillSourceMap[]) {
+  return sourceMaps.reduce<SkillSourceMap>((result, sourceMap) => {
+    Object.entries(sourceMap).forEach(([skillName, source]) => {
+      const existingSource = result[skillName];
+
+      if (
+        !existingSource ||
+        source.level < existingSource.level ||
+        (source.level === existingSource.level &&
+          source.personaName.localeCompare(existingSource.personaName) < 0)
+      ) {
+        result[skillName] = source;
+      }
+    });
+
+    return result;
+  }, {});
+}
+
+function pickSkillSources(
+  sourceMap: SkillSourceMap,
+  skillNames: string[]
+): SkillSourceMap {
+  return skillNames.reduce<SkillSourceMap>((result, skillName) => {
+    const source = sourceMap[skillName];
+
+    if (source) {
+      result[skillName] = source;
+    }
+
+    return result;
+  }, {});
+}
+
+function skillSourceMapToList(
+  sourceMap: SkillSourceMap,
+  skillNames: string[]
+) {
+  return skillNames
+    .map((skillName) => sourceMap[skillName])
+    .filter(
+      (source): source is SkillLearningSource => source !== undefined
+    );
 }
 
 function getPersonaSelectedTrait(persona: Persona, desiredTrait?: string) {
@@ -574,12 +670,21 @@ function createSpecialFusionStep(
     ingredients.find(
       (ingredient) => ingredient.name !== carrierState.currentPersona.name
     ) ?? ingredients[0];
+  const targetSkillSources = getPersonaNaturalSelectedSkillSourceMap(
+    targetPersona,
+    desiredSkills
+  );
+  const finalSkillSources = mergeSkillSourceMaps(
+    carrierState.carriedSkillSources,
+    targetSkillSources
+  );
 
   return {
     personaA: carrierState.currentPersona,
     personaB: fallbackPersonaB,
     result: targetPersona,
     inheritedSkills: desiredSkills,
+    skillSources: skillSourceMapToList(finalSkillSources, desiredSkills),
     inheritedTrait: carrierState.carriedTrait ?? desiredTrait ?? null,
     isSpecialFusion: true,
     specialIngredients: ingredients,
@@ -667,6 +772,10 @@ function findNormalBuildPlanToTarget({
     frontier.push({
       currentPersona: persona,
       carriedSkills: naturalSkills,
+      carriedSkillSources: getPersonaNaturalSelectedSkillSourceMap(
+        persona,
+        desiredSkills
+      ),
       carriedTrait: naturalTrait,
       steps: [],
     });
@@ -746,6 +855,11 @@ function findNormalBuildPlanToTarget({
           result,
           desiredSkills
         );
+        const possibleNextSkillSources = mergeSkillSourceMaps(
+          state.carriedSkillSources,
+          getPersonaNaturalSelectedSkillSourceMap(fusionPartner, desiredSkills),
+          getPersonaNaturalSelectedSkillSourceMap(result, desiredSkills)
+        );
 
         const possibleNextSkills = mergeSkills(
           mergeSkills(state.carriedSkills, partnerSkills),
@@ -755,6 +869,10 @@ function findNormalBuildPlanToTarget({
         const nextCarriedSkills = getLegalCarriedSkillsForResult(
           result,
           possibleNextSkills
+        );
+        const nextCarriedSkillSources = pickSkillSources(
+          possibleNextSkillSources,
+          nextCarriedSkills
         );
 
         const lostCarriedSkill = state.carriedSkills.some(
@@ -780,12 +898,17 @@ function findNormalBuildPlanToTarget({
           personaB: fusionPartner,
           result,
           inheritedSkills: nextCarriedSkills,
+          skillSources: skillSourceMapToList(
+            nextCarriedSkillSources,
+            nextCarriedSkills
+          ),
           inheritedTrait: nextCarriedTrait,
         };
 
         const nextState: BuildState = {
           currentPersona: result,
           carriedSkills: nextCarriedSkills,
+          carriedSkillSources: nextCarriedSkillSources,
           carriedTrait: nextCarriedTrait,
           steps: [...state.steps, nextStep],
         };
@@ -901,6 +1024,10 @@ function findSpecialBuildPlanToTarget({
       const carrierState: BuildState = {
         currentPersona: carrierIngredient,
         carriedSkills: naturalSkills,
+        carriedSkillSources: getPersonaNaturalSelectedSkillSourceMap(
+          carrierIngredient,
+          desiredSkills
+        ),
         carriedTrait: naturalTrait,
         steps: [],
       };
@@ -959,6 +1086,7 @@ function findSpecialBuildPlanToTarget({
     const carrierState: BuildState = {
       currentPersona: carrierIngredient,
       carriedSkills: finalCarrierStep.inheritedSkills,
+      carriedSkillSources: createSkillSourceMap(finalCarrierStep.skillSources),
       carriedTrait: finalCarrierStep.inheritedTrait,
       steps: carrierPlan.steps,
     };
@@ -1004,6 +1132,10 @@ function findSpecialBuildPlanToTarget({
   const fallbackCarrierState: BuildState = {
     currentPersona: fallbackCarrier,
     carriedSkills: desiredSkills,
+    carriedSkillSources: getPersonaNaturalSelectedSkillSourceMap(
+      fallbackCarrier,
+      desiredSkills
+    ),
     carriedTrait: desiredTrait ?? null,
     steps: [],
   };
