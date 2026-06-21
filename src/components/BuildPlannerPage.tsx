@@ -351,7 +351,16 @@ function BuildPlannerPage() {
                       : "scrollable-select-item"
                   }
                 >
-                  <span>{traitName}</span>
+                  <span className="select-item-main">
+                    <img
+                      src={getIconPath("trait")}
+                      alt="Trait"
+                      title="Trait"
+                      className="skill-type-icon"
+                    />
+                    {traitName}
+                  </span>
+
                   <span className="select-item-meta">
                     {trait.description}
                   </span>

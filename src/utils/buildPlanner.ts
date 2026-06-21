@@ -1130,6 +1130,9 @@ export function findShortestBuildPlanToTarget({
     };
   }
 
+  const isSpecialFusionTarget =
+    typedSpecialFusions[targetPersonaName] !== undefined;
+
   const specialPlan = findSpecialBuildPlanToTarget({
     targetPersonaName,
     desiredSkills,
@@ -1140,6 +1143,19 @@ export function findShortestBuildPlanToTarget({
     maxMilliseconds,
     beamWidth,
   });
+
+  if (isSpecialFusionTarget) {
+    return (
+      specialPlan ?? {
+        targetPersona,
+        desiredSkills,
+        desiredTrait,
+        steps: [],
+        stoppedEarly: true,
+        failureReason: "No legal special fusion route found.",
+      }
+    );
+  }
 
   if (specialPlan) {
     return specialPlan;
