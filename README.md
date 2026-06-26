@@ -117,11 +117,11 @@ Owned Persona tracking is stored locally in the user's browser using Local Stora
 
 Live Application:
 
-https://dlmatias.github.io/persona5royal-compendiumtool/
+https://dlmatias.github.io/personaremakecompendium/
 
 Source Code:
 
-https://github.com/DLMatias/persona5royal-compendiumtool
+https://github.com/DLMatias/personaremakecompendium
 
 ## Local Development
 

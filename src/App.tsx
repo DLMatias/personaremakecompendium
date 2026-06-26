@@ -26,6 +26,50 @@ type AppTab =
   | "Reverse Fusion"
   | "Build Planner";
 
+function isObject(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function isOwnedPersonas(value: unknown): value is OwnedPersonas {
+  return (
+    isObject(value) &&
+    Object.values(value).every((owned) => typeof owned === "boolean")
+  );
+}
+
+function isOwnedPersonasByGame(value: unknown): value is OwnedPersonasByGame {
+  return (
+    isObject(value) &&
+    Object.values(value).every((ownedPersonas) => isOwnedPersonas(ownedPersonas))
+  );
+}
+
+function loadOwnedPersonasByGame() {
+  const savedData = localStorage.getItem("ownedPersonas");
+
+  if (!savedData) {
+    return {};
+  }
+
+  try {
+    const parsedData: unknown = JSON.parse(savedData);
+
+    if (isOwnedPersonasByGame(parsedData)) {
+      return parsedData;
+    }
+
+    if (isOwnedPersonas(parsedData)) {
+      return {
+        [defaultGame.id]: parsedData,
+      };
+    }
+  } catch {
+    localStorage.removeItem("ownedPersonas");
+  }
+
+  return {};
+}
+
 function App() {
   const [activeTab, setActiveTab] = useState<AppTab>("Compendium");
   const [activeGameId, setActiveGameId] = useState(defaultGame.id);
@@ -37,23 +81,7 @@ function App() {
   const [searchText, setSearchText] = useState("");
 
   const [ownedPersonasByGame, setOwnedPersonasByGame] =
-    useState<OwnedPersonasByGame>(() => {
-    const savedData = localStorage.getItem("ownedPersonas");
-
-    if (savedData) {
-      const parsedData = JSON.parse(savedData);
-
-      if (parsedData[defaultGame.id]) {
-        return parsedData;
-      }
-
-      return {
-        [defaultGame.id]: parsedData,
-      };
-    }
-
-    return {};
-  });
+    useState<OwnedPersonasByGame>(loadOwnedPersonasByGame);
 
   const availableTabs = getAvailableTabs(activeGame);
   const selectedPersona =
