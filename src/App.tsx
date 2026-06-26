@@ -97,10 +97,13 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className={`app game-theme-${activeGame.id}`}>
       <header className="app-header">
         <div className="app-title-row">
-          <h1 className="app-title">Persona Compendium Toolkit</h1>
+          <div>
+            <p className="game-kicker">{activeGame.shortName}</p>
+            <h1 className="app-title">Persona Compendium Toolkit</h1>
+          </div>
 
           <select
             className="game-select"
