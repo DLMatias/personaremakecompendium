@@ -1,15 +1,14 @@
 import { useState } from "react";
-import personas from "../data/personas.json";
-import specialFusions from "../data/specialFusions.json";
 import { PersonaNameButton } from "./PersonaPopup";
 import { getFusionResult } from "../utils/fusionLogic";
-import type { Persona } from "../types";
+import type { GameData, Persona } from "../types";
 
 type OwnedPersonas = {
   [personaName: string]: boolean;
 };
 
 type ReverseFusionPageProps = {
+  gameData: GameData;
   ownedPersonas: OwnedPersonas;
   toggleOwned: (personaName: string) => void;
 };
@@ -19,17 +18,12 @@ type FusionRecipe = {
   ingredientB: Persona;
 };
 
-type SpecialFusions = {
-  [personaName: string]: string[];
-};
-
-const typedPersonas = personas as Persona[];
-const typedSpecialFusions = specialFusions as SpecialFusions;
-
 function ReverseFusionPage({
+  gameData,
   ownedPersonas,
   toggleOwned,
 }: ReverseFusionPageProps) {
+  const typedPersonas = gameData.personas;
   const [targetPersonaName, setTargetPersonaName] = useState(
     typedPersonas[0].name
   );
@@ -37,6 +31,7 @@ function ReverseFusionPage({
   const [componentSearchText, setComponentSearchText] = useState("");
   const [ownedOnly, setOwnedOnly] = useState(false);
   const [includeDlc, setIncludeDlc] = useState(true);
+  const showTreasureDemon = gameData.rareFusion.rarePersonas.length > 0;
 
   const selectableTargets = typedPersonas.filter((persona) => {
     return includeDlc || !persona.isDlc;
@@ -51,7 +46,7 @@ function ReverseFusionPage({
   );
 
   const specialFusionIngredients =
-    typedSpecialFusions[targetPersonaName] ?? null;
+    gameData.specialFusions[targetPersonaName] ?? null;
 
   function selectTargetPersona(personaName: string) {
     setTargetPersonaName(personaName);
@@ -94,7 +89,7 @@ function ReverseFusionPage({
         const personaA = availablePersonas[i];
         const personaB = availablePersonas[j];
 
-        const result = getFusionResult(personaA, personaB, { includeDlc });
+        const result = getFusionResult(personaA, personaB, { includeDlc }, gameData);
 
         if (result && result.name === targetName) {
           recipes.push({
@@ -194,6 +189,7 @@ function ReverseFusionPage({
             <PersonaNameButton
               personaName={targetPersonaName}
               persona={targetPersona}
+              gameData={gameData}
               ownedPersonas={ownedPersonas}
               toggleOwned={toggleOwned}
             />
@@ -240,6 +236,7 @@ function ReverseFusionPage({
                 <PersonaNameButton
                   personaName={targetPersona.name}
                   persona={targetPersona}
+                  gameData={gameData}
                   ownedPersonas={ownedPersonas}
                   toggleOwned={toggleOwned}
                 />
@@ -248,13 +245,15 @@ function ReverseFusionPage({
               <div className="info-grid">
                 <p>Arcana: {targetPersona.arcana}</p>
                 <p>Level: {targetPersona.level}</p>
-                <p>Trait: {targetPersona.trait}</p>
+                {targetPersona.trait && <p>Trait: {targetPersona.trait}</p>}
                 <p>DLC: {targetPersona.isDlc ? "Yes" : "No"}</p>
                 <p>
                   Special Fusion:{" "}
                   {targetPersona.specialFusion ? "Yes" : "No"}
                 </p>
-                <p>Treasure Demon: {targetPersona.rare ? "Yes" : "No"}</p>
+                {showTreasureDemon && (
+                  <p>Treasure Demon: {targetPersona.rare ? "Yes" : "No"}</p>
+                )}
               </div>
             </>
           )}
@@ -298,6 +297,7 @@ function ReverseFusionPage({
                       <p>
                         <PersonaNameButton
                           personaName={ingredientName}
+                          gameData={gameData}
                           ownedPersonas={ownedPersonas}
                           toggleOwned={toggleOwned}
                         />
@@ -352,6 +352,7 @@ function ReverseFusionPage({
                         <PersonaNameButton
                           personaName={recipe.ingredientA.name}
                           persona={recipe.ingredientA}
+                          gameData={gameData}
                           ownedPersonas={ownedPersonas}
                           toggleOwned={toggleOwned}
                         />
@@ -359,6 +360,7 @@ function ReverseFusionPage({
                         <PersonaNameButton
                           personaName={recipe.ingredientB.name}
                           persona={recipe.ingredientB}
+                          gameData={gameData}
                           ownedPersonas={ownedPersonas}
                           toggleOwned={toggleOwned}
                         />

@@ -1,91 +1,81 @@
-# Persona 5 Royal Compendium
+# Persona Compendium Toolkit
 
-This project began as a way to combine several Persona 5 Royal resources into a single application while giving me an opportunity to practice React, TypeScript, data processing, state management, and algorithm design.
+Persona Compendium Toolkit is a client-side React app for browsing Persona compendium data, skills, and fusion routes across supported Persona games.
 
-The application provides a complete Persona 5 Royal compendium, fusion calculator, reverse fusion calculator, and build planner. While there are several Persona calculators available online, I wanted to create my own implementation and gain experience working with large datasets, search and filtering systems, custom algorithms, and frontend application development.
+The project began as a Persona 5 Royal compendium and fusion calculator, then expanded to include Persona 3 Reload. It is still a personal portfolio project focused on React, TypeScript, data processing, state management, and browser-based fusion algorithms.
 
-The project is built entirely as a client side web application and is deployed through GitHub Pages. No backend services, databases, or external APIs are required.
+DISCLAIMER: None of this information is verified in game. The app uses existing public data sources and transforms them into local JSON files.
 
-DISCLAIMER: None of this information is verified in game. I am using existing data that was already available. 
+## Supported Games
+
+* Persona 5 Royal
+* Persona 3 Reload
 
 ## Features
 
+### Game Library Switcher
+
+* Switch between supported games from the app header
+* Keep owned Persona tracking separated per game
+* Show only the tools that make sense for the selected game
+
 ### Compendium
 
-* Browse all Personas in Persona 5 Royal
+* Browse Personas by game
 * Search by Persona name
-* Filter by Arcana
-* Toggle DLC Personas
-* Track owned Personas
-* View stats, affinities, traits, skills, and acquisition information
+* Filter by Arcana, DLC status, ownership, and learned skill
+* View stats, affinities, skills, acquisition notes, and inheritance type
+* Open Persona entries from linked names throughout the app
 
 ### Skills Database
 
-* Browse all Persona 5 Royal skills
-* Search and filter skills
-* View skill descriptions, costs, and acquisition information
-* View Personas that learn each skill
-* Pagination support for easier navigation
+* Browse skills for the selected game
+* Search and filter skills by type
+* View skill descriptions, costs, cards, fusion sources, and learned-by lists
+* Open linked Persona entries from skill source lists
 
 ### Traits Database
 
-* Browse all Persona traits
+* Browse Persona traits where the selected game supports traits
 * Search and filter traits
-* View trait descriptions
-* View Personas associated with each trait
-* Pagination support for easier navigation
+* View trait descriptions and associated Personas
 
 ### Fusion Calculator
 
 * Calculate fusion results between two Personas
-* DLC filtering support
-* Owned Persona filtering support
-* Displays resulting Persona information
+* Filter by DLC and owned Personas
+* View the resulting Persona entry
 
 ### Reverse Fusion Calculator
 
 * Search for a target Persona
-* View valid fusion recipes
-* Displays special fusion recipes
-* DLC filtering support
-* Owned Persona filtering support
+* View normal and special fusion recipes
+* Filter recipes by DLC, owned Personas, and component Persona name
 
 ### Build Planner
 
-* Select a target Persona
-* Select desired skills
-* Select a desired trait
-* Supports player level restrictions
-* Supports DLC filtering
-* Generates fusion paths toward a desired build
-* Validates inheritance legality during planning
+* Plan Persona 5 Royal fusion routes toward selected skills and traits
+* Supports player level restrictions and DLC filtering
+* Tracks inherited skill sources through each fusion step
+* Validates route legality during planning
 
 ## Technical Highlights
 
 ### Data Processing
 
-The project uses publicly available Persona 5 Royal data and converts it into structured JSON files that can be consumed by the React application. Custom scripts were created to download, validate, and transform the source data.
+The app converts public Persona data into structured JSON files consumed directly by the React application. Persona 5 Royal and Persona 3 Reload data live as separate game profiles so shared UI can render the right compendium, skills, fusion chart, and special recipes.
 
 ### Fusion Logic
 
-Fusion calculations are performed entirely within the browser using Persona 5 Royal fusion formulas and Arcana relationships. The application supports both standard and special fusion recipes.
+Fusion calculations run entirely in the browser. The fusion engine accepts the active game profile, so forward and reverse fusion use the selected game's Arcana chart, Persona roster, rare fusion rules, and special recipes.
 
 ### Build Planning
 
-The build planner was the most challenging component of the project. The planner searches for valid fusion paths while considering:
-
-* Desired target Persona
-* Desired inherited skills
-* Desired traits
-* Player level restrictions
-* DLC inclusion settings
-* Skill inheritance legality
-
-The planner attempts to generate practical fusion routes while avoiding impossible inheritance combinations.
+The build planner searches for valid Persona 5 Royal fusion paths while considering desired skills, requested traits, player level restrictions, DLC inclusion, and inheritance legality.
 
 ### User Interface
 
-The interface was built using React, TypeScript, and CSS. The design focuses on navigating large amounts of data through searchable lists, filters, pagination, icons, and scrollable selection panels.
+The interface uses React, TypeScript, and CSS, with searchable lists, filters, pagination, icons, scrollable panels, and reusable Persona entry popups.
 
 ## Technologies Used
 
@@ -98,25 +88,25 @@ The interface was built using React, TypeScript, and CSS. The design focuses on 
 
 ## Data Sources
 
-Persona, Arcana, fusion, inheritance, and skill data were sourced from:
+Persona 5 Royal data was sourced from:
 
 https://github.com/chinhodado/persona5_calculator
 
-Skill data was generated from:
+Persona 3 Reload data was sourced from:
 
-https://github.com/chinhodado/persona5_calculator/blob/master/data/SkillDataRoyal.js
+https://github.com/aqiu384/megaten-fusion-tool
 
 Skill and affinity icons were sourced from:
 
 https://megamitensei.fandom.com/wiki/Category:Persona_5_Icons
 
-All Persona 5 Royal intellectual property belongs to Atlus and Sega.
+All Persona intellectual property belongs to Atlus and Sega.
 
 ## Deployment
 
-This application is deployed through GitHub Pages and runs entirely in the browser. All calculations, filtering, searches, and build planning are performed client side.
+This application is deployed through GitHub Pages and runs entirely in the browser. It does not require a backend server, database, user accounts, or external APIs.
 
-The project does not require a backend server, database, user accounts, or external APIs. Owned Persona tracking is stored locally within the user's browser using Local Storage.
+Owned Persona tracking is stored locally in the user's browser using Local Storage.
 
 ## Live Demo
 
@@ -130,4 +120,4 @@ https://github.com/DLMatias/persona5royal-compendiumtool
 
 ## Disclaimer
 
-This is a personal portfolio project created to practice software development, frontend development, data processing, and algorithm design. Persona 5 Royal, Persona, Atlus, and Sega are trademarks and property of their respective owners. This project is not affiliated with or endorsed by Atlus or Sega.
+Persona Compendium Toolkit is a personal portfolio project created to practice software development, frontend development, data processing, and algorithm design. Persona, Atlus, and Sega are trademarks and property of their respective owners. This project is not affiliated with or endorsed by Atlus or Sega.

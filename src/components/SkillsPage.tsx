@@ -1,45 +1,35 @@
 import { Fragment, useMemo, useState } from "react";
-import skillsData from "../data/skills.json";
-import personasData from "../data/personas.json";
 import { PersonaNameButton } from "./PersonaPopup";
-import type { Persona } from "../types";
-
-type SkillInfo = {
-  element: string;
-  cost: string;
-  description: string;
-  uniqueTo: string | null;
-  skillCard: string | null;
-  talk: string | null;
-  fuseFrom: string[];
-  learnedBy: {
-    [personaName: string]: number;
-  };
-};
-
-type SkillsData = {
-  [skillName: string]: SkillInfo;
-};
+import { getIconPath } from "../utils/icons";
+import type { GameData, SkillInfo } from "../types";
 
 type OwnedPersonas = {
   [personaName: string]: boolean;
 };
 
 type SkillsPageProps = {
+  gameData: GameData;
   ownedPersonas: OwnedPersonas;
   toggleOwned: (personaName: string) => void;
 };
 
-const skills = skillsData as SkillsData;
-const personas = personasData as Persona[];
-
 const itemsPerPage = 20;
 
-function getIconPath(element: string) {
-  return `${import.meta.env.BASE_URL}icons/${element.toLowerCase()}.png`;
+function formatNonNaturalSkillSource(skill: SkillInfo) {
+  if (skill.skillCard) {
+    return `Available through ${skill.skillCard}; no Persona learns it naturally.`;
+  }
+
+  if (skill.fuseFrom.length > 0) {
+    return "Available through skill card fusion; no Persona learns it naturally.";
+  }
+
+  return "No Personas in the current data learn this skill naturally.";
 }
 
-function SkillsPage({ ownedPersonas, toggleOwned }: SkillsPageProps) {
+function SkillsPage({ gameData, ownedPersonas, toggleOwned }: SkillsPageProps) {
+  const skills = gameData.skills;
+  const personas = gameData.personas;
   const [searchText, setSearchText] = useState("");
   const [selectedElement, setSelectedElement] = useState("All");
   const [sortOption, setSortOption] = useState("Name A-Z");
@@ -51,7 +41,7 @@ function SkillsPage({ ownedPersonas, toggleOwned }: SkillsPageProps) {
       .filter((element) => element !== "Trait");
 
     return ["All", ...Array.from(new Set(elements)).sort()];
-  }, []);
+  }, [skills]);
 
   const filteredSkills = useMemo(() => {
     const results = Object.entries(skills)
@@ -82,7 +72,7 @@ function SkillsPage({ ownedPersonas, toggleOwned }: SkillsPageProps) {
       });
 
     return results;
-  }, [searchText, selectedElement, sortOption]);
+  }, [searchText, selectedElement, sortOption, skills]);
 
   const totalPages = Math.max(1, Math.ceil(filteredSkills.length / itemsPerPage));
   const pageStart = (currentPage - 1) * itemsPerPage;
@@ -221,6 +211,7 @@ function SkillsPage({ ownedPersonas, toggleOwned }: SkillsPageProps) {
                   Unique To:{" "}
                   <PersonaNameButton
                     personaName={skill.uniqueTo}
+                    gameData={gameData}
                     ownedPersonas={ownedPersonas}
                     toggleOwned={toggleOwned}
                   />
@@ -237,6 +228,7 @@ function SkillsPage({ ownedPersonas, toggleOwned }: SkillsPageProps) {
                       {index > 0 && ", "}
                       <PersonaNameButton
                         personaName={personaName}
+                        gameData={gameData}
                         ownedPersonas={ownedPersonas}
                         toggleOwned={toggleOwned}
                       />
@@ -253,6 +245,7 @@ function SkillsPage({ ownedPersonas, toggleOwned }: SkillsPageProps) {
                     <p key={`${skillName}-${result.personaName}`}>
                       <PersonaNameButton
                         personaName={result.personaName}
+                        gameData={gameData}
                         ownedPersonas={ownedPersonas}
                         toggleOwned={toggleOwned}
                       />{" "}
@@ -260,7 +253,7 @@ function SkillsPage({ ownedPersonas, toggleOwned }: SkillsPageProps) {
                     </p>
                   ))
                 ) : (
-                  <p>No Personas in the current data learn this skill.</p>
+                  <p>{formatNonNaturalSkillSource(skill)}</p>
                 )}
 
                 {learnedBy.length > 12 && (

@@ -1,33 +1,25 @@
 import { useMemo, useState } from "react";
-import traits from "../data/traits.json";
-import personas from "../data/personas.json";
 import { PersonaNameButton } from "./PersonaPopup";
-import type { Persona } from "../types";
-
-const typedPersonas = personas as Persona[];
-
-type TraitData = {
-  [traitName: string]: {
-    description: string;
-  };
-};
+import type { GameData } from "../types";
 
 type OwnedPersonas = {
   [personaName: string]: boolean;
 };
 
 type TraitsPageProps = {
+  gameData: GameData;
   ownedPersonas: OwnedPersonas;
   toggleOwned: (personaName: string) => void;
 };
 
-const typedTraits = traits as TraitData;
 const itemsPerPage = 20;
 
-function TraitsPage({ ownedPersonas, toggleOwned }: TraitsPageProps) {
+function TraitsPage({ gameData, ownedPersonas, toggleOwned }: TraitsPageProps) {
   const [searchText, setSearchText] = useState("");
   const [sortOption, setSortOption] = useState("Name A-Z");
   const [currentPage, setCurrentPage] = useState(1);
+  const typedTraits = gameData.traits;
+  const typedPersonas = gameData.personas;
 
   const filteredTraits = useMemo(() => {
     return Object.entries(typedTraits)
@@ -41,7 +33,7 @@ function TraitsPage({ ownedPersonas, toggleOwned }: TraitsPageProps) {
 
         return traitNameA.localeCompare(traitNameB);
       });
-  }, [searchText, sortOption]);
+  }, [searchText, sortOption, typedTraits]);
 
   const totalPages = Math.max(1, Math.ceil(filteredTraits.length / itemsPerPage));
   const pageStart = (currentPage - 1) * itemsPerPage;
@@ -144,6 +136,7 @@ function TraitsPage({ ownedPersonas, toggleOwned }: TraitsPageProps) {
                       <PersonaNameButton
                         personaName={persona.name}
                         persona={persona}
+                        gameData={gameData}
                         ownedPersonas={ownedPersonas}
                         toggleOwned={toggleOwned}
                       />{" "}

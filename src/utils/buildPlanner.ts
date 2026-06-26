@@ -1,35 +1,13 @@
-import personas from "../data/personas.json";
-import skillsData from "../data/skills.json";
-import specialFusions from "../data/specialFusions.json";
+import { defaultGame } from "../data/games";
 import { getFusionResult } from "./fusionLogic";
-import type { Persona } from "../types";
-
-const typedPersonas = personas as Persona[];
-
-type SkillInfo = {
-  element?: string;
-  type?: string;
-  uniqueTo?: string | null;
-};
-
-type SkillsObjectData = {
-  [skillName: string]: SkillInfo;
-};
-
-type SkillArrayData = {
-  name: string;
-  element?: string;
-  type?: string;
-  uniqueTo?: string | null;
-}[];
-
-type SpecialFusionsData = {
-  [personaName: string]: string[];
-};
+import type { GameData, Persona } from "../types";
 
 type SkillInheritanceCategory =
   | "Physical"
   | "Gun"
+  | "Slash"
+  | "Strike"
+  | "Pierce"
   | "Fire"
   | "Ice"
   | "Electric"
@@ -38,6 +16,8 @@ type SkillInheritanceCategory =
   | "Nuclear"
   | "Bless"
   | "Curse"
+  | "Light"
+  | "Dark"
   | "Healing"
   | "Ailment"
   | "Almighty"
@@ -47,6 +27,9 @@ type SkillInheritanceCategory =
 
 type PersonaInheritanceType =
   | "Physical"
+  | "Slash"
+  | "Strike"
+  | "Pierce"
   | "Fire"
   | "Ice"
   | "Electric"
@@ -55,12 +38,12 @@ type PersonaInheritanceType =
   | "Nuclear"
   | "Bless"
   | "Curse"
+  | "Light"
+  | "Dark"
+  | "LightDark"
   | "Healing"
   | "Ailment"
   | "Almighty";
-
-const typedSkillsData = skillsData as SkillsObjectData | SkillArrayData;
-const typedSpecialFusions = specialFusions as SpecialFusionsData;
 
 const inheritanceChart: Record<
   PersonaInheritanceType,
@@ -69,6 +52,9 @@ const inheritanceChart: Record<
   Physical: {
     Physical: true,
     Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
     Fire: false,
     Ice: false,
     Electric: false,
@@ -77,6 +63,68 @@ const inheritanceChart: Record<
     Nuclear: false,
     Bless: false,
     Curse: false,
+    Light: false,
+    Dark: false,
+    Healing: true,
+    Ailment: true,
+    Almighty: false,
+  },
+  Slash: {
+    Physical: true,
+    Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
+    Fire: false,
+    Ice: false,
+    Electric: false,
+    Wind: false,
+    Psy: false,
+    Nuclear: false,
+    Bless: false,
+    Curse: false,
+    Light: false,
+    Dark: false,
+    Healing: true,
+    Ailment: true,
+    Almighty: false,
+  },
+  Strike: {
+    Physical: true,
+    Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
+    Fire: false,
+    Ice: false,
+    Electric: false,
+    Wind: false,
+    Psy: false,
+    Nuclear: false,
+    Bless: false,
+    Curse: false,
+    Light: false,
+    Dark: false,
+    Healing: true,
+    Ailment: true,
+    Almighty: false,
+  },
+  Pierce: {
+    Physical: true,
+    Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
+    Fire: false,
+    Ice: false,
+    Electric: false,
+    Wind: false,
+    Psy: false,
+    Nuclear: false,
+    Bless: false,
+    Curse: false,
+    Light: false,
+    Dark: false,
     Healing: true,
     Ailment: true,
     Almighty: false,
@@ -84,6 +132,9 @@ const inheritanceChart: Record<
   Fire: {
     Physical: true,
     Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
     Fire: true,
     Ice: false,
     Electric: true,
@@ -92,6 +143,8 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: true,
+    Light: true,
+    Dark: true,
     Healing: true,
     Ailment: true,
     Almighty: false,
@@ -99,6 +152,9 @@ const inheritanceChart: Record<
   Ice: {
     Physical: true,
     Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
     Fire: false,
     Ice: true,
     Electric: true,
@@ -107,6 +163,8 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: true,
+    Light: true,
+    Dark: true,
     Healing: true,
     Ailment: true,
     Almighty: false,
@@ -114,6 +172,9 @@ const inheritanceChart: Record<
   Electric: {
     Physical: true,
     Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -122,6 +183,8 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: true,
+    Light: true,
+    Dark: true,
     Healing: true,
     Ailment: true,
     Almighty: false,
@@ -129,6 +192,9 @@ const inheritanceChart: Record<
   Wind: {
     Physical: true,
     Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
     Fire: true,
     Ice: true,
     Electric: false,
@@ -137,6 +203,8 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: true,
+    Light: true,
+    Dark: true,
     Healing: true,
     Ailment: true,
     Almighty: false,
@@ -144,6 +212,9 @@ const inheritanceChart: Record<
   Psy: {
     Physical: true,
     Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -152,6 +223,8 @@ const inheritanceChart: Record<
     Nuclear: false,
     Bless: true,
     Curse: true,
+    Light: true,
+    Dark: true,
     Healing: true,
     Ailment: true,
     Almighty: false,
@@ -159,6 +232,9 @@ const inheritanceChart: Record<
   Nuclear: {
     Physical: true,
     Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -167,6 +243,8 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: true,
+    Light: true,
+    Dark: true,
     Healing: true,
     Ailment: true,
     Almighty: false,
@@ -174,6 +252,9 @@ const inheritanceChart: Record<
   Bless: {
     Physical: false,
     Gun: false,
+    Slash: false,
+    Strike: false,
+    Pierce: false,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -182,6 +263,8 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: false,
+    Light: true,
+    Dark: false,
     Healing: true,
     Ailment: false,
     Almighty: false,
@@ -189,6 +272,9 @@ const inheritanceChart: Record<
   Curse: {
     Physical: false,
     Gun: false,
+    Slash: false,
+    Strike: false,
+    Pierce: false,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -197,13 +283,18 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: false,
     Curse: true,
+    Light: false,
+    Dark: true,
     Healing: false,
     Ailment: true,
     Almighty: false,
   },
-  Healing: {
+  Light: {
     Physical: false,
     Gun: false,
+    Slash: false,
+    Strike: false,
+    Pierce: false,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -212,13 +303,18 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: false,
+    Light: true,
+    Dark: false,
     Healing: true,
-    Ailment: true,
+    Ailment: false,
     Almighty: false,
   },
-  Ailment: {
-    Physical: true,
-    Gun: true,
+  Dark: {
+    Physical: false,
+    Gun: false,
+    Slash: false,
+    Strike: false,
+    Pierce: false,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -227,13 +323,18 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: false,
     Curse: true,
+    Light: false,
+    Dark: true,
     Healing: false,
     Ailment: true,
     Almighty: false,
   },
-  Almighty: {
-    Physical: true,
-    Gun: true,
+  LightDark: {
+    Physical: false,
+    Gun: false,
+    Slash: false,
+    Strike: false,
+    Pierce: false,
     Fire: true,
     Ice: true,
     Electric: true,
@@ -242,10 +343,122 @@ const inheritanceChart: Record<
     Nuclear: true,
     Bless: true,
     Curse: true,
+    Light: true,
+    Dark: true,
+    Healing: true,
+    Ailment: true,
+    Almighty: false,
+  },
+  Healing: {
+    Physical: false,
+    Gun: false,
+    Slash: false,
+    Strike: false,
+    Pierce: false,
+    Fire: true,
+    Ice: true,
+    Electric: true,
+    Wind: true,
+    Psy: true,
+    Nuclear: true,
+    Bless: true,
+    Curse: false,
+    Light: true,
+    Dark: false,
+    Healing: true,
+    Ailment: true,
+    Almighty: false,
+  },
+  Ailment: {
+    Physical: true,
+    Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
+    Fire: true,
+    Ice: true,
+    Electric: true,
+    Wind: true,
+    Psy: true,
+    Nuclear: true,
+    Bless: false,
+    Curse: true,
+    Light: false,
+    Dark: true,
+    Healing: false,
+    Ailment: true,
+    Almighty: false,
+  },
+  Almighty: {
+    Physical: true,
+    Gun: true,
+    Slash: true,
+    Strike: true,
+    Pierce: true,
+    Fire: true,
+    Ice: true,
+    Electric: true,
+    Wind: true,
+    Psy: true,
+    Nuclear: true,
+    Bless: true,
+    Curse: true,
+    Light: true,
+    Dark: true,
     Healing: true,
     Ailment: true,
     Almighty: true,
   },
+};
+
+const p3rInheritanceCategoryOrder: SkillInheritanceCategory[] = [
+  "Slash",
+  "Strike",
+  "Pierce",
+  "Fire",
+  "Ice",
+  "Electric",
+  "Wind",
+  "Light",
+  "Dark",
+  "Ailment",
+  "Healing",
+  "Support",
+];
+
+const p3rInheritanceTypeBits: Record<string, string> = {
+  none: "000000000000",
+  strikeA: "011111111111",
+  pierceA: "101111111111",
+  slashA: "110111111111",
+  iceA: "111011111111",
+  fireA: "111101111111",
+  windA: "111110111111",
+  elecA: "111111011111",
+  darkA: "111111101101",
+  lightA: "111111110011",
+  iceD: "111011101101",
+  fireD: "111101101101",
+  windD: "111110101101",
+  elecD: "111111001101",
+  iceL: "111011110011",
+  fireL: "111101110011",
+  windL: "111110110011",
+  elecL: "111111010011",
+  strikeB: "111000011111",
+  pierceB: "111111100001",
+  fireB: "111100000011",
+  iceB: "111010000011",
+  elecB: "111001000011",
+  windB: "111000100011",
+  lightB: "111000010011",
+  darkB: "111000001101",
+  slashB: "111000000001",
+  lidarkA: "000111111111",
+  lidarkB: "111111111000",
+  ailment: "000111101101",
+  recovery: "000111110011",
+  almighty: "111111111111",
 };
 
 export type BuildStep = {
@@ -296,6 +509,7 @@ type BuildState = {
 type SkillSourceMap = Record<string, SkillLearningSource>;
 
 type FindBuildPlanOptions = {
+  gameData: GameData;
   targetPersonaName: string;
   desiredSkills: string[];
   desiredTrait?: string;
@@ -306,12 +520,8 @@ type FindBuildPlanOptions = {
   beamWidth?: number;
 };
 
-function getSkillInfo(skillName: string) {
-  if (Array.isArray(typedSkillsData)) {
-    return typedSkillsData.find((skill) => skill.name === skillName) ?? null;
-  }
-
-  return typedSkillsData[skillName] ?? null;
+function getSkillInfo(skillName: string, gameData: GameData = defaultGame) {
+  return gameData.skills[skillName] ?? null;
 }
 
 function normalizeText(value: string) {
@@ -324,6 +534,9 @@ function getPersonaInheritanceType(
   const normalizedInheritance = normalizeText(persona.inherits);
 
   if (normalizedInheritance === "physical") return "Physical";
+  if (normalizedInheritance === "slash") return "Slash";
+  if (normalizedInheritance === "strike") return "Strike";
+  if (normalizedInheritance === "pierce") return "Pierce";
   if (normalizedInheritance === "fire") return "Fire";
   if (normalizedInheritance === "ice") return "Ice";
   if (normalizedInheritance === "electric") return "Electric";
@@ -332,6 +545,11 @@ function getPersonaInheritanceType(
   if (normalizedInheritance === "nuclear") return "Nuclear";
   if (normalizedInheritance === "bless") return "Bless";
   if (normalizedInheritance === "curse") return "Curse";
+  if (normalizedInheritance === "light") return "Light";
+  if (normalizedInheritance === "dark") return "Dark";
+  if (normalizedInheritance === "light/dark" || normalizedInheritance === "lightdark") {
+    return "LightDark";
+  }
   if (normalizedInheritance === "healing") return "Healing";
   if (normalizedInheritance === "ailment") return "Ailment";
   if (normalizedInheritance === "almighty") return "Almighty";
@@ -340,10 +558,11 @@ function getPersonaInheritanceType(
 }
 
 function getSkillInheritanceCategory(
-  skillName: string
+  skillName: string,
+  gameData: GameData = defaultGame
 ): SkillInheritanceCategory {
-  const skillInfo = getSkillInfo(skillName);
-  const rawCategory = skillInfo?.element ?? skillInfo?.type ?? "";
+  const skillInfo = getSkillInfo(skillName, gameData);
+  const rawCategory = skillInfo?.element ?? "";
   const normalizedCategory = normalizeText(rawCategory);
 
   if (normalizedCategory === "passive") return "Passive";
@@ -351,6 +570,9 @@ function getSkillInheritanceCategory(
     return "Physical";
   }
   if (normalizedCategory === "gun") return "Gun";
+  if (normalizedCategory === "slash") return "Slash";
+  if (normalizedCategory === "strike") return "Strike";
+  if (normalizedCategory === "pierce") return "Pierce";
   if (normalizedCategory === "fire") return "Fire";
   if (normalizedCategory === "ice") return "Ice";
   if (normalizedCategory === "elec" || normalizedCategory === "electric") {
@@ -365,6 +587,8 @@ function getSkillInheritanceCategory(
   }
   if (normalizedCategory === "bless") return "Bless";
   if (normalizedCategory === "curse") return "Curse";
+  if (normalizedCategory === "light") return "Light";
+  if (normalizedCategory === "dark") return "Dark";
   if (normalizedCategory === "healing" || normalizedCategory === "recovery") {
     return "Healing";
   }
@@ -375,29 +599,73 @@ function getSkillInheritanceCategory(
   return "Unknown";
 }
 
+function getP3rInheritanceResult(
+  persona: Persona,
+  skillCategory: SkillInheritanceCategory
+) {
+  const inheritanceCode = persona.inheritCode;
+
+  if (!inheritanceCode) {
+    return null;
+  }
+
+  const inheritanceBits = p3rInheritanceTypeBits[inheritanceCode];
+
+  if (!inheritanceBits) {
+    return null;
+  }
+
+  const categoryIndex = p3rInheritanceCategoryOrder.indexOf(skillCategory);
+
+  if (categoryIndex === -1) {
+    return false;
+  }
+
+  return inheritanceBits[categoryIndex] === "1";
+}
+
 function personaNaturallyHasSkill(persona: Persona, skillName: string) {
   return persona.skills.some((skill) => skill.name === skillName);
 }
 
-export function canPersonaInheritSkill(persona: Persona, skillName: string) {
+export function canPersonaInheritSkill(
+  persona: Persona,
+  skillName: string,
+  gameData: GameData = defaultGame
+) {
   if (personaNaturallyHasSkill(persona, skillName)) {
     return true;
   }
 
-  const skillInfo = getSkillInfo(skillName);
+  const skillInfo = getSkillInfo(skillName, gameData);
 
   if (skillInfo?.uniqueTo && skillInfo.uniqueTo !== persona.name) {
     return false;
   }
 
-  const skillCategory = getSkillInheritanceCategory(skillName);
+  const skillCategory = getSkillInheritanceCategory(skillName, gameData);
 
-  if (skillCategory === "Passive" || skillCategory === "Support") {
+  if (skillCategory === "Passive") {
     return true;
   }
 
   if (skillCategory === "Unknown") {
     return false;
+  }
+
+  if (gameData.id === "p3r") {
+    const p3rInheritanceResult = getP3rInheritanceResult(
+      persona,
+      skillCategory
+    );
+
+    if (p3rInheritanceResult !== null) {
+      return p3rInheritanceResult;
+    }
+  }
+
+  if (skillCategory === "Support") {
+    return true;
   }
 
   const personaInheritanceType = getPersonaInheritanceType(persona);
@@ -411,10 +679,11 @@ export function canPersonaInheritSkill(persona: Persona, skillName: string) {
 
 function getLegalCarriedSkillsForResult(
   resultPersona: Persona,
-  possibleSkills: string[]
+  possibleSkills: string[],
+  gameData: GameData
 ) {
   return possibleSkills.filter((skillName) =>
-    canPersonaInheritSkill(resultPersona, skillName)
+    canPersonaInheritSkill(resultPersona, skillName, gameData)
   );
 }
 
@@ -570,19 +839,24 @@ function isCompleteBuild(
   );
 }
 
-function getIllegalSkillsForPersona(persona: Persona, skillNames: string[]) {
+function getIllegalSkillsForPersona(
+  persona: Persona,
+  skillNames: string[],
+  gameData: GameData
+) {
   return skillNames.filter(
-    (skillName) => !canPersonaInheritSkill(persona, skillName)
+    (skillName) => !canPersonaInheritSkill(persona, skillName, gameData)
   );
 }
 
-function validateEveryStepInheritance(buildPlan: BuildPlan) {
+function validateEveryStepInheritance(buildPlan: BuildPlan, gameData: GameData) {
   const illegalStepMessages: string[] = [];
 
   buildPlan.steps.forEach((step, index) => {
     const illegalSkills = getIllegalSkillsForPersona(
       step.result,
-      step.inheritedSkills
+      step.inheritedSkills,
+      gameData
     );
 
     if (illegalSkills.length > 0) {
@@ -624,8 +898,12 @@ function validateEveryStepLevel(buildPlan: BuildPlan, playerLevel: number) {
   return overLevelMessages;
 }
 
-function getAvailablePersonas(includeDlc: boolean, playerLevel: number) {
-  return typedPersonas.filter((persona) => {
+function getAvailablePersonas(
+  gameData: GameData,
+  includeDlc: boolean,
+  playerLevel: number
+) {
+  return gameData.personas.filter((persona) => {
     const matchesDlc = includeDlc || !persona.isDlc;
     const matchesLevel = persona.level <= playerLevel;
 
@@ -634,11 +912,12 @@ function getAvailablePersonas(includeDlc: boolean, playerLevel: number) {
 }
 
 function getSpecialFusionIngredients(
+  gameData: GameData,
   targetPersonaName: string,
   includeDlc: boolean,
   playerLevel: number
 ) {
-  const ingredientNames = typedSpecialFusions[targetPersonaName];
+  const ingredientNames = gameData.specialFusions[targetPersonaName];
 
   if (!ingredientNames) {
     return null;
@@ -646,7 +925,7 @@ function getSpecialFusionIngredients(
 
   const ingredients = ingredientNames
     .map((ingredientName) =>
-      typedPersonas.find((persona) => persona.name === ingredientName)
+      gameData.personas.find((persona) => persona.name === ingredientName)
     )
     .filter((persona): persona is Persona => persona !== undefined)
     .filter((persona) => includeDlc || !persona.isDlc)
@@ -692,6 +971,7 @@ function createSpecialFusionStep(
 }
 
 function findNormalBuildPlanToTarget({
+  gameData,
   targetPersonaName,
   desiredSkills,
   desiredTrait,
@@ -701,7 +981,7 @@ function findNormalBuildPlanToTarget({
   maxMilliseconds = 10000,
   beamWidth = 5000,
 }: FindBuildPlanOptions): BuildPlan | null {
-  const targetPersona = typedPersonas.find(
+  const targetPersona = gameData.personas.find(
     (persona) => persona.name === targetPersonaName
   );
 
@@ -737,7 +1017,8 @@ function findNormalBuildPlanToTarget({
 
   const illegalTargetSkills = getIllegalSkillsForPersona(
     targetPersona,
-    desiredSkills
+    desiredSkills,
+    gameData
   );
 
   if (illegalTargetSkills.length > 0) {
@@ -753,7 +1034,11 @@ function findNormalBuildPlanToTarget({
     };
   }
 
-  const availablePersonas = getAvailablePersonas(includeDlc, playerLevel);
+  const availablePersonas = getAvailablePersonas(
+    gameData,
+    includeDlc,
+    playerLevel
+  );
 
   let frontier: BuildState[] = [];
 
@@ -840,7 +1125,7 @@ function findNormalBuildPlanToTarget({
 
         const result = getFusionResult(state.currentPersona, fusionPartner, {
           includeDlc,
-        });
+        }, gameData);
 
         if (!result || result.level > playerLevel) {
           continue;
@@ -868,7 +1153,8 @@ function findNormalBuildPlanToTarget({
 
         const nextCarriedSkills = getLegalCarriedSkillsForResult(
           result,
-          possibleNextSkills
+          possibleNextSkills,
+          gameData
         );
         const nextCarriedSkillSources = pickSkillSources(
           possibleNextSkillSources,
@@ -946,6 +1232,7 @@ function findNormalBuildPlanToTarget({
 }
 
 function findSpecialBuildPlanToTarget({
+  gameData,
   targetPersonaName,
   desiredSkills,
   desiredTrait,
@@ -955,7 +1242,7 @@ function findSpecialBuildPlanToTarget({
   maxMilliseconds = 10000,
   beamWidth = 5000,
 }: FindBuildPlanOptions): BuildPlan | null {
-  const targetPersona = typedPersonas.find(
+  const targetPersona = gameData.personas.find(
     (persona) => persona.name === targetPersonaName
   );
 
@@ -964,6 +1251,7 @@ function findSpecialBuildPlanToTarget({
   }
 
   const ingredients = getSpecialFusionIngredients(
+    gameData,
     targetPersonaName,
     includeDlc,
     playerLevel
@@ -987,7 +1275,8 @@ function findSpecialBuildPlanToTarget({
 
   const illegalTargetSkills = getIllegalSkillsForPersona(
     targetPersona,
-    desiredSkills
+    desiredSkills,
+    gameData
   );
 
   if (illegalTargetSkills.length > 0) {
@@ -1055,7 +1344,7 @@ function findSpecialBuildPlanToTarget({
     }
 
     const carrierCanInheritDesiredSkills = desiredSkills.every((skillName) =>
-      canPersonaInheritSkill(carrierIngredient, skillName)
+      canPersonaInheritSkill(carrierIngredient, skillName, gameData)
     );
 
     if (!carrierCanInheritDesiredSkills) {
@@ -1063,6 +1352,7 @@ function findSpecialBuildPlanToTarget({
     }
 
     const carrierPlan = findNormalBuildPlanToTarget({
+      gameData,
       targetPersonaName: carrierIngredient.name,
       desiredSkills,
       desiredTrait,
@@ -1125,7 +1415,7 @@ function findSpecialBuildPlanToTarget({
   const fallbackCarrier =
     ingredients.find((ingredient) =>
       desiredSkills.every((skillName) =>
-        canPersonaInheritSkill(ingredient, skillName)
+        canPersonaInheritSkill(ingredient, skillName, gameData)
       )
     ) ?? ingredients[0];
 
@@ -1156,8 +1446,11 @@ function findSpecialBuildPlanToTarget({
   };
 }
 
-export function getPersonasThatLearnSkill(skillName: string) {
-  return typedPersonas
+export function getPersonasThatLearnSkill(
+  skillName: string,
+  gameData: GameData = defaultGame
+) {
+  return gameData.personas
     .map((persona) => {
       const learnedSkill = persona.skills.find(
         (skill) => skill.name === skillName
@@ -1188,7 +1481,8 @@ export function validateBuildPlan(
   targetPersonaName: string,
   desiredSkills: string[],
   desiredTrait: string | undefined,
-  playerLevel: number
+  playerLevel: number,
+  gameData: GameData = defaultGame
 ): BuildValidation {
   if (!buildPlan || buildPlan.steps.length === 0) {
     return {
@@ -1210,10 +1504,11 @@ export function validateBuildPlan(
 
   const finalIllegalSkills = getIllegalSkillsForPersona(
     finalPersona,
-    desiredSkills
+    desiredSkills,
+    gameData
   );
 
-  const stepIllegalMessages = validateEveryStepInheritance(buildPlan);
+  const stepIllegalMessages = validateEveryStepInheritance(buildPlan, gameData);
   const overLevelMessages = validateEveryStepLevel(buildPlan, playerLevel);
 
   return {
@@ -1230,6 +1525,7 @@ export function validateBuildPlan(
 }
 
 export function findShortestBuildPlanToTarget({
+  gameData,
   targetPersonaName,
   desiredSkills,
   desiredTrait,
@@ -1239,7 +1535,7 @@ export function findShortestBuildPlanToTarget({
   maxMilliseconds = 10000,
   beamWidth = 5000,
 }: FindBuildPlanOptions): BuildPlan | null {
-  const targetPersona = typedPersonas.find(
+  const targetPersona = gameData.personas.find(
     (persona) => persona.name === targetPersonaName
   );
 
@@ -1263,9 +1559,10 @@ export function findShortestBuildPlanToTarget({
   }
 
   const isSpecialFusionTarget =
-    typedSpecialFusions[targetPersonaName] !== undefined;
+    gameData.specialFusions[targetPersonaName] !== undefined;
 
   const specialPlan = findSpecialBuildPlanToTarget({
+    gameData,
     targetPersonaName,
     desiredSkills,
     desiredTrait,
@@ -1294,6 +1591,7 @@ export function findShortestBuildPlanToTarget({
   }
 
   return findNormalBuildPlanToTarget({
+    gameData,
     targetPersonaName,
     desiredSkills,
     desiredTrait,

@@ -32,7 +32,7 @@ async function getImageUrl(wikiTitle) {
 
   const response = await fetch(apiUrl, {
     headers: {
-      "User-Agent": "Persona5RoyalCompendiumProject/1.0",
+      "User-Agent": "PersonaCompendiumToolkit/1.0",
     },
   });
 
@@ -50,7 +50,7 @@ async function getImageUrl(wikiTitle) {
 async function downloadFile(url, outputPath) {
   const response = await fetch(url, {
     headers: {
-      "User-Agent": "Persona5RoyalCompendiumProject/1.0",
+      "User-Agent": "PersonaCompendiumToolkit/1.0",
     },
   });
 

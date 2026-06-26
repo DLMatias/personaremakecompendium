@@ -1,55 +1,23 @@
 import { Fragment, useState } from "react";
-import personasData from "../data/personas.json";
-import skillsData from "../data/skills.json";
-import traitsData from "../data/traits.json";
 import { PersonaNameButton } from "./PersonaPopup";
+import { getIconPath } from "../utils/icons";
 import {
   canPersonaInheritSkill,
   findShortestBuildPlanToTarget,
   validateBuildPlan,
 } from "../utils/buildPlanner";
-import type { Persona } from "../types";
+import type { GameData } from "../types";
 import type { SkillLearningSource } from "../utils/buildPlanner";
-
-type SkillInfo = {
-  element: string;
-  cost: string;
-  description: string;
-  uniqueTo: string | null;
-  skillCard: string | null;
-  talk: string | null;
-  fuseFrom: string[];
-  learnedBy: {
-    [personaName: string]: number;
-  };
-};
-
-type SkillsData = {
-  [skillName: string]: SkillInfo;
-};
-
-type TraitsData = {
-  [traitName: string]: {
-    description: string;
-  };
-};
 
 type OwnedPersonas = {
   [personaName: string]: boolean;
 };
 
 type BuildPlannerPageProps = {
+  gameData: GameData;
   ownedPersonas: OwnedPersonas;
   toggleOwned: (personaName: string) => void;
 };
-
-const personas = personasData as Persona[];
-const skills = skillsData as SkillsData;
-const traits = traitsData as TraitsData;
-
-function getIconPath(element: string) {
-  return `${import.meta.env.BASE_URL}icons/${element.toLowerCase()}.png`;
-}
 
 function getCarriedSkillSource(
   skillName: string,
@@ -59,9 +27,13 @@ function getCarriedSkillSource(
 }
 
 function BuildPlannerPage({
+  gameData,
   ownedPersonas,
   toggleOwned,
 }: BuildPlannerPageProps) {
+  const personas = gameData.personas;
+  const skills = gameData.skills;
+  const traits = gameData.traits;
   const [targetPersonaName, setTargetPersonaName] = useState("");
   const [targetSearchText, setTargetSearchText] = useState("");
   const [skillSearchText, setSkillSearchText] = useState("");
@@ -95,14 +67,15 @@ function BuildPlannerPage({
         const isNotTrait = skill.element !== "Trait";
         const targetCanInherit = canPersonaInheritSkill(
           targetPersona,
-          skillName
+          skillName,
+          gameData
         );
 
         return isNotTrait && matchesSearch && targetCanInherit;
       })
     : [];
 
-  const traitSearchResults = targetPersona
+  const traitSearchResults = targetPersona && gameData.hasTraits
     ? Object.entries(traits).filter(([traitName]) => {
         const matchesSearch = traitName
           .toLowerCase()
@@ -117,17 +90,23 @@ function BuildPlannerPage({
     : [];
 
   const selectedWantedTrait =
+    gameData.hasTraits &&
     wantedTrait &&
     availablePersonas.some((persona) => persona.trait === wantedTrait)
       ? wantedTrait
       : "";
 
+  const activeWantedTrait = gameData.hasTraits
+    ? selectedWantedTrait || undefined
+    : undefined;
+
   const shortestBuildPlan =
-    targetPersona && (wantedSkills.length > 0 || selectedWantedTrait)
+    targetPersona && (wantedSkills.length > 0 || activeWantedTrait)
       ? findShortestBuildPlanToTarget({
+          gameData,
           targetPersonaName,
           desiredSkills: wantedSkills,
-          desiredTrait: selectedWantedTrait || undefined,
+          desiredTrait: activeWantedTrait,
           includeDlc,
           playerLevel,
           maxStates: 300000,
@@ -140,8 +119,9 @@ function BuildPlannerPage({
     shortestBuildPlan,
     targetPersonaName,
     wantedSkills,
-    selectedWantedTrait || undefined,
-    playerLevel
+    activeWantedTrait,
+    playerLevel,
+    gameData
   );
 
   const hasBuildProblem =
@@ -163,7 +143,10 @@ function BuildPlannerPage({
   }
 
   function addWantedSkill(skillName: string) {
-    if (!targetPersona || !canPersonaInheritSkill(targetPersona, skillName)) {
+    if (
+      !targetPersona ||
+      !canPersonaInheritSkill(targetPersona, skillName, gameData)
+    ) {
       return;
     }
 
@@ -196,8 +179,8 @@ function BuildPlannerPage({
         <div>
           <h2>Build Planner</h2>
           <p>
-            Select a target Persona first. The skill and trait lists will update
-            to show valid options for that Persona.
+            Select a target Persona first. The skill list will update to show
+            valid options for that Persona.
           </p>
         </div>
       </div>
@@ -234,6 +217,7 @@ function BuildPlannerPage({
               <PersonaNameButton
                 personaName={targetPersona.name}
                 persona={targetPersona}
+                gameData={gameData}
                 ownedPersonas={ownedPersonas}
                 toggleOwned={toggleOwned}
               />
@@ -343,66 +327,68 @@ function BuildPlannerPage({
           )}
         </div>
 
-        <div className="selector-panel">
-          <h3>Wanted Trait</h3>
-          <p>Selected Trait: {selectedWantedTrait || "None"}</p>
+        {gameData.hasTraits && (
+          <div className="selector-panel">
+            <h3>Wanted Trait</h3>
+            <p>Selected Trait: {selectedWantedTrait || "None"}</p>
 
-          <input
-            className="form-control"
-            type="text"
-            placeholder={
-              targetPersona
-                ? "Search Available Trait..."
-                : "Select a target Persona first"
-            }
-            value={traitSearchText}
-            onChange={(event) => setTraitSearchText(event.target.value)}
-            disabled={!targetPersona}
-          />
+            <input
+              className="form-control"
+              type="text"
+              placeholder={
+                targetPersona
+                  ? "Search Available Trait..."
+                  : "Select a target Persona first"
+              }
+              value={traitSearchText}
+              onChange={(event) => setTraitSearchText(event.target.value)}
+              disabled={!targetPersona}
+            />
 
-          <div className="scrollable-select-list">
-            {targetPersona ? (
-              traitSearchResults.map(([traitName, trait]) => (
-                <button
-                  key={traitName}
-                  type="button"
-                  onClick={() => selectWantedTrait(traitName)}
-                  className={
-                    selectedWantedTrait === traitName
-                      ? "scrollable-select-item selected"
-                      : "scrollable-select-item"
-                  }
-                >
-                  <span className="select-item-main">
-                    <img
-                      src={getIconPath("trait")}
-                      alt="Trait"
-                      title="Trait"
-                      className="skill-type-icon"
-                    />
-                    {traitName}
-                  </span>
+            <div className="scrollable-select-list">
+              {targetPersona ? (
+                traitSearchResults.map(([traitName, trait]) => (
+                  <button
+                    key={traitName}
+                    type="button"
+                    onClick={() => selectWantedTrait(traitName)}
+                    className={
+                      selectedWantedTrait === traitName
+                        ? "scrollable-select-item selected"
+                        : "scrollable-select-item"
+                    }
+                  >
+                    <span className="select-item-main">
+                      <img
+                        src={getIconPath("trait")}
+                        alt="Trait"
+                        title="Trait"
+                        className="skill-type-icon"
+                      />
+                      {traitName}
+                    </span>
 
-                  <span className="select-item-meta">
-                    {trait.description}
-                  </span>
-                </button>
-              ))
-            ) : (
-              <p>Select a target Persona to see available traits.</p>
+                    <span className="select-item-meta">
+                      {trait.description}
+                    </span>
+                  </button>
+                ))
+              ) : (
+                <p>Select a target Persona to see available traits.</p>
+              )}
+            </div>
+
+            {selectedWantedTrait && (
+              <button
+                type="button"
+                onClick={clearWantedTrait}
+                className="primary-action"
+              >
+                Clear Trait
+              </button>
             )}
           </div>
-
-          {selectedWantedTrait && (
-            <button
-              type="button"
-              onClick={clearWantedTrait}
-              className="primary-action"
-            >
-              Clear Trait
-            </button>
-          )}
-        </div>
+        )}
       </div>
 
       {targetPersona && (
@@ -411,6 +397,7 @@ function BuildPlannerPage({
             <PersonaNameButton
               personaName={targetPersona.name}
               persona={targetPersona}
+              gameData={gameData}
               ownedPersonas={ownedPersonas}
               toggleOwned={toggleOwned}
             />
@@ -419,7 +406,7 @@ function BuildPlannerPage({
           <div className="info-grid">
             <p>Arcana: {targetPersona.arcana}</p>
             <p>Level: {targetPersona.level}</p>
-            <p>Current Trait: {targetPersona.trait}</p>
+            {gameData.hasTraits && <p>Current Trait: {targetPersona.trait}</p>}
             <p>Inherits: {targetPersona.inherits}</p>
           </div>
         </div>
@@ -430,8 +417,11 @@ function BuildPlannerPage({
 
         {!targetPersona ? (
           <p>Select a target Persona to begin planning.</p>
-        ) : wantedSkills.length === 0 && !selectedWantedTrait ? (
-          <p>Select at least one wanted skill or trait to begin planning.</p>
+        ) : wantedSkills.length === 0 && !activeWantedTrait ? (
+          <p>
+            Select at least one wanted skill
+            {gameData.hasTraits ? " or trait" : ""} to begin planning.
+          </p>
         ) : !shortestBuildPlan ? (
           <p>No legal route found.</p>
         ) : shortestBuildPlan.stoppedEarly ? (
@@ -450,6 +440,7 @@ function BuildPlannerPage({
               <PersonaNameButton
                 personaName={targetPersonaName}
                 persona={targetPersona}
+                gameData={gameData}
                 ownedPersonas={ownedPersonas}
                 toggleOwned={toggleOwned}
               />
@@ -459,7 +450,7 @@ function BuildPlannerPage({
               <p>Skills: {wantedSkills.join(", ")}</p>
             )}
 
-            {selectedWantedTrait && <p>Trait: {selectedWantedTrait}</p>}
+            {activeWantedTrait && <p>Trait: {activeWantedTrait}</p>}
 
             <div className="recipe-list-scroll">
               {shortestBuildPlan.steps.map((step, stepIndex) => (
@@ -475,6 +466,7 @@ function BuildPlannerPage({
                           <PersonaNameButton
                             personaName={persona.name}
                             persona={persona}
+                            gameData={gameData}
                             ownedPersonas={ownedPersonas}
                             toggleOwned={toggleOwned}
                           />
@@ -484,6 +476,7 @@ function BuildPlannerPage({
                       <PersonaNameButton
                         personaName={step.result.name}
                         persona={step.result}
+                        gameData={gameData}
                         ownedPersonas={ownedPersonas}
                         toggleOwned={toggleOwned}
                       />
@@ -493,6 +486,7 @@ function BuildPlannerPage({
                       <PersonaNameButton
                         personaName={step.personaA.name}
                         persona={step.personaA}
+                        gameData={gameData}
                         ownedPersonas={ownedPersonas}
                         toggleOwned={toggleOwned}
                       />{" "}
@@ -500,6 +494,7 @@ function BuildPlannerPage({
                       <PersonaNameButton
                         personaName={step.personaB.name}
                         persona={step.personaB}
+                        gameData={gameData}
                         ownedPersonas={ownedPersonas}
                         toggleOwned={toggleOwned}
                       />{" "}
@@ -507,6 +502,7 @@ function BuildPlannerPage({
                       <PersonaNameButton
                         personaName={step.result.name}
                         persona={step.result}
+                        gameData={gameData}
                         ownedPersonas={ownedPersonas}
                         toggleOwned={toggleOwned}
                       />
@@ -531,6 +527,7 @@ function BuildPlannerPage({
                                 {" ("}
                                 <PersonaNameButton
                                   personaName={source.personaName}
+                                  gameData={gameData}
                                   ownedPersonas={ownedPersonas}
                                   toggleOwned={toggleOwned}
                                 />{" "}

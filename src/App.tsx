@@ -1,5 +1,5 @@
 import { useState } from "react";
-import personasData from "./data/personas.json";
+import { defaultGame, games } from "./data/games";
 import PersonaList from "./components/PersonaList";
 import PersonaDetails from "./components/PersonaDetails";
 import SkillsPage from "./components/SkillsPage";
@@ -7,13 +7,15 @@ import TraitsPage from "./components/TraitsPage";
 import FusionPage from "./components/FusionPage";
 import ReverseFusionPage from "./components/ReverseFusionPage";
 import BuildPlannerPage from "./components/BuildPlannerPage";
-import type { Persona } from "./types";
+import type { GameData, Persona } from "./types";
 import "./App.css";
-
-const personas = personasData as Persona[];
 
 type OwnedPersonas = {
   [personaName: string]: boolean;
+};
+
+type OwnedPersonasByGame = {
+  [gameId: string]: OwnedPersonas;
 };
 
 type AppTab =
@@ -26,47 +28,95 @@ type AppTab =
 
 function App() {
   const [activeTab, setActiveTab] = useState<AppTab>("Compendium");
-  const [selectedPersona, setSelectedPersona] = useState<Persona>(personas[0]);
+  const [activeGameId, setActiveGameId] = useState(defaultGame.id);
+  const activeGame =
+    games.find((game) => game.id === activeGameId) ?? defaultGame;
+  const [selectedPersonaName, setSelectedPersonaName] = useState(
+    activeGame.personas[0].name
+  );
   const [searchText, setSearchText] = useState("");
 
-  const [ownedPersonas, setOwnedPersonas] = useState<OwnedPersonas>(() => {
+  const [ownedPersonasByGame, setOwnedPersonasByGame] =
+    useState<OwnedPersonasByGame>(() => {
     const savedData = localStorage.getItem("ownedPersonas");
 
     if (savedData) {
-      return JSON.parse(savedData);
+      const parsedData = JSON.parse(savedData);
+
+      if (parsedData[defaultGame.id]) {
+        return parsedData;
+      }
+
+      return {
+        [defaultGame.id]: parsedData,
+      };
     }
 
     return {};
   });
 
+  const availableTabs = getAvailableTabs(activeGame);
+  const selectedPersona =
+    activeGame.personas.find((persona) => persona.name === selectedPersonaName) ??
+    activeGame.personas[0];
+  const ownedPersonas = ownedPersonasByGame[activeGame.id] ?? {};
+
+  function selectGame(gameId: string) {
+    const nextGame = games.find((game) => game.id === gameId) ?? defaultGame;
+
+    setActiveGameId(nextGame.id);
+    setSelectedPersonaName(nextGame.personas[0].name);
+    setSearchText("");
+
+    if (!getAvailableTabs(nextGame).includes(activeTab)) {
+      setActiveTab("Compendium");
+    }
+  }
+
+  function selectPersona(persona: Persona) {
+    setSelectedPersonaName(persona.name);
+  }
+
   function toggleOwned(personaName: string) {
-    const updatedOwnedPersonas = {
+    const updatedOwnedPersonasForGame = {
       ...ownedPersonas,
       [personaName]: !ownedPersonas[personaName],
     };
 
-    setOwnedPersonas(updatedOwnedPersonas);
+    const updatedOwnedPersonasByGame = {
+      ...ownedPersonasByGame,
+      [activeGame.id]: updatedOwnedPersonasForGame,
+    };
+
+    setOwnedPersonasByGame(updatedOwnedPersonasByGame);
 
     localStorage.setItem(
       "ownedPersonas",
-      JSON.stringify(updatedOwnedPersonas)
+      JSON.stringify(updatedOwnedPersonasByGame)
     );
   }
 
   return (
     <div className="app">
       <header className="app-header">
-        <h1 className="app-title">Persona 5 Royal Compendium</h1>
+        <div className="app-title-row">
+          <h1 className="app-title">Persona Compendium Toolkit</h1>
+
+          <select
+            className="game-select"
+            value={activeGame.id}
+            onChange={(event) => selectGame(event.target.value)}
+          >
+            {games.map((game) => (
+              <option key={game.id} value={game.id}>
+                {game.name}
+              </option>
+            ))}
+          </select>
+        </div>
 
         <nav className="tab-bar">
-          {[
-            "Compendium",
-            "Skills",
-            "Traits",
-            "Fusion",
-            "Reverse Fusion",
-            "Build Planner",
-          ].map((tab) => (
+          {availableTabs.map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab as AppTab)}
@@ -83,16 +133,20 @@ function App() {
       {activeTab === "Compendium" && (
         <div className="content-grid">
           <PersonaList
-            personas={personas}
+            personas={activeGame.personas}
+            arcanas={activeGame.arcanas}
             selectedPersona={selectedPersona}
             ownedPersonas={ownedPersonas}
             searchText={searchText}
             setSearchText={setSearchText}
-            setSelectedPersona={setSelectedPersona}
+            setSelectedPersona={selectPersona}
           />
 
           <PersonaDetails
             selectedPersona={selectedPersona}
+            skills={activeGame.skills}
+            affinities={activeGame.affinities}
+            showTreasureDemon={activeGame.rareFusion.rarePersonas.length > 0}
             ownedPersonas={ownedPersonas}
             toggleOwned={toggleOwned}
           />
@@ -100,32 +154,62 @@ function App() {
       )}
 
       {activeTab === "Skills" && (
-        <SkillsPage ownedPersonas={ownedPersonas} toggleOwned={toggleOwned} />
-      )}
-
-      {activeTab === "Traits" && (
-        <TraitsPage ownedPersonas={ownedPersonas} toggleOwned={toggleOwned} />
-      )}
-
-      {activeTab === "Fusion" && (
-        <FusionPage ownedPersonas={ownedPersonas} toggleOwned={toggleOwned} />
-      )}
-
-      {activeTab === "Reverse Fusion" && (
-        <ReverseFusionPage
+        <SkillsPage
+          key={activeGame.id}
+          gameData={activeGame}
           ownedPersonas={ownedPersonas}
           toggleOwned={toggleOwned}
         />
       )}
 
-      {activeTab === "Build Planner" && (
+      {activeTab === "Traits" && activeGame.hasTraits && (
+        <TraitsPage
+          key={activeGame.id}
+          gameData={activeGame}
+          ownedPersonas={ownedPersonas}
+          toggleOwned={toggleOwned}
+        />
+      )}
+
+      {activeTab === "Fusion" && (
+        <FusionPage
+          key={activeGame.id}
+          gameData={activeGame}
+          ownedPersonas={ownedPersonas}
+          toggleOwned={toggleOwned}
+        />
+      )}
+
+      {activeTab === "Reverse Fusion" && (
+        <ReverseFusionPage
+          key={activeGame.id}
+          gameData={activeGame}
+          ownedPersonas={ownedPersonas}
+          toggleOwned={toggleOwned}
+        />
+      )}
+
+      {activeTab === "Build Planner" && activeGame.supportsBuildPlanner && (
         <BuildPlannerPage
+          key={activeGame.id}
+          gameData={activeGame}
           ownedPersonas={ownedPersonas}
           toggleOwned={toggleOwned}
         />
       )}
     </div>
   );
+}
+
+function getAvailableTabs(gameData: GameData): AppTab[] {
+  return [
+    "Compendium",
+    "Skills",
+    ...(gameData.hasTraits ? (["Traits"] as AppTab[]) : []),
+    "Fusion",
+    "Reverse Fusion",
+    ...(gameData.supportsBuildPlanner ? (["Build Planner"] as AppTab[]) : []),
+  ];
 }
 
 export default App;

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import personasData from "../data/personas.json";
 import { PersonaEntryContent } from "./PersonaDetails";
-import type { Persona } from "../types";
+import type { GameData, Persona } from "../types";
 
 type OwnedPersonas = {
   [personaName: string]: boolean;
@@ -9,6 +8,7 @@ type OwnedPersonas = {
 
 type PersonaPopupProps = {
   persona: Persona;
+  gameData: GameData;
   ownedPersonas?: OwnedPersonas;
   toggleOwned?: (personaName: string) => void;
   onClose: () => void;
@@ -17,14 +17,14 @@ type PersonaPopupProps = {
 type PersonaNameButtonProps = {
   personaName: string;
   persona?: Persona | null;
+  gameData: GameData;
   ownedPersonas?: OwnedPersonas;
   toggleOwned?: (personaName: string) => void;
 };
 
-const personas = personasData as Persona[];
-
 function PersonaPopup({
   persona,
+  gameData,
   ownedPersonas,
   toggleOwned,
   onClose,
@@ -61,6 +61,9 @@ function PersonaPopup({
 
         <PersonaEntryContent
           persona={persona}
+          skills={gameData.skills}
+          affinities={gameData.affinities}
+          showTreasureDemon={gameData.rareFusion.rarePersonas.length > 0}
           ownedPersonas={ownedPersonas}
           toggleOwned={toggleOwned}
           title="Persona Details"
@@ -73,12 +76,13 @@ function PersonaPopup({
 export function PersonaNameButton({
   personaName,
   persona,
+  gameData,
   ownedPersonas,
   toggleOwned,
 }: PersonaNameButtonProps) {
   const [isOpen, setIsOpen] = useState(false);
   const compendiumPersona =
-    persona ?? personas.find((item) => item.name === personaName) ?? null;
+    persona ?? gameData.personas.find((item) => item.name === personaName) ?? null;
 
   if (!compendiumPersona) {
     return <>{personaName}</>;
@@ -98,6 +102,7 @@ export function PersonaNameButton({
       {isOpen && (
         <PersonaPopup
           persona={compendiumPersona}
+          gameData={gameData}
           ownedPersonas={ownedPersonas}
           toggleOwned={toggleOwned}
           onClose={() => setIsOpen(false)}

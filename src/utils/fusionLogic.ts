@@ -1,43 +1,22 @@
-import personas from "../data/personas.json";
-import fusionChart from "../data/fusionChart.json";
-import rareFusion from "../data/rareFusion.json";
-import specialFusions from "../data/specialFusions.json";
-import type { Persona } from "../types";
-
-type FusionChart = {
-  [arcanaA: string]: {
-    [arcanaB: string]: string;
-  };
-};
-
-type RareFusionData = {
-  rarePersonas: string[];
-  modifiers: {
-    [arcana: string]: number[];
-  };
-};
-
-type SpecialFusions = {
-  [personaName: string]: string[];
-};
+import { defaultGame } from "../data/games";
+import type { GameData, Persona } from "../types";
 
 type FusionOptions = {
   includeDlc: boolean;
 };
 
-const typedFusionChart = fusionChart as FusionChart;
-const typedRareFusion = rareFusion as RareFusionData;
-const typedSpecialFusions = specialFusions as SpecialFusions;
-const typedPersonas = personas as Persona[];
-
-function getAvailablePersonas(options: FusionOptions) {
-  return typedPersonas
+function getAvailablePersonas(gameData: GameData, options: FusionOptions) {
+  return gameData.personas
     .filter((persona) => options.includeDlc || !persona.isDlc)
     .sort((a, b) => a.level - b.level);
 }
 
-function getNormalPersonasByArcana(arcana: string, options: FusionOptions) {
-  return getAvailablePersonas(options)
+function getNormalPersonasByArcana(
+  gameData: GameData,
+  arcana: string,
+  options: FusionOptions
+) {
+  return getAvailablePersonas(gameData, options)
     .filter((persona) => persona.arcana === arcana)
     .filter((persona) => !persona.specialFusion)
     .filter((persona) => !persona.rare)
@@ -45,6 +24,7 @@ function getNormalPersonasByArcana(arcana: string, options: FusionOptions) {
 }
 
 function getSpecialFusionResult(
+  gameData: GameData,
   personaA: Persona,
   personaB: Persona,
   options: FusionOptions
@@ -52,7 +32,7 @@ function getSpecialFusionResult(
   const selectedIngredients = [personaA.name, personaB.name].sort();
 
   for (const [resultName, ingredientNames] of Object.entries(
-    typedSpecialFusions
+    gameData.specialFusions
   )) {
     if (ingredientNames.length !== 2) {
       continue;
@@ -68,7 +48,7 @@ function getSpecialFusionResult(
       continue;
     }
 
-    const resultPersona = typedPersonas.find(
+    const resultPersona = gameData.personas.find(
       (persona) => persona.name === resultName
     );
 
@@ -87,11 +67,12 @@ function getSpecialFusionResult(
 }
 
 function getRareFusionResult(
+  gameData: GameData,
   rarePersona: Persona,
   normalPersona: Persona,
   options: FusionOptions
 ) {
-  const rarePersonaIndex = typedRareFusion.rarePersonas.indexOf(
+  const rarePersonaIndex = gameData.rareFusion.rarePersonas.indexOf(
     rarePersona.name
   );
 
@@ -100,13 +81,14 @@ function getRareFusionResult(
   }
 
   const modifier =
-    typedRareFusion.modifiers[normalPersona.arcana]?.[rarePersonaIndex];
+    gameData.rareFusion.modifiers[normalPersona.arcana]?.[rarePersonaIndex];
 
   if (modifier === undefined) {
     return null;
   }
 
   const arcanaPersonas = getNormalPersonasByArcana(
+    gameData,
     normalPersona.arcana,
     options
   );
@@ -138,11 +120,12 @@ function getRareFusionResult(
 }
 
 function getNormalFusionResult(
+  gameData: GameData,
   personaA: Persona,
   personaB: Persona,
   options: FusionOptions
 ) {
-  const resultArcana = typedFusionChart[personaA.arcana]?.[personaB.arcana];
+  const resultArcana = gameData.fusionChart[personaA.arcana]?.[personaB.arcana];
 
   if (!resultArcana) {
     return null;
@@ -150,7 +133,7 @@ function getNormalFusionResult(
 
   const targetLevel = Math.floor((personaA.level + personaB.level) / 2) + 1;
 
-  const possibleResults = getAvailablePersonas(options)
+  const possibleResults = getAvailablePersonas(gameData, options)
     .filter((persona) => persona.arcana === resultArcana)
     .filter((persona) => !persona.specialFusion)
     .filter((persona) => !persona.rare)
@@ -178,13 +161,15 @@ function getNormalFusionResult(
 export function getFusionResult(
   personaA: Persona,
   personaB: Persona,
-  options: FusionOptions = { includeDlc: true }
+  options: FusionOptions = { includeDlc: true },
+  gameData: GameData = defaultGame
 ) {
   if (personaA.name === personaB.name) {
     return null;
   }
 
   const specialFusionResult = getSpecialFusionResult(
+    gameData,
     personaA,
     personaB,
     options
@@ -195,16 +180,16 @@ export function getFusionResult(
   }
 
   if (personaA.rare && personaB.rare) {
-    return getNormalFusionResult(personaA, personaB, options);
+    return getNormalFusionResult(gameData, personaA, personaB, options);
   }
 
   if (personaA.rare && !personaB.rare) {
-    return getRareFusionResult(personaA, personaB, options);
+    return getRareFusionResult(gameData, personaA, personaB, options);
   }
 
   if (!personaA.rare && personaB.rare) {
-    return getRareFusionResult(personaB, personaA, options);
+    return getRareFusionResult(gameData, personaB, personaA, options);
   }
 
-  return getNormalFusionResult(personaA, personaB, options);
+  return getNormalFusionResult(gameData, personaA, personaB, options);
 }

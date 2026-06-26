@@ -1,11 +1,9 @@
 import { useState } from "react";
 import type { Persona } from "../types";
-import arcanasData from "../data/arcanas.json";
-
-const arcanas = arcanasData as string[];
 
 type PersonaListProps = {
   personas: Persona[];
+  arcanas: string[];
   selectedPersona: Persona;
   ownedPersonas: {
     [personaName: string]: boolean;
@@ -17,6 +15,7 @@ type PersonaListProps = {
 
 function PersonaList({
   personas,
+  arcanas,
   selectedPersona,
   ownedPersonas,
   searchText,

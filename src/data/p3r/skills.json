@@ -1,0 +1,5007 @@
+{
+  "Agi": {
+    "element": "Fire",
+    "cost": "3 SP",
+    "description": "Deals Fire damage to 1 foe (power 40).",
+    "uniqueTo": null,
+    "skillCard": "Sword 2",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 7,
+      "Berith": 0,
+      "Chimera": 10,
+      "Jack-o'-Lantern": 0,
+      "Lilim": 0,
+      "Nekomata": 0,
+      "Orpheus": 0
+    }
+  },
+  "Agidyne": {
+    "element": "Fire",
+    "cost": "12 SP",
+    "description": "Deals Fire damage to 1 foe (power 220).",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 0,
+      "Black Frost": 38,
+      "Decarabia": 55,
+      "Hecate": 44,
+      "Loki": 0,
+      "Mada": 0,
+      "Okuninushi": 47,
+      "Rangda": 51,
+      "Seth": 0,
+      "Surt": 0,
+      "Suzaku": 57,
+      "Uriel": 58
+    }
+  },
+  "Agilao": {
+    "element": "Fire",
+    "cost": "6 SP",
+    "description": "Deals Fire damage to 1 foe (power 100).",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Carmen": 0,
+      "Flauros": 0,
+      "Hua Po": 20,
+      "Jack-o'-Lantern": 21,
+      "Lamia": 0,
+      "Mithras": 25,
+      "Orthrus": 0,
+      "Sandman": 22,
+      "Sati": 0
+    }
+  },
+  "Ailment Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of ailments by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 78,
+      "Magatsu-Izanagi": 52,
+      "Nidhoggr": 51,
+      "Pazuzu": 61
+    }
+  },
+  "Akasha Arts": {
+    "element": "Strike",
+    "cost": "12% HP",
+    "description": "Deals Strike damage to all foes 1-2 times (power 300).",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 0,
+      "Chi You": 88,
+      "Loki A": 64,
+      "Melchizedek": 73,
+      "Qitian Dasheng": 72,
+      "Sandalphon": 0,
+      "Vishnu": 0
+    }
+  },
+  "Ali Dance": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves incoming hit rate.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Shiva": 88,
+      "Vanadis": 64,
+      "Vishnu": 82
+    }
+  },
+  "Almighty Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Almighty damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Skill Mutation",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Almighty Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Almighty damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Helel": 95,
+      "Satanael": 95
+    }
+  },
+  "Amrita Drop": {
+    "element": "Recovery",
+    "cost": "14 SP",
+    "description": "Applies Patra + Baisudi to 1 ally.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Milady": 0,
+      "Parvati": 49,
+      "Seiryu": 41
+    }
+  },
+  "Amrita Shower": {
+    "element": "Recovery",
+    "cost": "25 SP",
+    "description": "Applies Patra + Baisudi to all allies.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Astarte": 56,
+      "Garuda": 65,
+      "Hariti": 52,
+      "Horus": 71,
+      "Jatayu": 59,
+      "Kaguya": 38,
+      "Kikuri-Hime": 62,
+      "Lakshmi": 0,
+      "Mada": 62
+    }
+  },
+  "Angelic Grace": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Fire, Ice, Wind, Elec, Light, Dark attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Michael": 0,
+      "Raphael": 64,
+      "Sandalphon": 81,
+      "Uriel": 60
+    }
+  },
+  "Anti-Electric Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Resist Elec for 3 turns at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mercurius": 47,
+      "Oni": 33
+    }
+  },
+  "Anti-Fire Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Resist Fire for 3 turns at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sati": 33
+    }
+  },
+  "Anti-Ice Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Resist Ice for 3 turns at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 33
+    }
+  },
+  "Anti-Wind Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Resist Wind for 3 turns at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sarasvati": 34
+    }
+  },
+  "Apt Pupil": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Doubles critical hit rate.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Archangel": 15,
+      "Chernobog": 0,
+      "Flauros": 35,
+      "Futsunushi": 0,
+      "Qitian Dasheng": 0
+    }
+  },
+  "Arms Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves HP costs for physical skills.",
+    "uniqueTo": null,
+    "skillCard": "Sword K",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 91,
+      "Masakado": 84
+    }
+  },
+  "Arrow Rain": {
+    "element": "Pierce",
+    "cost": "5% HP",
+    "description": "Deals Pierce damage to all foes 1-4 times (power 27).",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "High Pixie": 0,
+      "Power": 0,
+      "White Rider": 0
+    }
+  },
+  "Assault Dive": {
+    "element": "Strike",
+    "cost": "13% HP",
+    "description": "Deals Strike damage to 1 foe (power 120).",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Berith": 18,
+      "Captain Kidd": 0,
+      "Legion": 0,
+      "Neko Shogun": 0,
+      "Shiisaa": 0,
+      "Zouchouten": 16
+    }
+  },
+  "Auto Maraku": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Marakukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 0,
+      "Anat": 54,
+      "Arahabaki": 71,
+      "Cybele": 69,
+      "Hecatoncheires": 53,
+      "Raphael": 61
+    }
+  },
+  "Auto Masuku": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Masukukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 67,
+      "Horus": 0,
+      "Scathach": 76,
+      "Siegfried": 55
+    }
+  },
+  "Auto Mataru": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Matarukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atavaka": 75,
+      "Scathach": 81,
+      "Seiten Taisei A": 46,
+      "Susano-o": 78
+    }
+  },
+  "Auto Rakukaja": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Rakukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 0,
+      "Omoikane": 12,
+      "Take-Minakata": 0,
+      "Unicorn": 15
+    }
+  },
+  "Auto Rebellion": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Rebellion at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Seiten Taisei A": 41,
+      "Siegfried": 0
+    }
+  },
+  "Auto Sukukaja": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Sukukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Flauros": 0,
+      "Gurulu": 16,
+      "Jikokuten": 0,
+      "Matador": 23,
+      "Valkyrie": 12
+    }
+  },
+  "Auto Tarukaja": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Automatically applies Tarukaja at the start of battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chimera": 14,
+      "Dakini": 39,
+      "Koumokuten": 54,
+      "Magatsu-Izanagi": 0,
+      "Seiten Taisei A": 0,
+      "Setanta": 0,
+      "Surt": 0,
+      "Take-Mikazuchi": 26,
+      "Zouchouten": 15
+    }
+  },
+  "Baisudi": {
+    "element": "Recovery",
+    "cost": "4 SP",
+    "description": "Cures Freeze, Shock, Poison, Down, Dizzy for 1 ally.",
+    "uniqueTo": null,
+    "skillCard": "Sword 1",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 3,
+      "Archangel": 0,
+      "Hua Po": 0,
+      "Nigi Mitama": 0,
+      "Sati": 30,
+      "Silky": 7
+    }
+  },
+  "Bash": {
+    "element": "Strike",
+    "cost": "8% HP",
+    "description": "Deals Strike damage to 1 foe (power 50).",
+    "uniqueTo": null,
+    "skillCard": "Sword 1",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 0,
+      "Forneus": 0,
+      "Oni": 0,
+      "Orpheus": 4,
+      "Slime": 0,
+      "Zouchouten": 0
+    }
+  },
+  "Bewilder": {
+    "element": "Ailment",
+    "cost": "5 SP",
+    "description": "Applies Distress to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chimera": 0,
+      "Naga": 0,
+      "Silky": 0
+    }
+  },
+  "Black Viper": {
+    "element": "Almighty",
+    "cost": "70 SP",
+    "description": "Deals Almighty damage to 1 foe (power 1000).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satan": 89
+    }
+  },
+  "Blade of Fury": {
+    "element": "Slash",
+    "cost": "10% HP",
+    "description": "Deals Slash damage to all foes 2-4 times (power 42).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Goemon": 31,
+      "Hanuman": 0,
+      "Izanagi": 48,
+      "Matador": 28,
+      "Ose": 0,
+      "Yakshini": 33
+    }
+  },
+  "Blazing Hell": {
+    "element": "Fire",
+    "cost": "44 SP",
+    "description": "Deals Fire damage to all foes (power 500).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hecate": 0
+    }
+  },
+  "Bloody Charge": {
+    "element": "Support",
+    "cost": "-",
+    "description": "Next phys attack xx1.23 dmg and crit up.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Futsunushi": 0,
+      "Hell Biker": 66
+    }
+  },
+  "Brave Blade": {
+    "element": "Slash",
+    "cost": "20% HP",
+    "description": "Deals Slash damage to 1 foe (power 650).",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atavaka": 0,
+      "Chernobog": 61,
+      "Futsunushi": 78,
+      "Kali": 64,
+      "Lucifer": 0,
+      "Siegfried": 59,
+      "Susano-o": 0,
+      "Thanatos": 82,
+      "Vanadis": 62
+    }
+  },
+  "Bufu": {
+    "element": "Ice",
+    "cost": "4 SP",
+    "description": "Deals Ice damage to 1 foe (power 40) with a 15% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": "Sword 2",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 0,
+      "Forneus": 0,
+      "Fortuna": 0,
+      "Jack Frost": 0,
+      "Mitra": 0,
+      "Silky": 0,
+      "Valkyrie": 0
+    }
+  },
+  "Bufudyne": {
+    "element": "Ice",
+    "cost": "14 SP",
+    "description": "Deals Ice damage to 1 foe (power 220) with a 15% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Frost": 40,
+      "Kamu Susano-o": 48,
+      "Kikuri-Hime": 0,
+      "Lakshmi": 0,
+      "Loki": 0,
+      "Parvati": 53,
+      "Quetzalcoatl": 48,
+      "Seiryu": 43,
+      "Titania": 0,
+      "Vishnu": 0
+    }
+  },
+  "Bufula": {
+    "element": "Ice",
+    "cost": "8 SP",
+    "description": "Deals Ice damage to 1 foe (power 100) with a 15% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Frost": 0,
+      "Ganga": 43,
+      "Goemon": 0,
+      "High Pixie": 22,
+      "King Frost": 0,
+      "Quetzalcoatl": 0,
+      "Sarasvati": 0,
+      "Yamata-no-Orochi": 0
+    }
+  },
+  "Charge": {
+    "element": "Support",
+    "cost": "30 SP",
+    "description": "Charges the next phys attack for increased damage.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 89,
+      "Cu Chulainn": 41,
+      "Ganesha": 54,
+      "Kali": 66,
+      "Mara": 78,
+      "Seiten Taisei A": 43,
+      "Setanta": 31,
+      "Siegfried": 0,
+      "Susano-o": 0
+    }
+  },
+  "Charm Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Charm by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Carmen": 22,
+      "Mokoi": 21,
+      "Narcissus": 0,
+      "Yakshini": 35
+    }
+  },
+  "Concentrate": {
+    "element": "Support",
+    "cost": "30 SP",
+    "description": "Charges the next magic attack for increased damage.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Beelzebub": 85,
+      "Hecate": 46,
+      "Kohryu": 73,
+      "Odin": 78,
+      "Satan": 84,
+      "Saturnus": 0,
+      "Thoth": 45,
+      "Titania": 53,
+      "Vishnu": 80
+    }
+  },
+  "Confuse Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Confuse by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ganga": 0,
+      "Legion": 30,
+      "Naga Raja": 46,
+      "Sandman": 24
+    }
+  },
+  "Cosmic Flare": {
+    "element": "Almighty",
+    "cost": "40 SP",
+    "description": "Deals Almighty damage to all foes (power 550).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anat": 0
+    }
+  },
+  "Counter": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "10% chance to repel physical attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mitra": 23,
+      "Oni": 0,
+      "Orthrus": 28,
+      "Rakshasa": 18
+    }
+  },
+  "Counterstrike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "15% chance to repel physical attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dakini": 0,
+      "Goemon": 29,
+      "Oni": 34,
+      "Rangda": 0,
+      "Thunderbird": 36,
+      "Vasuki": 42
+    }
+  },
+  "Crit Rate Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Crit rate +15%, overwrites Crit Rate Boost.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bishamonten": 62,
+      "Masakado": 83,
+      "Siegfried": 57
+    }
+  },
+  "Crit Rate Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases crit rate by 5%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Flauros": 34,
+      "Jikokuten": 0,
+      "Zouchouten": 0
+    }
+  },
+  "Cross Slash": {
+    "element": "Slash",
+    "cost": "13% HP",
+    "description": "Deals Slash damage to 1 foe 2-2 times (power 150).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Izanagi": 0
+    }
+  },
+  "Cruel Attack": {
+    "element": "Pierce",
+    "cost": "3% HP",
+    "description": "Dmg dealt xx1.15 on Downed foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Eligor": 32,
+      "Girimekhala": 0,
+      "Naga Raja": 0,
+      "Yamata-no-Orochi": 30
+    }
+  },
+  "Dark Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Dark damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Beelzebub": 87,
+      "Thanatos": 79
+    }
+  },
+  "Dark Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Dark damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 34,
+      "Black Frost": 39
+    }
+  },
+  "Dark Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Dark damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsene": 0
+    }
+  },
+  "Deathbound": {
+    "element": "Slash",
+    "cost": "17% HP",
+    "description": "Deals Slash damage to all foes (power 350).",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 0,
+      "Ganesha": 0,
+      "Kali": 0,
+      "Mishaguji": 0,
+      "Okuninushi": 0,
+      "Ose": 42,
+      "Seiten Taisei A": 0,
+      "Siegfried": 0,
+      "Surt": 0,
+      "Yakshini": 37
+    }
+  },
+  "Debilitate": {
+    "element": "Support",
+    "cost": "36 SP",
+    "description": "Applies Tarunda + Rakunda + Sukunda to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Loki A": 61,
+      "Lucifer": 0,
+      "Masakado": 81,
+      "Mother Harlot": 82,
+      "Satan": 86,
+      "Trumpeter": 65
+    }
+  },
+  "Dekaja": {
+    "element": "Support",
+    "cost": "10 SP",
+    "description": "Cures -kaja effects for all foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cu Chulainn": 0,
+      "Pisaca": 16,
+      "Raphael": 0,
+      "Shiki-Ouji": 0,
+      "Take-Minakata": 0
+    }
+  },
+  "Dekunda": {
+    "element": "Support",
+    "cost": "10 SP",
+    "description": "Cures -kunda effects for all allies.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 0,
+      "Atropos": 0,
+      "Genbu": 0,
+      "Johanna": 30,
+      "Kumbhanda": 62,
+      "Matador": 26,
+      "Saki Mitama": 38,
+      "Samael": 42
+    }
+  },
+  "Demonic Decree": {
+    "element": "Dark",
+    "cost": "38 SP",
+    "description": "Deals Dark damage to 1 foe equal to 50% of current HP.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Beelzebub": 82,
+      "Lilith": 70
+    }
+  },
+  "Dia": {
+    "element": "Recovery",
+    "cost": "3 SP",
+    "description": "Restores HP to 1 ally (power 50).",
+    "uniqueTo": null,
+    "skillCard": "Sword 1",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Omoikane": 0,
+      "Orpheus": 3,
+      "Pixie": 0,
+      "Silky": 6,
+      "Unicorn": 0
+    }
+  },
+  "Diamond Dust": {
+    "element": "Ice",
+    "cost": "46 SP",
+    "description": "Deals Ice damage to 1 foe (power 600) with a 60% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 87,
+      "Gabriel": 68,
+      "Lucifer": 94,
+      "Mother Harlot": 83,
+      "Satan": 0,
+      "Skadi": 69
+    }
+  },
+  "Diarahan": {
+    "element": "Recovery",
+    "cost": "20 SP",
+    "description": "Fully restores HP to 1 ally.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anat": 0,
+      "Cybele": 0,
+      "Daisoujou": 0,
+      "Gabriel": 0,
+      "Hariti": 50,
+      "Kaguya": 39,
+      "Lakshmi": 0,
+      "Suzaku": 0
+    }
+  },
+  "Diarama": {
+    "element": "Recovery",
+    "cost": "8 SP",
+    "description": "Restores HP to 1 ally (power 150).",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Carmen": 21,
+      "Ganga": 44,
+      "Johanna": 0,
+      "Leanan Sidhe": 0,
+      "Mitra": 24,
+      "Parvati": 0,
+      "Saki Mitama": 0,
+      "Sarasvati": 0,
+      "Thoth": 0,
+      "Yatagarasu": 26
+    }
+  },
+  "Die For Me!": {
+    "element": "Dark",
+    "cost": "40 SP",
+    "description": "Has a 70% chance to instantly kill all foes with Dark.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 69
+    }
+  },
+  "Distress Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Distress by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mothman": 33,
+      "Naga": 18
+    }
+  },
+  "Divine Grace": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases healing effectiveness by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Houou": 71,
+      "Kaguya": 0,
+      "Parvati": 52,
+      "Saki Mitama": 41,
+      "Zorro": 25
+    }
+  },
+  "Divine Judgment": {
+    "element": "Light",
+    "cost": "38 SP",
+    "description": "Deals Light damage to 1 foe equal to 50% of current HP.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gabriel": 64,
+      "Metatron": 0,
+      "Michael": 0,
+      "Sandalphon": 0
+    }
+  },
+  "Dizzy Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Dizzy by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Oni": 36
+    }
+  },
+  "Dodge Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Dark attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Power": 29
+    }
+  },
+  "Dodge Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Elec attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mitra": 27,
+      "Principality": 19,
+      "Sarasvati": 33
+    }
+  },
+  "Dodge Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Fire attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 0,
+      "Berith": 16,
+      "Matador": 25,
+      "Shiisaa": 27
+    }
+  },
+  "Dodge Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Ice attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Forneus": 12,
+      "Jack-o'-Lantern": 19
+    }
+  },
+  "Dodge Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Light attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belphegor": 0
+    }
+  },
+  "Dodge Pierce": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Pierce attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kurama Tengu": 0,
+      "Matador": 0,
+      "Queen Medb": 31
+    }
+  },
+  "Dodge Slash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Slash attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Narcissus": 28,
+      "Rakshasa": 0,
+      "Valkyrie": 0
+    }
+  },
+  "Dodge Strike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Strike attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Queen Medb": 30,
+      "Take-Minakata": 24
+    }
+  },
+  "Dodge Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Wind attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fortuna": 17,
+      "High Pixie": 25
+    }
+  },
+  "Drain Ability": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Life Drain + Spirit Drain damage by 100%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Incubus": 42,
+      "Succubus": 48
+    }
+  },
+  "Drain Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Dark attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sandalphon": 87
+    }
+  },
+  "Drain Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Elec attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword K",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 69
+    }
+  },
+  "Drain Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword K",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hecate": 48,
+      "Skadi": 75
+    }
+  },
+  "Drain Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword K",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 83
+    }
+  },
+  "Drain Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Light attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mara": 82
+    }
+  },
+  "Drain Pierce": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Pierce attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Michael": 77
+    }
+  },
+  "Drain Slash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Slash attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 80
+    }
+  },
+  "Drain Strike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Strike attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 93
+    }
+  },
+  "Drain Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Drains Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword K",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lilith": 72
+    }
+  },
+  "Eerie Sound": {
+    "element": "Ailment",
+    "cost": "10 SP",
+    "description": "Applies Distress to all foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 65,
+      "Kaiwan": 0,
+      "Mothman": 0,
+      "Naga": 21,
+      "Orthrus": 31
+    }
+  },
+  "Eiga": {
+    "element": "Dark",
+    "cost": "8 SP",
+    "description": "Deals Dark damage to 1 foe (power 140).",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsene": 0,
+      "Baphomet": 0,
+      "Incubus": 0,
+      "Pale Rider": 25,
+      "Robin Hood": 0
+    }
+  },
+  "Eigaon": {
+    "element": "Dark",
+    "cost": "15 SP",
+    "description": "Deals Dark damage to 1 foe (power 350).",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal Zebul": 0,
+      "Chernobog": 57,
+      "Hell Biker": 0,
+      "Loki A": 0,
+      "Nebiros": 0,
+      "Pazuzu": 0,
+      "Robin Hood": 42,
+      "Succubus": 51
+    }
+  },
+  "Eiha": {
+    "element": "Dark",
+    "cost": "4 SP",
+    "description": "Deals Dark damage to 1 foe (power 60).",
+    "uniqueTo": null,
+    "skillCard": "Sword 2",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gurulu": 0,
+      "Onmoraki": 10,
+      "Pisaca": 0
+    }
+  },
+  "Elec Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Elec damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Odin": 76,
+      "Thor": 68
+    }
+  },
+  "Elec Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Elec damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 0,
+      "Mothman": 34,
+      "Take-Minakata": 25
+    }
+  },
+  "Elec Break": {
+    "element": "Support",
+    "cost": "12 SP",
+    "description": "Removes Elec resistance from all foes for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Barong": 0,
+      "Naga Raja": 45,
+      "Take-Mikazuchi": 0
+    }
+  },
+  "Elec Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Elec damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Captain Kidd": 0
+    }
+  },
+  "Endure": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Survive one fatal attack with 1 HP once per battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Attis": 75,
+      "Ganesha": 55,
+      "Hanuman": 41,
+      "Hecatoncheires": 48,
+      "Mada": 0
+    }
+  },
+  "Endure Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "100% chance to endure Dark instakill.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ganga": 46,
+      "Jikokuten": 35
+    }
+  },
+  "Endure Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "100% chance to endure Light instakill.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 72,
+      "Baphomet": 36,
+      "Belphegor": 57
+    }
+  },
+  "Enduring Soul": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Survive one fatal attack with full HP once per battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword K",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anat": 59,
+      "Attis": 79,
+      "Byakko": 69,
+      "Hell Biker": 71,
+      "Koumokuten": 57,
+      "Messiah": 92,
+      "Shiva": 0,
+      "Thanatos": 80
+    }
+  },
+  "Evade Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Dark attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Horus": 73,
+      "White Rider": 51,
+      "Yurlungur": 77
+    }
+  },
+  "Evade Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Elec attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lachesis": 49,
+      "Yurlungur": 0
+    }
+  },
+  "Evade Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Fire attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakko": 66,
+      "Okuninushi": 49,
+      "Yurlungur": 0
+    }
+  },
+  "Evade Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Ice attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Rangda": 56,
+      "Sati": 35
+    }
+  },
+  "Evade Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Light attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hell Biker": 70,
+      "Loki A": 62,
+      "Succubus": 53
+    }
+  },
+  "Evade Pierce": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Pierce attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Jatayu": 58,
+      "Kaiwan": 47
+    }
+  },
+  "Evade Slash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Slash attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 74,
+      "Hanuman": 40,
+      "Izanagi": 50
+    }
+  },
+  "Evade Strike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Strike attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hecatoncheires": 0,
+      "Qitian Dasheng": 73
+    }
+  },
+  "Evade Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Wind attacks by 40%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Flauros": 38,
+      "Gabriel": 65,
+      "Shiki-Ouji": 49
+    }
+  },
+  "Evil Smile": {
+    "element": "Ailment",
+    "cost": "10 SP",
+    "description": "Applies Fear to all foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 0,
+      "Arsene": 24,
+      "Beelzebub": 0,
+      "Kaiwan": 44,
+      "Mokoi": 23,
+      "Mot": 0,
+      "Nebiros": 54
+    }
+  },
+  "Evil Touch": {
+    "element": "Ailment",
+    "cost": "5 SP",
+    "description": "Applies Fear to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Incubus": 0,
+      "Mokoi": 0,
+      "Nebiros": 0,
+      "Onmoraki": 0,
+      "Slime": 0
+    }
+  },
+  "Fast Heal": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Ailment recovery time xx1.05.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Frost": 42,
+      "Cu Chulainn": 42,
+      "Decarabia": 56,
+      "Milady": 37,
+      "Suzaku": 59
+    }
+  },
+  "Fatal End": {
+    "element": "Slash",
+    "cost": "5% HP",
+    "description": "Deals Slash damage to 1 foe (power 110) with a 35% chance to inflict Fear.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsene": 0,
+      "Hanuman": 38,
+      "Orthrus": 0,
+      "Pale Rider": 0,
+      "Rakshasa": 16,
+      "Take-Mikazuchi": 0,
+      "Tam Lin": 15,
+      "Valkyrie": 15,
+      "Yakshini": 0
+    }
+  },
+  "Fear Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Fear by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mokoi": 19,
+      "Nebiros": 55
+    }
+  },
+  "Fire Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Fire damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Saturnus": 77,
+      "Surt": 66,
+      "Suzaku": 61
+    }
+  },
+  "Fire Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Fire damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 31,
+      "Hua Po": 23
+    }
+  },
+  "Fire Break": {
+    "element": "Support",
+    "cost": "12 SP",
+    "description": "Removes Fire resistance from all foes for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Okuninushi": 46,
+      "Seth": 64,
+      "Slime": 15
+    }
+  },
+  "Fire Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Fire damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Carmen": 0
+    }
+  },
+  "Firm Stance": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Dmg taken xx1.05 but cannot dodge.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 91,
+      "Atavaka": 79
+    }
+  },
+  "Foul Breath": {
+    "element": "Almighty",
+    "cost": "8 SP",
+    "description": "Increases susceptibility to ailment for 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Inugami": 0,
+      "Pisaca": 17
+    }
+  },
+  "Freeze Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Freeze by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakko": 0,
+      "Jack Frost": 12,
+      "King Frost": 0,
+      "Scathach": 77,
+      "Titania": 51
+    }
+  },
+  "Garu": {
+    "element": "Wind",
+    "cost": "3 SP",
+    "description": "Deals Wind damage to 1 foe (power 40).",
+    "uniqueTo": null,
+    "skillCard": "Sword 2",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 0,
+      "Fortuna": 0,
+      "Nigi Mitama": 0,
+      "Onmoraki": 0
+    }
+  },
+  "Garudyne": {
+    "element": "Wind",
+    "cost": "12 SP",
+    "description": "Deals Wind damage to 1 foe (power 220).",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 59,
+      "Cybele": 0,
+      "Ganesha": 0,
+      "Garuda": 0,
+      "Jatayu": 0,
+      "Kumbhanda": 0,
+      "Kurama Tengu": 49,
+      "Loki": 0,
+      "Mercurius": 45,
+      "Quetzalcoatl": 0,
+      "Seth": 0
+    }
+  },
+  "Garula": {
+    "element": "Wind",
+    "cost": "6 SP",
+    "description": "Deals Wind damage to 1 foe (power 100).",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 0,
+      "Kushi Mitama": 0,
+      "Sandman": 0,
+      "Zorro": 23
+    }
+  },
+  "Getsu-ei": {
+    "element": "Slash",
+    "cost": "15% HP",
+    "description": "Dmg dealt xx1.175 during Full Moon.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dakini": 40,
+      "Goemon": 0,
+      "Hanuman": 0,
+      "Jikokuten": 31,
+      "Okuninushi": 0,
+      "Rakshasa": 20,
+      "Take-Mikazuchi": 27
+    }
+  },
+  "Ghastly Wail": {
+    "element": "Almighty",
+    "cost": "28 SP",
+    "description": "Instantly kills all foes when they are afflicted with Fear.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Magatsu-Izanagi": 0,
+      "Mot": 59,
+      "Nebiros": 0,
+      "Samael": 46,
+      "Thanatos": 0
+    }
+  },
+  "Gigantic Fist": {
+    "element": "Strike",
+    "cost": "15% HP",
+    "description": "Deals Strike damage to 1 foe (power 380).",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ganesha": 52,
+      "Johanna": 33,
+      "Koumokuten": 53,
+      "Mada": 0,
+      "Melchizedek": 0,
+      "Seiten Taisei A": 44,
+      "Thor": 0
+    }
+  },
+  "God's Hand": {
+    "element": "Strike",
+    "cost": "13% HP",
+    "description": "Deals Strike damage to 1 foe (power 800).",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 90,
+      "Atavaka": 74,
+      "Melchizedek": 71,
+      "Messiah": 0,
+      "Metatron": 0,
+      "Shiva": 86,
+      "Thor": 71
+    }
+  },
+  "Growth 1": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Persona gains 25% EXP while inactive.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gurulu": 0,
+      "Narcissus": 27,
+      "Onmoraki": 11,
+      "Yatagarasu": 0
+    }
+  },
+  "Growth 2": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Persona gains 50% EXP while inactive.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 44
+    }
+  },
+  "Growth 3": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Persona gains 100% EXP while inactive.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 77,
+      "Daisoujou": 0,
+      "Horus": 0,
+      "Jatayu": 0,
+      "Quetzalcoatl": 0
+    }
+  },
+  "Hama": {
+    "element": "Light",
+    "cost": "6 SP",
+    "description": "Has a 30% chance to instantly kill 1 foe with Light.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mithras": 26,
+      "Power": 0,
+      "Principality": 0,
+      "Unicorn": 12
+    }
+  },
+  "Hama Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Light instakill by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Daisoujou": 63,
+      "Dominion": 43,
+      "Melchizedek": 69,
+      "Throne": 55,
+      "Vasuki": 40
+    }
+  },
+  "Hamaon": {
+    "element": "Light",
+    "cost": "14 SP",
+    "description": "Has a 50% chance to instantly kill 1 foe with Light.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 0,
+      "Daisoujou": 0,
+      "Dominion": 0,
+      "Melchizedek": 0,
+      "Trumpeter": 0
+    }
+  },
+  "Heat Riser": {
+    "element": "Support",
+    "cost": "36 SP",
+    "description": "Applies Tarukaja + Rakukaja + Sukukaja to 1 ally.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 86,
+      "Helel": 0,
+      "Magatsu-Izanagi": 56,
+      "Michael": 75,
+      "Raphael": 66,
+      "Satanael": 93,
+      "Saturnus": 80
+    }
+  },
+  "Heat Wave": {
+    "element": "Strike",
+    "cost": "10% HP",
+    "description": "Deals Strike damage to all foes (power 400).",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakko": 0,
+      "Dionysus": 52,
+      "Girimekhala": 42,
+      "Hecatoncheires": 51,
+      "Kali": 0,
+      "Nidhoggr": 0
+    }
+  },
+  "Heaven's Blade": {
+    "element": "Slash",
+    "cost": "30% HP",
+    "description": "Deals Slash damage to 1 foe (power 500).",
+    "uniqueTo": null,
+    "skillCard": "Skill Mutation",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Michael": 0,
+      "Uriel": 63
+    }
+  },
+  "Herculean Strike": {
+    "element": "Strike",
+    "cost": "10% HP",
+    "description": "Deals Strike damage to all foes (power 230).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arahabaki": 0,
+      "Dakini": 0,
+      "Flauros": 36,
+      "Johanna": 0,
+      "Koumokuten": 0,
+      "Shiisaa": 29
+    }
+  },
+  "High Counter": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "20% chance to repel physical attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dakini": 43,
+      "Kaguya": 37,
+      "Kali": 67,
+      "Kamu Susano-o": 49,
+      "Rangda": 53,
+      "Susano-o": 79,
+      "Thor": 66,
+      "Trumpeter": 0
+    }
+  },
+  "Holy Arrow": {
+    "element": "Pierce",
+    "cost": "5% HP",
+    "description": "Deals Pierce damage to 1 foe (power 65) with a 35% chance to inflict Charm.",
+    "uniqueTo": null,
+    "skillCard": "Sword 1",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Archangel": 13,
+      "Principality": 0
+    }
+  },
+  "Ice Age": {
+    "element": "Ice",
+    "cost": "48 SP",
+    "description": "Deals Ice damage to all foes (power 450) with a 35% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kamu Susano-o": 0
+    }
+  },
+  "Ice Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Ice damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gabriel": 66,
+      "Quetzalcoatl": 51,
+      "Skadi": 72
+    }
+  },
+  "Ice Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Ice damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Jack Frost": 13,
+      "Shiisaa": 26
+    }
+  },
+  "Ice Break": {
+    "element": "Support",
+    "cost": "12 SP",
+    "description": "Removes Ice resistance from all foes for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "King Frost": 36,
+      "Saki Mitama": 0
+    }
+  },
+  "Ice Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Ice damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Goemon": 0
+    }
+  },
+  "Inferno": {
+    "element": "Fire",
+    "cost": "40 SP",
+    "description": "Deals Fire damage to 1 foe (power 600).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 89,
+      "Lucifer": 90,
+      "Saturnus": 0,
+      "Surt": 64
+    }
+  },
+  "Infuriate": {
+    "element": "Ailment",
+    "cost": "10 SP",
+    "description": "Applies Rage to all foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dominion": 0,
+      "Pazuzu": 57,
+      "Yatagarasu": 28
+    }
+  },
+  "Insta-Heal": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Ailment recovery time reduced to 1 turn.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Astarte": 55,
+      "Kumbhanda": 67
+    }
+  },
+  "Invigorate 1": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 3 SP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Naga": 22
+    }
+  },
+  "Invigorate 2": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 5 SP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Decarabia": 0,
+      "Kaiwan": 46
+    }
+  },
+  "Invigorate 3": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 7 SP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Daisoujou": 61,
+      "Hariti": 54,
+      "Kohryu": 0,
+      "Messiah": 94,
+      "Norn": 66,
+      "Scathach": 79,
+      "Shiva": 0
+    }
+  },
+  "Kouga": {
+    "element": "Light",
+    "cost": "8 SP",
+    "description": "Deals Light damage to 1 foe (power 140).",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mitra": 26,
+      "Robin Hood": 0,
+      "Shiki-Ouji": 0,
+      "Virtue": 0
+    }
+  },
+  "Kougaon": {
+    "element": "Light",
+    "cost": "15 SP",
+    "description": "Deals Light damage to 1 foe (power 350).",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dominion": 47,
+      "Horus": 70,
+      "Robin Hood": 41,
+      "Throne": 54,
+      "Uriel": 0,
+      "Vanadis": 0,
+      "Yurlungur": 0
+    }
+  },
+  "Kouha": {
+    "element": "Light",
+    "cost": "4 SP",
+    "description": "Deals Light damage to 1 foe (power 60).",
+    "uniqueTo": null,
+    "skillCard": "Sword 2",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Archangel": 0,
+      "Principality": 0,
+      "Unicorn": 0
+    }
+  },
+  "Life Aid": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 8% HP + SP after battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Eligor": 36,
+      "Helel": 92,
+      "Hell Biker": 0,
+      "Ose": 45,
+      "Satanael": 91,
+      "Shiva": 84
+    }
+  },
+  "Life Drain": {
+    "element": "Almighty",
+    "cost": "3 SP",
+    "description": "Drains HP from 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Incubus": 0,
+      "Lilim": 11,
+      "Loa": 0
+    }
+  },
+  "Light Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Light damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cybele": 71,
+      "Metatron": 92
+    }
+  },
+  "Light Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Light damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dominion": 46,
+      "Virtue": 35
+    }
+  },
+  "Light Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Light damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Robin Hood": 0
+    }
+  },
+  "Mabaisudi": {
+    "element": "Recovery",
+    "cost": "10 SP",
+    "description": "Cures Freeze, Shock, Poison, Down, Dizzy for all allies.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Parvati": 0,
+      "Sarasvati": 0
+    }
+  },
+  "Mabufu": {
+    "element": "Ice",
+    "cost": "10 SP",
+    "description": "Deals Ice damage to all foes (power 40) with a 10% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "High Pixie": 0,
+      "Jack Frost": 10,
+      "Saki Mitama": 0,
+      "Shiisaa": 0
+    }
+  },
+  "Mabufudyne": {
+    "element": "Ice",
+    "cost": "24 SP",
+    "description": "Deals Ice damage to all foes (power 220) with a 10% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 0,
+      "Byakko": 67,
+      "Gabriel": 0,
+      "Lakshmi": 77,
+      "Lilith": 0,
+      "Scathach": 0,
+      "Skadi": 0,
+      "Titania": 55
+    }
+  },
+  "Mabufula": {
+    "element": "Ice",
+    "cost": "16 SP",
+    "description": "Deals Ice damage to all foes (power 100) with a 10% chance to inflict Freeze.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belphegor": 0,
+      "Byakko": 0,
+      "Goemon": 32,
+      "Kikuri-Hime": 0,
+      "King Frost": 35,
+      "Parvati": 0,
+      "Seiryu": 0,
+      "Titania": 0
+    }
+  },
+  "Maeiga": {
+    "element": "Dark",
+    "cost": "16 SP",
+    "description": "Deals Dark damage to all foes (power 140).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 0,
+      "Arsene": 27,
+      "Baphomet": 33,
+      "Belphegor": 0,
+      "Black Frost": 0,
+      "Chernobog": 0,
+      "Rangda": 54,
+      "Samael": 0,
+      "Succubus": 0,
+      "White Rider": 0
+    }
+  },
+  "Maeigaon": {
+    "element": "Dark",
+    "cost": "25 SP",
+    "description": "Deals Dark damage to all foes (power 350).",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 0,
+      "Baal Zebul": 76,
+      "Beelzebub": 0,
+      "Belphegor": 59,
+      "Hell Biker": 68,
+      "Satan": 0,
+      "Satanael": 0,
+      "Skadi": 70,
+      "Thanatos": 0
+    }
+  },
+  "Maeiha": {
+    "element": "Dark",
+    "cost": "10 SP",
+    "description": "Deals Dark damage to all foes (power 60).",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Loa": 0,
+      "Pale Rider": 0,
+      "Pisaca": 18
+    }
+  },
+  "Magaru": {
+    "element": "Wind",
+    "cost": "8 SP",
+    "description": "Deals Wind damage to all foes (power 40).",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fortuna": 16,
+      "Kushi Mitama": 0,
+      "Narcissus": 0,
+      "Nigi Mitama": 14,
+      "Onmoraki": 13,
+      "Power": 0,
+      "Virtue": 0,
+      "Zorro": 0
+    }
+  },
+  "Magarudyne": {
+    "element": "Wind",
+    "cost": "24 SP",
+    "description": "Deals Wind damage to all foes (power 220).",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal Zebul": 0,
+      "Garuda": 67,
+      "Jatayu": 61,
+      "Kumbhanda": 65,
+      "Masakado": 0,
+      "Norn": 0,
+      "Raphael": 62,
+      "Scathach": 0
+    }
+  },
+  "Magarula": {
+    "element": "Wind",
+    "cost": "14 SP",
+    "description": "Deals Wind damage to all foes (power 100).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 0,
+      "Cu Chulainn": 44,
+      "Jatayu": 0,
+      "Koumokuten": 0,
+      "Kurama Tengu": 0,
+      "Kushi Mitama": 32,
+      "Lachesis": 0,
+      "Orobas": 0,
+      "Titania": 50,
+      "Zorro": 27
+    }
+  },
+  "Magatsu Mandala": {
+    "element": "Dark",
+    "cost": "38 SP",
+    "description": "Deals Dark damage to all foes (power 300) with a 50% chance to inflict Fear, Confuse.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Magatsu-Izanagi": 0
+    }
+  },
+  "Magic Ability": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases magic damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Messiah": 98
+    }
+  },
+  "Magic Mastery": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases magic damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Skill Mutation",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Mahama": {
+    "element": "Light",
+    "cost": "12 SP",
+    "description": "Has a 30% chance to instantly kill all foes with Light.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Power": 26,
+      "Principality": 21,
+      "Thoth": 0,
+      "Throne": 0,
+      "Vasuki": 0,
+      "Virtue": 34
+    }
+  },
+  "Mahamaon": {
+    "element": "Light",
+    "cost": "26 SP",
+    "description": "Has a 50% chance to instantly kill all foes with Light.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Attis": 0,
+      "Horus": 0,
+      "Melchizedek": 67,
+      "Throne": 57,
+      "Uriel": 61,
+      "Vasuki": 44
+    }
+  },
+  "Makarakarn": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Places a barrier on 1 ally that repels the next non-Almighty magic attack.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 0,
+      "Anubis": 43,
+      "Arahabaki": 0,
+      "Astarte": 0,
+      "Dionysus": 0,
+      "Kohryu": 74,
+      "Lachesis": 0,
+      "Lilith": 68,
+      "Milady": 41,
+      "Seth": 63
+    }
+  },
+  "Makouga": {
+    "element": "Light",
+    "cost": "16 SP",
+    "description": "Deals Light damage to all foes (power 140).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 41,
+      "Cendrillon": 0,
+      "Dominion": 0,
+      "Virtue": 37
+    }
+  },
+  "Makougaon": {
+    "element": "Light",
+    "cost": "25 SP",
+    "description": "Deals Light damage to all foes (power 350).",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cybele": 0,
+      "Helel": 0,
+      "Kohryu": 0,
+      "Metatron": 0,
+      "Michael": 72,
+      "Sandalphon": 83,
+      "Trumpeter": 60,
+      "Vanadis": 61,
+      "Yurlungur": 75
+    }
+  },
+  "Makouha": {
+    "element": "Light",
+    "cost": "10 SP",
+    "description": "Deals Light damage to all foes (power 60).",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mithras": 0,
+      "Mitra": 0
+    }
+  },
+  "Mamudo": {
+    "element": "Dark",
+    "cost": "12 SP",
+    "description": "Has a 30% chance to instantly kill all foes with Dark.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Loa": 0,
+      "Pale Rider": 24,
+      "Pisaca": 19
+    }
+  },
+  "Mamudoon": {
+    "element": "Dark",
+    "cost": "26 SP",
+    "description": "Has a 50% chance to instantly kill all foes with Dark.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Beelzebub": 0,
+      "Girimekhala": 44,
+      "Mot": 0,
+      "Mother Harlot": 0,
+      "Nebiros": 57,
+      "Thanatos": 0
+    }
+  },
+  "Maragi": {
+    "element": "Fire",
+    "cost": "8 SP",
+    "description": "Deals Fire damage to all foes (power 40).",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baphomet": 0,
+      "Hua Po": 0,
+      "Inugami": 12,
+      "Jack-o'-Lantern": 0,
+      "Nekomata": 8,
+      "Queen Medb": 0,
+      "Sati": 0
+    }
+  },
+  "Maragidyne": {
+    "element": "Fire",
+    "cost": "24 SP",
+    "description": "Deals Fire damage to all foes (power 220).",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 81,
+      "Atavaka": 0,
+      "Bishamonten": 0,
+      "Hell Biker": 0,
+      "Houou": 0,
+      "Mada": 58,
+      "Saturnus": 0,
+      "Seth": 66,
+      "Surt": 61
+    }
+  },
+  "Maragion": {
+    "element": "Fire",
+    "cost": "14 SP",
+    "description": "Deals Fire damage to all foes (power 100).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Carmen": 24,
+      "Eligor": 35,
+      "Incubus": 40,
+      "Okuninushi": 0,
+      "Sati": 32,
+      "Succubus": 49,
+      "Suzaku": 0,
+      "Throne": 0
+    }
+  },
+  "Marakukaja": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Raises defense for all allies for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dionysus": 0,
+      "Izanagi": 0,
+      "Johanna": 29,
+      "Kikuri-Hime": 63,
+      "King Frost": 37,
+      "Okuninushi": 45,
+      "Yamata-no-Orochi": 29
+    }
+  },
+  "Marakunda": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Lowers defense for all foes for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 0,
+      "Girimekhala": 0,
+      "Kali": 0,
+      "Kushi Mitama": 33,
+      "Lachesis": 47,
+      "Loa": 37,
+      "Odin": 0,
+      "Surt": 62
+    }
+  },
+  "Maralagidyne": {
+    "element": "Fire",
+    "cost": "24 SP",
+    "description": "Deals Fire damage to all foes (power 220) with a 35% chance to inflict Charm.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mara": 0
+    }
+  },
+  "Marin Karin": {
+    "element": "Ailment",
+    "cost": "5 SP",
+    "description": "Applies Charm to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Leanan Sidhe": 25,
+      "Lilim": 9,
+      "Mishaguji": 0,
+      "Mokoi": 0,
+      "Narcissus": 0,
+      "Nekomata": 6
+    }
+  },
+  "Masquerade": {
+    "element": "Slash",
+    "cost": "30% HP",
+    "description": "Deals Slash damage to all foes 2-2 times (power 200).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Vanadis": 0
+    }
+  },
+  "Masukukaja": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Raises hit and evasion for all allies for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Garuda": 0,
+      "Kamu Susano-o": 0,
+      "Koumokuten": 0,
+      "Lachesis": 0,
+      "Orobas": 42,
+      "Sarasvati": 36
+    }
+  },
+  "Masukunda": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Lowers hit and evasion for all foes for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 38,
+      "Jatayu": 56,
+      "Kurama Tengu": 0,
+      "Mercurius": 0,
+      "Pazuzu": 59,
+      "Samael": 0,
+      "Yatagarasu": 30
+    }
+  },
+  "Matarukaja": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Raises attack for all allies for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal Zebul": 73,
+      "Black Frost": 0,
+      "Cu Chulainn": 0,
+      "Futsunushi": 75,
+      "Izanagi": 47,
+      "Mishaguji": 50,
+      "Orthrus": 32,
+      "Shiki-Ouji": 47
+    }
+  },
+  "Matarunda": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Lowers attack for all foes for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hecate": 0,
+      "Nidhoggr": 0,
+      "Ose": 0,
+      "Queen Medb": 33,
+      "Rangda": 0,
+      "Seiryu": 39
+    }
+  },
+  "Mazio": {
+    "element": "Electric",
+    "cost": "10 SP",
+    "description": "Deals Electric damage to all foes (power 40) with a 10% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Captain Kidd": 0,
+      "Lilim": 13,
+      "Oberon": 17,
+      "Queen Medb": 0,
+      "Take-Mikazuchi": 0,
+      "Tam Lin": 17
+    }
+  },
+  "Maziodyne": {
+    "element": "Electric",
+    "cost": "24 SP",
+    "description": "Deals Electric damage to all foes (power 220) with a 10% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 0,
+      "Barong": 64,
+      "Lilith": 0,
+      "Magatsu-Izanagi": 54,
+      "Michael": 73,
+      "Mother Harlot": 80,
+      "Odin": 0,
+      "Shiva": 0,
+      "Thor": 0,
+      "Yurlungur": 72
+    }
+  },
+  "Mazionga": {
+    "element": "Electric",
+    "cost": "16 SP",
+    "description": "Deals Electric damage to all foes (power 100) with a 10% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dionysus": 51,
+      "Mishaguji": 0,
+      "Mot": 60,
+      "Naga Raja": 0,
+      "Take-Mikazuchi": 28,
+      "Thoth": 41,
+      "Thunderbird": 0
+    }
+  },
+  "Me Patra": {
+    "element": "Recovery",
+    "cost": "10 SP",
+    "description": "Cures Distress, Confuse, Charm, Rage, Fear for all allies.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 39,
+      "Hariti": 0,
+      "Leanan Sidhe": 24,
+      "Queen Medb": 0
+    }
+  },
+  "Media": {
+    "element": "Recovery",
+    "cost": "7 SP",
+    "description": "Restores HP to all allies (power 50).",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ganga": 0,
+      "High Pixie": 0,
+      "Inugami": 14,
+      "Leanan Sidhe": 0,
+      "Nigi Mitama": 0,
+      "Oberon": 0,
+      "Sati": 0,
+      "Zorro": 0
+    }
+  },
+  "Mediarahan": {
+    "element": "Recovery",
+    "cost": "44 SP",
+    "description": "Fully restores HP to all allies.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anat": 57,
+      "Atavaka": 77,
+      "Cybele": 68,
+      "Kikuri-Hime": 67,
+      "Kohryu": 0,
+      "Norn": 68,
+      "Sandalphon": 0,
+      "Trumpeter": 63
+    }
+  },
+  "Mediarama": {
+    "element": "Recovery",
+    "cost": "16 SP",
+    "description": "Restores HP to all allies (power 150).",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hariti": 0,
+      "Houou": 0,
+      "Kaguya": 0,
+      "Kikuri-Hime": 0,
+      "Lachesis": 46,
+      "Mercurius": 0,
+      "Parvati": 50,
+      "Raphael": 0,
+      "Saki Mitama": 37,
+      "Sarasvati": 35,
+      "Seiryu": 0
+    }
+  },
+  "Megido": {
+    "element": "Almighty",
+    "cost": "20 SP",
+    "description": "Deals Almighty damage to all foes (power 170).",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Decarabia": 0,
+      "Johanna": 32,
+      "Mothman": 36,
+      "Robin Hood": 38,
+      "Samael": 44,
+      "Thoth": 44
+    }
+  },
+  "Megidola": {
+    "element": "Almighty",
+    "cost": "32 SP",
+    "description": "Deals Almighty damage to all foes (power 380).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal Zebul": 0,
+      "Decarabia": 58,
+      "Lilith": 66,
+      "Loki": 72,
+      "Magatsu-Izanagi": 51,
+      "Mot": 63
+    }
+  },
+  "Megidolaon": {
+    "element": "Almighty",
+    "cost": "50 SP",
+    "description": "Deals Almighty damage to all foes (power 690).",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 74,
+      "Attis": 77,
+      "Beelzebub": 84,
+      "Loki A": 66,
+      "Lucifer": 0,
+      "Messiah": 0,
+      "Metatron": 89,
+      "Satan": 83,
+      "Thanatos": 84
+    }
+  },
+  "Morning Star": {
+    "element": "Almighty",
+    "cost": "64 SP",
+    "description": "Deals Almighty damage to all foes (power 850).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Helel": 90
+    }
+  },
+  "Mudo": {
+    "element": "Dark",
+    "cost": "6 SP",
+    "description": "Has a 30% chance to instantly kill 1 foe with Dark.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Pisaca": 0,
+      "Slime": 13
+    }
+  },
+  "Mudo Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Dark instakill by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 70,
+      "Loa": 38,
+      "Mot": 61,
+      "Mother Harlot": 78
+    }
+  },
+  "Mudoon": {
+    "element": "Dark",
+    "cost": "14 SP",
+    "description": "Has a 50% chance to instantly kill 1 foe with Dark.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 0,
+      "Anubis": 0,
+      "Belphegor": 54,
+      "Girimekhala": 0,
+      "Nidhoggr": 0,
+      "Samael": 43,
+      "Trumpeter": 0,
+      "White Rider": 0
+    }
+  },
+  "Multi-Target Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases multi-target skill damage by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kaguya": 35,
+      "Ose": 0,
+      "Queen Medb": 29,
+      "Yakshini": 36
+    }
+  },
+  "Myriad Arrows": {
+    "element": "Pierce",
+    "cost": "5% HP",
+    "description": "Deals Pierce damage to all foes 2-5 times (power 40).",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Astarte": 60,
+      "Bishamonten": 61,
+      "Cu Chulainn": 45,
+      "Kumbhanda": 64,
+      "Mara": 0,
+      "Masakado": 0,
+      "Qitian Dasheng": 0,
+      "Rangda": 0,
+      "Scathach": 0
+    }
+  },
+  "Neuro Slash": {
+    "element": "Slash",
+    "cost": "3% HP",
+    "description": "Deals Slash damage to all foes (power 180) with a 50% chance to inflict Confuse.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anat": 0,
+      "Cendrillon": 0,
+      "Ganga": 42,
+      "Pazuzu": 58,
+      "Vasuki": 0
+    }
+  },
+  "Null Charm": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Charm.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arahabaki": 0,
+      "Leanan Sidhe": 26
+    }
+  },
+  "Null Confuse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Confuse.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 0,
+      "Sandman": 21
+    }
+  },
+  "Null Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Dark attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Daisoujou": 65
+    }
+  },
+  "Null Distress": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Distress.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Legion": 27
+    }
+  },
+  "Null Dizzy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Dizzy.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atavaka": 0,
+      "Cendrillon": 38,
+      "Kurama Tengu": 51
+    }
+  },
+  "Null Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Elec attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Thunderbird": 41
+    }
+  },
+  "Null Fear": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Fear.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mot": 0,
+      "Pale Rider": 28,
+      "White Rider": 49
+    }
+  },
+  "Null Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Shiki-Ouji": 51
+    }
+  },
+  "Null Freeze": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Freeze.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Yamata-no-Orochi": 27
+    }
+  },
+  "Null Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "King Frost": 39
+    }
+  },
+  "Null Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Light attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Nidhoggr": 53
+    }
+  },
+  "Null Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Slash, Strike, Piece attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Messiah": 96
+    }
+  },
+  "Null Pierce": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Pierce attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Houou": 74,
+      "Naga Raja": 48
+    }
+  },
+  "Null Poison": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Poison.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Virtue": 33
+    }
+  },
+  "Null Rage": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Rage.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 32,
+      "Ose": 43
+    }
+  },
+  "Null Shock": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Shock.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Saki Mitama": 39
+    }
+  },
+  "Null Slash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Slash attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Decarabia": 60
+    }
+  },
+  "Null Strike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Strike attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mishaguji": 54
+    }
+  },
+  "Null Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Nullifies Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mada": 61
+    }
+  },
+  "One-shot Kill": {
+    "element": "Pierce",
+    "cost": "30% HP",
+    "description": "Deals Pierce damage to 1 foe (power 250).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Astarte": 0
+    }
+  },
+  "Panta Rhei": {
+    "element": "Wind",
+    "cost": "40 SP",
+    "description": "Deals Wind damage to 1 foe (power 600).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Baal Zebul": 78,
+      "Garuda": 70,
+      "Lucifer": 92,
+      "Norn": 0,
+      "Vishnu": 79
+    }
+  },
+  "Patra": {
+    "element": "Recovery",
+    "cost": "4 SP",
+    "description": "Cures Distress, Confuse, Charm, Rage, Fear for 1 ally.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 6,
+      "Apsaras": 5,
+      "Fortuna": 0,
+      "Leanan Sidhe": 0,
+      "Unicorn": 13
+    }
+  },
+  "Pierce Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Pierce damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bishamonten": 66,
+      "Mara": 80
+    }
+  },
+  "Pierce Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Pierce damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bishamonten": 0,
+      "Eligor": 33,
+      "White Rider": 48
+    }
+  },
+  "Pierce Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Pierce damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Milady": 0
+    }
+  },
+  "Poisma": {
+    "element": "Ailment",
+    "cost": "5 SP",
+    "description": "Applies Poison to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Inugami": 0,
+      "Lamia": 0
+    }
+  },
+  "Poison Arrow": {
+    "element": "Pierce",
+    "cost": "5% HP",
+    "description": "Deals Pierce damage to 1 foe (power 300) with a 50% chance to inflict Poison.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kumbhanda": 0,
+      "Pazuzu": 0,
+      "White Rider": 47
+    }
+  },
+  "Poison Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Poison by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gurulu": 19,
+      "Inugami": 11,
+      "Kumbhanda": 0,
+      "Lamia": 27
+    }
+  },
+  "Poison Mist": {
+    "element": "Ailment",
+    "cost": "10 SP",
+    "description": "Applies Poison to all foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chernobog": 58,
+      "Gurulu": 18,
+      "Lamia": 28,
+      "Pazuzu": 0,
+      "Samael": 0,
+      "Vasuki": 0
+    }
+  },
+  "Power Slash": {
+    "element": "Slash",
+    "cost": "5% HP",
+    "description": "Deals Slash damage to 1 foe (power 50).",
+    "uniqueTo": null,
+    "skillCard": "Sword 1",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Berith": 14,
+      "Chimera": 0,
+      "Gurulu": 0,
+      "Nekomata": 4,
+      "Tam Lin": 0,
+      "Valkyrie": 0
+    }
+  },
+  "Pralaya": {
+    "element": "Pierce",
+    "cost": "20% HP",
+    "description": "Deals Pierce damage to all foes (power 600) with a 50% chance to inflict Fear.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Shiva": 83
+    }
+  },
+  "Primal Force": {
+    "element": "Pierce",
+    "cost": "10% HP",
+    "description": "Deals Pierce damage to 1 foe (power 580).",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Bishamonten": 64,
+      "Chi You": 0,
+      "Mara": 76,
+      "Odin": 0,
+      "Qitian Dasheng": 68,
+      "Satanael": 90,
+      "Saturnus": 78
+    }
+  },
+  "Provoke": {
+    "element": "Ailment",
+    "cost": "5 SP",
+    "description": "Applies Rage to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 0,
+      "Jack-o'-Lantern": 0
+    }
+  },
+  "Pulinpa": {
+    "element": "Ailment",
+    "cost": "5 SP",
+    "description": "Applies Confuse to 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Jack Frost": 0,
+      "Legion": 0,
+      "Pixie": 0
+    }
+  },
+  "Rage Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Rage by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 10,
+      "Jack-o'-Lantern": 17
+    }
+  },
+  "Raging Tiger": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Dmg dealt xx1.15 when Enraged.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Gurulu": 15,
+      "Orthrus": 0,
+      "Slime": 0
+    }
+  },
+  "Rakukaja": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Raises defense for 1 ally for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 0,
+      "Berith": 0,
+      "Fortuna": 18,
+      "King Frost": 0,
+      "Shiisaa": 24
+    }
+  },
+  "Rakunda": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Lowers defense for 1 foe for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ara Mitama": 8,
+      "Clotho": 0,
+      "Hua Po": 0,
+      "Mithras": 0,
+      "Nekomata": 0
+    }
+  },
+  "Rebellion": {
+    "element": "Support",
+    "cost": "7 SP",
+    "description": "Crit rate +7% for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Legion": 0,
+      "Neko Shogun": 0,
+      "Omoikane": 8,
+      "Thunderbird": 37,
+      "Zouchouten": 18
+    }
+  },
+  "Rebellion Blade": {
+    "element": "Almighty",
+    "cost": "80 SP",
+    "description": "Dmg dealt xx1.15 on Downed foes.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Loki A": 0
+    }
+  },
+  "Recarm": {
+    "element": "Recovery",
+    "cost": "12 SP",
+    "description": "Revives 1 ally with 50% HP.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hanuman": 37,
+      "Kushi Mitama": 0,
+      "Nigi Mitama": 17,
+      "Principality": 18,
+      "Zorro": 24
+    }
+  },
+  "Recarmdra": {
+    "element": "Recovery",
+    "cost": "5 SP",
+    "description": "100% HP restore, user's HP reduced to 1.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Attis": 0,
+      "Hecatoncheires": 49,
+      "Throne": 0,
+      "Vasuki": 39
+    }
+  },
+  "Regenerate 1": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 2% HP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Neko Shogun": 0,
+      "Oni": 0,
+      "Rakshasa": 0
+    }
+  },
+  "Regenerate 2": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 4% HP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Hecatoncheires": 0,
+      "Kushi Mitama": 30
+    }
+  },
+  "Regenerate 3": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 6% HP each turn in battle.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dionysus": 54,
+      "Houou": 72,
+      "Messiah": 93,
+      "Qitian Dasheng": 0,
+      "Suzaku": 56
+    }
+  },
+  "Repel Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Dark attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arahabaki": 70
+    }
+  },
+  "Repel Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Elec attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Metatron": 94
+    }
+  },
+  "Repel Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 86
+    }
+  },
+  "Repel Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Saturnus": 82,
+      "Seth": 68
+    }
+  },
+  "Repel Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Light attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Susano-o": 84
+    }
+  },
+  "Repel Pierce": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Pierce attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alilat": 91,
+      "Ganesha": 57
+    }
+  },
+  "Repel Slash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Slash attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Girimekhala": 46
+    }
+  },
+  "Repel Strike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Strike attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arahabaki": 76
+    }
+  },
+  "Repel Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Repels Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satan": 88
+    }
+  },
+  "Resist Ailments": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with all ailments except Dizzy.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ananta": 75,
+      "Loki A": 0,
+      "Nebiros": 53,
+      "Quetzalcoatl": 50,
+      "Robin Hood": 40,
+      "Satan": 0,
+      "Trumpeter": 62
+    }
+  },
+  "Resist Charm": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Charm.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 8,
+      "Lamia": 0
+    }
+  },
+  "Resist Confuse": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Confuse.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Pixie": 6
+    }
+  },
+  "Resist Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Dark attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anubis": 45
+    }
+  },
+  "Resist Distress": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Distress.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Nekomata": 5
+    }
+  },
+  "Resist Dizzy": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Dizzy.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Neko Shogun": 22
+    }
+  },
+  "Resist Elec": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Elec attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Sandman": 26
+    }
+  },
+  "Resist Fear": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Fear.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Pale Rider": 0
+    }
+  },
+  "Resist Fire": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Fire attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Setanta": 34
+    }
+  },
+  "Resist Freeze": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Freeze.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 7,
+      "Hua Po": 21
+    }
+  },
+  "Resist Ice": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Ice attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Orobas": 44
+    }
+  },
+  "Resist Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Light attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Black Frost": 43
+    }
+  },
+  "Resist Phys": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Slash, Strike, Piece attacks.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lucifer": 96
+    }
+  },
+  "Resist Pierce": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Pierce attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Legion": 31
+    }
+  },
+  "Resist Poison": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Poison.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Orthrus": 29
+    }
+  },
+  "Resist Rage": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Rage.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Unicorn": 16
+    }
+  },
+  "Resist Shock": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces chance of being afflicted with Shock.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Omoikane": 10
+    }
+  },
+  "Resist Slash": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Slash attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dionysus": 50
+    }
+  },
+  "Resist Strike": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Strike attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 31
+    }
+  },
+  "Resist Wind": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Reduces damage taken from Wind attacks.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Genbu": 35
+    }
+  },
+  "Revolution": {
+    "element": "Support",
+    "cost": "14 SP",
+    "description": "Crit rate +15% for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cendrillon": 37,
+      "Eligor": 0,
+      "Ganesha": 0,
+      "Jikokuten": 32,
+      "Melchizedek": 0,
+      "Naga Raja": 44,
+      "Power": 30,
+      "Qitian Dasheng": 70,
+      "Vanadis": 0,
+      "Yurlungur": 74
+    }
+  },
+  "Salvation": {
+    "element": "Recovery",
+    "cost": "60 SP",
+    "description": "Applies Diarahan + Amrita to all allies.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Helel": 0,
+      "Houou": 77,
+      "Lakshmi": 80,
+      "Mercurius": 49,
+      "Messiah": 0,
+      "Metatron": 90,
+      "Norn": 72,
+      "Sandalphon": 84,
+      "Vishnu": 84
+    }
+  },
+  "Samarecarm": {
+    "element": "Recovery",
+    "cost": "35 SP",
+    "description": "Revives 1 ally with 100% HP.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Anat": 55,
+      "Attis": 0,
+      "Clotho": 42,
+      "Dominion": 44,
+      "Hariti": 0,
+      "Horus": 68,
+      "Houou": 0,
+      "Kikuri-Hime": 65,
+      "Mercurius": 44,
+      "Suzaku": 0,
+      "Throne": 53
+    }
+  },
+  "Samsara": {
+    "element": "Light",
+    "cost": "40 SP",
+    "description": "Has a 70% chance to instantly kill all foes with Light.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Daisoujou": 60
+    }
+  },
+  "Sexy Dance": {
+    "element": "Ailment",
+    "cost": "10 SP",
+    "description": "Applies Charm to all foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Carmen": 20,
+      "Hecate": 0,
+      "Lakshmi": 75,
+      "Legion": 28,
+      "Lilith": 0,
+      "Mother Harlot": 0,
+      "Narcissus": 24,
+      "Succubus": 0,
+      "Yakshini": 0
+    }
+  },
+  "Sharp Student": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves chance of receiving a critical hit.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Forneus": 10,
+      "Futsunushi": 76,
+      "Narcissus": 25,
+      "Neko Shogun": 18,
+      "Nigi Mitama": 15,
+      "Setanta": 0,
+      "Silky": 9,
+      "Uriel": 0
+    }
+  },
+  "Shift Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Dmg dealt xx1.12 when receiving Shift.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chernobog": 60,
+      "Chi You": 0,
+      "Cu Chulainn": 46,
+      "Kamu Susano-o": 51
+    }
+  },
+  "Shift Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Dmg dealt xx1.11 when receiving Shift.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Goemon": 28,
+      "Hanuman": 0,
+      "Setanta": 33
+    }
+  },
+  "Shining Arrows": {
+    "element": "Light",
+    "cost": "24 SP",
+    "description": "Deals Light damage to all foes 4-8 times (power 15).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Kaguya": 0
+    }
+  },
+  "Shock Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases success rate of Shock by 50%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Captain Kidd": 20,
+      "Thunderbird": 0
+    }
+  },
+  "Sinful Shell": {
+    "element": "Almighty",
+    "cost": "66 SP",
+    "description": "Deals Almighty damage to all foes (power 700) with a 50% chance to inflict Dark instakill.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Satanael": 0
+    }
+  },
+  "Single Shot": {
+    "element": "Pierce",
+    "cost": "3% HP",
+    "description": "Deals Pierce damage to 1 foe (power 45).",
+    "uniqueTo": null,
+    "skillCard": "Sword 1",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 5,
+      "Archangel": 0,
+      "Berith": 0,
+      "Forneus": 9,
+      "Naga": 0,
+      "Yamata-no-Orochi": 0
+    }
+  },
+  "Single-Target Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases single-target skill damage by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 7",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Astarte": 58,
+      "Loki": 73,
+      "Quetzalcoatl": 46,
+      "Yamata-no-Orochi": 26
+    }
+  },
+  "Slash Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Slash damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Siegfried": 61,
+      "Susano-o": 81
+    }
+  },
+  "Slash Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Slash damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Jikokuten": 34
+    }
+  },
+  "Slash Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Slash damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cendrillon": 0
+    }
+  },
+  "Sonic Punch": {
+    "element": "Strike",
+    "cost": "10% HP",
+    "description": "Deals Strike damage to 1 foe (power 70) with a 35% chance to inflict Distress.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chimera": 11,
+      "Jack Frost": 11,
+      "Mokoi": 0
+    }
+  },
+  "Soul Chain": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "5 SP restore when receiving Shift.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 40,
+      "Lachesis": 45,
+      "Vanadis": 59
+    }
+  },
+  "Soul Link": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "8 SP restore when receiving Shift.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 62,
+      "Lakshmi": 74,
+      "Norn": 70
+    }
+  },
+  "Soul Shift": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "5 SP restore to ally when Shifting to them.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Byakko": 64,
+      "Izanagi": 52,
+      "Loki": 74,
+      "Thoth": 43
+    }
+  },
+  "Spell Master": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Halves SP costs for magic skills.",
+    "uniqueTo": null,
+    "skillCard": "Sword K",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cybele": 73,
+      "Helel": 94,
+      "Kohryu": 77,
+      "Loki": 76,
+      "Odin": 80
+    }
+  },
+  "Spirit Drain": {
+    "element": "Almighty",
+    "cost": "3 SP",
+    "description": "Drains SP from 1 foe.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Alice": 0,
+      "Incubus": 39,
+      "Kaiwan": 0,
+      "Leanan Sidhe": 22,
+      "Mara": 0,
+      "Succubus": 0
+    }
+  },
+  "Stagnant Air": {
+    "element": "Almighty",
+    "cost": "12 SP",
+    "description": "Increases susceptibility to ailment for universal.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Belphegor": 55,
+      "Hecate": 43,
+      "Incubus": 38,
+      "Lamia": 30,
+      "Mothman": 0,
+      "Nidhoggr": 49
+    }
+  },
+  "Strike Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Strike damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 88,
+      "Mada": 64
+    }
+  },
+  "Strike Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Strike damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Dakini": 41
+    }
+  },
+  "Strike Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Strike damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Johanna": 0
+    }
+  },
+  "Sukukaja": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Raises hit and evasion for 1 ally for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Angel": 0,
+      "Archangel": 11,
+      "Tam Lin": 0,
+      "Yatagarasu": 25
+    }
+  },
+  "Sukunda": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Lowers hit and evasion for 1 foe for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Apsaras": 4,
+      "Chimera": 12,
+      "Yatagarasu": 0
+    }
+  },
+  "Survival Trick": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "100% chance to endure instakill.",
+    "uniqueTo": null,
+    "skillCard": "Sword 9",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsene": 29,
+      "Attis": 74,
+      "Orobas": 45,
+      "Satanael": 0
+    }
+  },
+  "Survive Dark": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "50% chance to endure Dark instakill.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Oberon": 19,
+      "Take-Minakata": 21,
+      "Tam Lin": 18
+    }
+  },
+  "Survive Light": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "50% chance to endure Light instakill.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Loa": 34,
+      "Pale Rider": 26,
+      "Slime": 16
+    }
+  },
+  "Swift Strike": {
+    "element": "Strike",
+    "cost": "5% HP",
+    "description": "Deals Strike damage to all foes 1-2 times (power 60).",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Captain Kidd": 23,
+      "Flauros": 0,
+      "Mithras": 29,
+      "Neko Shogun": 20,
+      "Oni": 32,
+      "Zouchouten": 19
+    }
+  },
+  "Tarukaja": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Raises attack for 1 ally for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Captain Kidd": 19,
+      "Forneus": 0,
+      "High Pixie": 23,
+      "Pixie": 5
+    }
+  },
+  "Tarunda": {
+    "element": "Support",
+    "cost": "8 SP",
+    "description": "Lowers attack for 1 foe for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 3",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Carmen": 0,
+      "Onmoraki": 0,
+      "Orpheus": 5
+    }
+  },
+  "Tempest Slash": {
+    "element": "Slash",
+    "cost": "8% HP",
+    "description": "Deals Slash damage to 1 foe 1-4 times (power 50).",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cendrillon": 42,
+      "Chernobog": 0,
+      "Kamu Susano-o": 0,
+      "Masakado": 0,
+      "Ose": 47,
+      "Raphael": 0
+    }
+  },
+  "Tentarafoo": {
+    "element": "Ailment",
+    "cost": "10 SP",
+    "description": "Applies Confuse to all foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Ganga": 0,
+      "Garuda": 0,
+      "Kurama Tengu": 47,
+      "Milady": 38,
+      "Mithras": 27,
+      "Naga Raja": 0,
+      "Sandman": 0
+    }
+  },
+  "Tetrakarn": {
+    "element": "Support",
+    "cost": "24 SP",
+    "description": "Places a barrier on 1 ally that repels the next phys attack.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Astarte": 0,
+      "Decarabia": 0,
+      "Kohryu": 75,
+      "Milady": 40,
+      "Seiryu": 40,
+      "Seth": 0,
+      "Shiki-Ouji": 46,
+      "Skadi": 0
+    }
+  },
+  "Thunder Reign": {
+    "element": "Electric",
+    "cost": "46 SP",
+    "description": "Deals Electric damage to 1 foe (power 600) with a 60% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Odin": 75
+    }
+  },
+  "Torrent Shot": {
+    "element": "Pierce",
+    "cost": "10% HP",
+    "description": "Deals Pierce damage to 1 foe 2-4 times (power 30).",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cu Chulainn": 0,
+      "Eligor": 0,
+      "Matador": 0,
+      "Milady": 0,
+      "Naga": 19,
+      "Orobas": 0,
+      "Power": 27,
+      "Setanta": 0,
+      "Shiki-Ouji": 0
+    }
+  },
+  "Unshaken Will": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Prevents being afflicted with Confuse, Fear, Charm, Distress, Rage.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Asura": 0,
+      "Futsunushi": 81,
+      "Masakado": 86
+    }
+  },
+  "Vacuum Slash": {
+    "element": "Slash",
+    "cost": "5% HP",
+    "description": "Deals Slash damage to all foes (power 85).",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Arsene": 25,
+      "Matador": 0,
+      "Rakshasa": 0,
+      "Valkyrie": 13
+    }
+  },
+  "Vacuum Wave": {
+    "element": "Wind",
+    "cost": "44 SP",
+    "description": "Deals Wind damage to all foes (power 500).",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Mercurius": 0
+    }
+  },
+  "Victory Cry": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Restores 100% HP + SP after battle.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Orpheus Telos": 0
+    }
+  },
+  "Vidyaraja's Blessing": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases evasion against Slash, Strike, Piece attacks by 15%.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Cendrillon": 40
+    }
+  },
+  "Vile Assault": {
+    "element": "Pierce",
+    "cost": "3% HP",
+    "description": "Dmg dealt xx1.15 on Downed foes.",
+    "uniqueTo": null,
+    "skillCard": "Sword J",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 79,
+      "Ananta": 0,
+      "Bishamonten": 0,
+      "Hecatoncheires": 0,
+      "Kaiwan": 43,
+      "Koumokuten": 56,
+      "Mada": 59,
+      "Mishaguji": 52
+    }
+  },
+  "Virus Breath": {
+    "element": "Almighty",
+    "cost": "25 SP",
+    "description": "Deals Almighty damage to all foes (power 200) with a 40% chance to inflict Poison.",
+    "uniqueTo": null,
+    "skillCard": "Sword 8",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Abaddon": 0,
+      "Arahabaki": 72,
+      "Girimekhala": 40,
+      "Kaiwan": 0,
+      "Nidhoggr": 48
+    }
+  },
+  "Vorpal Blade": {
+    "element": "Slash",
+    "cost": "13% HP",
+    "description": "Deals Slash damage to all foes (power 580).",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Chi You": 0,
+      "Futsunushi": 0,
+      "Kali": 70,
+      "Kamu Susano-o": 53,
+      "Skadi": 0,
+      "Susano-o": 0,
+      "Uriel": 0
+    }
+  },
+  "Weakness Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases striking weakness damage by 20%.",
+    "uniqueTo": null,
+    "skillCard": "60% compendium completion",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Weakness Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases striking weakness damage by 10%.",
+    "uniqueTo": null,
+    "skillCard": "30% compendium completion",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {}
+  },
+  "Wild Thunder": {
+    "element": "Electric",
+    "cost": "48 SP",
+    "description": "Deals Electric damage to all foes (power 450) with a 35% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Seiten Taisei A": 0
+    }
+  },
+  "Wind Amp": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Wind damage by 50%.",
+    "uniqueTo": null,
+    "skillCard": "Sword Q",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 61,
+      "Norn": 0
+    }
+  },
+  "Wind Boost": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Wind damage by 25%.",
+    "uniqueTo": null,
+    "skillCard": "Sword 5",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Fortuna": 20,
+      "Orobas": 40
+    }
+  },
+  "Wind Break": {
+    "element": "Support",
+    "cost": "12 SP",
+    "description": "Removes Wind resistance from all foes for 3 turns.",
+    "uniqueTo": null,
+    "skillCard": "Sword 4",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Clotho": 0,
+      "Kushi Mitama": 29,
+      "Orobas": 0
+    }
+  },
+  "Wind Driver": {
+    "element": "Passive",
+    "cost": "Passive",
+    "description": "Increases Wind damage by 75%.",
+    "uniqueTo": null,
+    "skillCard": null,
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Zorro": 0
+    }
+  },
+  "Zan-ei": {
+    "element": "Slash",
+    "cost": "10% HP",
+    "description": "Dmg dealt xx1.175 during New Moon.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Jikokuten": 0,
+      "Mithras": 0,
+      "Oberon": 18,
+      "Yatagarasu": 0
+    }
+  },
+  "Zio": {
+    "element": "Electric",
+    "cost": "4 SP",
+    "description": "Deals Electric damage to 1 foe (power 40) with a 15% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": "Sword 2",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Lilim": 0,
+      "Oberon": 0,
+      "Omoikane": 0,
+      "Pixie": 4,
+      "Take-Minakata": 0,
+      "Tam Lin": 0,
+      "Yamata-no-Orochi": 0,
+      "Zouchouten": 0
+    }
+  },
+  "Ziodyne": {
+    "element": "Electric",
+    "cost": "14 SP",
+    "description": "Deals Electric damage to 1 foe (power 220) with a 15% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": "Sword 10",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Atropos": 57,
+      "Baal Zebul": 74,
+      "Barong": 0,
+      "Dionysus": 0,
+      "Gabriel": 0,
+      "Izanagi": 0,
+      "Loki": 0,
+      "Mishaguji": 49,
+      "Mother Harlot": 0,
+      "Thor": 0,
+      "Thunderbird": 39,
+      "Vishnu": 0
+    }
+  },
+  "Zionga": {
+    "element": "Electric",
+    "cost": "8 SP",
+    "description": "Deals Electric damage to 1 foe (power 100) with a 15% chance to inflict Shock.",
+    "uniqueTo": null,
+    "skillCard": "Sword 6",
+    "talk": null,
+    "fuseFrom": [],
+    "learnedBy": {
+      "Captain Kidd": 21,
+      "Loa": 36,
+      "Mothman": 32,
+      "Oberon": 21,
+      "Setanta": 30,
+      "Take-Mikazuchi": 24,
+      "Take-Minakata": 22,
+      "Thoth": 0
+    }
+  }
+}

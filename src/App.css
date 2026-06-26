@@ -18,12 +18,26 @@ body {
   margin-bottom: 24px;
 }
 
+.app-title-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 .app-title {
   margin: 0 0 16px 0;
   color: #ffffff;
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+.game-select {
+  min-width: 220px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .tab-bar {

@@ -1,9 +1,12 @@
 import { useState } from "react";
-import skillsData from "../data/skills.json";
-import type { Persona } from "../types";
+import { getIconPath } from "../utils/icons";
+import type { AffinityRow, Persona, SkillsData } from "../types";
 
 type PersonaDetailsProps = {
   selectedPersona: Persona;
+  skills: SkillsData;
+  affinities: AffinityRow[];
+  showTreasureDemon: boolean;
   ownedPersonas: {
     [personaName: string]: boolean;
   };
@@ -12,6 +15,9 @@ type PersonaDetailsProps = {
 
 type PersonaEntryContentProps = {
   persona: Persona;
+  skills: SkillsData;
+  affinities: AffinityRow[];
+  showTreasureDemon?: boolean;
   ownedPersonas?: {
     [personaName: string]: boolean;
   };
@@ -19,54 +25,15 @@ type PersonaEntryContentProps = {
   title?: string;
 };
 
-type SkillInfo = {
-  element: string;
-  cost: string;
-  description: string;
-};
-
-type SkillsData = {
-  [skillName: string]: SkillInfo;
-};
-
-type AffinityKey =
-  | "physical"
-  | "gun"
-  | "fire"
-  | "ice"
-  | "electric"
-  | "wind"
-  | "psy"
-  | "nuclear"
-  | "bless"
-  | "curse";
-
-const skills = skillsData as SkillsData;
-const iconBasePath = `${import.meta.env.BASE_URL}icons/`;
-
-const affinityRows: {
-  key: AffinityKey;
-  label: string;
-  icon: string;
-}[] = [
-  { key: "physical", label: "Physical", icon: `${iconBasePath}physical.png` },
-  { key: "gun", label: "Gun", icon: `${iconBasePath}gun.png` },
-  { key: "fire", label: "Fire", icon: `${iconBasePath}fire.png` },
-  { key: "ice", label: "Ice", icon: `${iconBasePath}ice.png` },
-  { key: "electric", label: "Electric", icon: `${iconBasePath}electric.png` },
-  { key: "wind", label: "Wind", icon: `${iconBasePath}wind.png` },
-  { key: "psy", label: "Psy", icon: `${iconBasePath}psy.png` },
-  { key: "nuclear", label: "Nuclear", icon: `${iconBasePath}nuclear.png` },
-  { key: "bless", label: "Bless", icon: `${iconBasePath}bless.png` },
-  { key: "curse", label: "Curse", icon: `${iconBasePath}curse.png` },
-];
-
-function getSkillIconPath(element: string) {
-  return `${iconBasePath}${element.toLowerCase()}.png`;
+function formatSkillLevel(level: number) {
+  return level <= 0 ? "Base" : `Lv ${level}`;
 }
 
 export function PersonaEntryContent({
   persona,
+  skills,
+  affinities,
+  showTreasureDemon = true,
   ownedPersonas,
   toggleOwned,
   title = "Persona Details",
@@ -100,11 +67,13 @@ export function PersonaEntryContent({
       <div className="info-grid">
         <p>Arcana: {persona.arcana}</p>
         <p>Level: {persona.level}</p>
-        <p>Trait: {persona.trait}</p>
+        {persona.trait && <p>Trait: {persona.trait}</p>}
         <p>DLC: {persona.isDlc ? "Yes" : "No"}</p>
         <p>DLC Pack: {persona.dlcPack ?? "None"}</p>
         <p>Special Fusion: {persona.specialFusion ? "Yes" : "No"}</p>
-        <p>Treasure Demon: {persona.rare ? "Yes" : "No"}</p>
+        {showTreasureDemon && (
+          <p>Treasure Demon: {persona.rare ? "Yes" : "No"}</p>
+        )}
         <p>Inherits: {persona.inherits}</p>
       </div>
 
@@ -124,7 +93,7 @@ export function PersonaEntryContent({
         <h4>Affinities</h4>
 
         <div className="affinity-grid">
-          {affinityRows.map((affinity) => (
+          {affinities.map((affinity) => (
             <div key={affinity.key} className="affinity-item">
               <img
                 src={affinity.icon}
@@ -146,8 +115,8 @@ export function PersonaEntryContent({
           {persona.skills.map((skill, index) => {
             const skillInfo = skills[skill.name];
             const iconPath = skillInfo
-              ? getSkillIconPath(skillInfo.element)
-              : `${iconBasePath}passive.png`;
+              ? getIconPath(skillInfo.element)
+              : getIconPath("passive");
 
             return (
               <button
@@ -163,7 +132,7 @@ export function PersonaEntryContent({
                   className="skill-type-icon"
                 />
 
-                {skill.name} <span>Lv {skill.level}</span>
+                {skill.name} <span>{formatSkillLevel(skill.level)}</span>
               </button>
             );
           })}
@@ -195,7 +164,7 @@ export function PersonaEntryContent({
               <>
                 <div className="popup-skill-type">
                   <img
-                    src={getSkillIconPath(selectedSkill.element)}
+                    src={getIconPath(selectedSkill.element)}
                     alt={selectedSkill.element}
                     className="skill-type-icon large"
                   />
@@ -229,6 +198,9 @@ export function PersonaEntryContent({
 
 function PersonaDetails({
   selectedPersona,
+  skills,
+  affinities,
+  showTreasureDemon,
   ownedPersonas,
   toggleOwned,
 }: PersonaDetailsProps) {
@@ -236,6 +208,9 @@ function PersonaDetails({
     <section className="details-panel">
       <PersonaEntryContent
         persona={selectedPersona}
+        skills={skills}
+        affinities={affinities}
+        showTreasureDemon={showTreasureDemon}
         ownedPersonas={ownedPersonas}
         toggleOwned={toggleOwned}
       />
