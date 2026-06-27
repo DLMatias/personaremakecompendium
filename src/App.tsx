@@ -44,6 +44,7 @@ function isOwnedPersonasByGame(value: unknown): value is OwnedPersonasByGame {
   );
 }
 
+// Preserve compendium progress saved before multi-game support was added.
 function loadOwnedPersonasByGame() {
   const savedData = localStorage.getItem("ownedPersonas");
 
